@@ -1,0 +1,77 @@
+title: Closet
+url: 
+# baseurl: /sub-directory
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: "/posts/:title/"
+      author: ""
+      image: ""
+      description: ""
+      keywords: ""
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: ""
+      description: ""
+      keywords: ""
+      canonical: ""
+description:
+  full digital closet
+keywords:
+image:
+contentful: # see https://github.com/contentful/jekyll-contentful-data-import for options
+  spaces:
+    - closet: # Jekyll _data folder identifier - Required
+        space: 4sf3k05ydnj7
+        access_token: IEuUAqdlJLtQLVVNe9YiceCgtLoWkwWXEnkkf5r6lq8
+        all_entries: true # Optional - Defaults to false, only grabbing the amount set on CDA Query
+        destination: '' # where should this go within the data directory
+page_gen:
+  - data: closet.item
+    template: item
+    name: name
+    dir: items
+  - data: closet.outfit
+    template: outfit
+    name: name
+    dir: looks
+permalink: pretty
+plugins:
+  - jekyll-cloudinary_fetcher
+  - jekyll-sitemap
+keep_files:
+  - assets
+exclude:
+  - ".github"
+  - ".gitignore"
+  - Gemfile.lock
+  - node_modules
+  - reports
+  - source
+  - test
+  - README.md
+  - package.json
+  - ".babelrc"
+  - ".browserslistrc"
+  - ".editorconfig"
+  - ".eslintignore"
+  - ".eslintrc"
+  - ".eslintrc.json.sample"
+  - postcss.config.js
+  - webpack.config.js
+  - yarn.lock
+  - yarn-error.log

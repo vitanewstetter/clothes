@@ -1,0 +1,43 @@
+{
+  "name": "closet",
+  "scripts": {
+    "setup": "yarn install && gem install bundler && bundle install && mkdir -p assets && mkdir -p assets/css && mkdir -p assets/js",
+    "scss": "sass source/scss:assets/css --source-map --style=compressed",
+    "build:css": "yarn scss",
+    "build:js": "webpack -p --env.config=production --progress",
+    "build:site": "JEKYLL_ENV=production bundle exec jekyll build",
+    "build": "yarn scss && yarn build:js && yarn build:site && yarn sync",
+    "lint": "yarn lint:js && yarn lint:scss",
+    "lint:js": "eslint --quiet source/js/*.js",
+    "lint:scss": "stylelint source/scss/*.scss",
+    "watch:css": "onchange 'source/scss/**/*.scss' -o 'yarn build:css'",
+    "watch:js": "webpack -w --env.config=development",
+    "sync": "bundle exec jekyll contentful",
+    "serve": "JEKYLL_ENV=development bundle exec jekyll build --watch -I --config '_config.yml'",
+    "start": "yarn build && parallelshell 'yarn watch:css' 'yarn watch:js' 'yarn serve'"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-loader": "^2.0.0",
+    "onchange": "^4.1.0",
+    "parallelshell": "^3.0.2",
+    "sass": "^1.14.3",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+//-------------------------------------------
+//
+// Headers
+//
+//-------------------------------------------
+.header {
+  border-bottom: 1px solid$black;
+  border-top: 1px solid $black;
+  display: flex;
+  height: $header;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__item {
+  flex: 1 1 33%;
+  height: 100%;
+  text-align: center;
+}
+
+.header__item--category {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-around;
+  position: relative;
+  text-transform: uppercase;
+
+  .header__category {
+    color: $black;
+  }
+  .header__category + .header__category {
+    color: $green;
+  }
+}
+
+.header__item--category svg {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.header__item--category.outfits {
+  .header__category {
+    color: $green;
+  }
+  .header__category + .header__category {
+    color: $black;
+  }
+}
+
+.header__item--color {
+  background: -moz-linear-gradient(left, #ff3232 0%, #ff6e00 10%, #faff00 23%, #0cff00 38%, #00ffe9 51%, #0026ff 67%, #8700ff 84%, #f600ff 100%);
+  background: -webkit-linear-gradient(left, #ff3232 0%,#ff6e00 10%,#faff00 23%,#0cff00 38%,#00ffe9 51%,#0026ff 67%,#8700ff 84%,#f600ff 100%);
+  background: linear-gradient(to right, #ff3232 0%,#ff6e00 10%,#faff00 23%,#0cff00 38%,#00ffe9 51%,#0026ff 67%,#8700ff 84%,#f600ff 100%);
+  border-left: 1px solid $black;
+  border-right: 1px solid $black;
+}

@@ -1,0 +1,7 @@
+.subpage {
+  bottom: 0;
+  background-color: $white;
+  height: calc(100vh - #{$header});
+  position: fixed;
+  width:100vw;
+}

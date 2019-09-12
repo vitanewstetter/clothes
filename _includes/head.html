@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}Closet{% endif %}</title>
+
+    <!-- metadata -->
+    {% unless page.description == nil or page.description == '' %}
+    <meta name="description" content="{{ page.description | escape }}">
+    {% else %}
+        {% unless site.description == nil or site.description == '' %}
+        <meta name="description" content="{{ site.description | escape }}">
+        {% endunless %}
+    {% endunless %}
+
+    <!-- styles -->
+    {% assign css = site.static_files | where: 'path', '/assets/css/main.css' | first %}
+    <link rel="stylesheet" href="{{ css.path | prepend: site.baseurl }}?ts={{ css.modified_time | date: "%s" }}">
+
+    <!-- favicon -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff"> -->
+    <!-- site icons go here -->
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>var b = document.documentElement; b.className = b.className.replace(/\bno-js\b/,'js'); b.setAttribute('data-useragent', navigator.userAgent); b.setAttribute("data-platform", navigator.platform );</script>
+    {% if page.js %}
+        {% assign js = site.static_files | where: 'path', page.js | first %}
+    {% elsif layout.js %}
+        {% assign js = site.static_files | where: 'path', layout.js | first %}
+    {% else %}
+        {% assign js = site.static_files | where: 'path', '/assets/js/global.bundle.js' | first %}
+    {% endif %}
+    <script src="{{ js.path | prepend: site.baseurl }}?ts={{ js.modified_time | date: "%s" }}" defer></script>
+</head>

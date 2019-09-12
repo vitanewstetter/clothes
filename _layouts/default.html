@@ -1,0 +1,13 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    {% include head.html %}
+
+    <body{% if page.body_class or layout.body_class %} class="{{ page.body_class }} {{ layout.body_class }}"{% endif %}>
+
+        <main id="main" class="site-main">
+            {{ content }}
+        </main>
+
+    </body>
+</html>

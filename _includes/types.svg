@@ -1,0 +1,6 @@
+<svg width="324" height="90" viewBox="0 0 324 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="{% if page.id == 'outfits' %}#FFF{% else %}#000{% endif %}" d="M324 0v90H0V0z"/>
+    <path d="M0 90V0h162c6.667 3.75 10 7.5 10 11.25 0 5.625-10 5.625-10 11.25s9.752 5.673 10 11.25c.248 5.577-9 5.625-9 11.25s9 5.625 9 11.25-9 5.625-9 11.25 9.252 5.577 9 11.25c-.168 3.782-3.501 7.532-10 11.25H0z" fill="{% if page.id == 'outfits' %}#000{% else %}#FFF{% endif %}"/>
+  </g>
+</svg>
