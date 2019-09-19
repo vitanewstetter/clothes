@@ -1,33 +1,51 @@
 ---
 layout: default
 ---
+{% if page.id == 'outfits' or page.type == 'outfit' %}
+  {% assign data = site.data.closet.outfit %}
+  {% assign path = 'looks' %}
+{% else %}
+  {% assign data = site.data.closet.item %}
+  {% assign path = 'items' %}
+{% endif %}
 <section class="section">
   <div class="header">
-    <div class="header__item">shirt</div>
-    <div class="header__item header__item--color"></div>
-    <div class="header__item header__item--category {% if page.id == 'outfits' %}outfits{% endif %}">
+    <div class="header__item header__item--type">
+      <p>shirt</p>
+    </div>
+    <div class="header__item header__item--color">
+      <div class="header__color-block" data-color='red'></div>
+      <div class="header__color-block" data-color='orange'></div>
+      <div class="header__color-block" data-color='yellow'></div>
+      <div class="header__color-block is-active" data-color='green'></div>
+      <div class="header__color-block" data-color='blue'></div>
+      <div class="header__color-block" data-color='purple'></div>
+      <div class="header__color-block" data-color='pink'></div>
+      <div class="header__color-block header__color-block--sm" data-color='white'></div>
+      <div class="header__color-block header__color-block--sm" data-color='metallic'></div>
+      <div class="header__color-block header__color-block--sm" data-color='black'></div>
+    </div>
+    <div class="header__item header__item--category {% if path == 'looks' %}outfits{% endif %}">
       {% include types.svg %}
       <a href="/outfits" class="header__category">Outfits</a>
       <a href="/" class="header__category">Items</a>
     </div>
   </h2>
 </section>
-<div id="subpage">{{content}}</div>
+<div id="subpage-wrapper" class="{%if page.id == 'outfits' or page.id == 'items' %}is-hidden{% endif %}">
+  {{content}}
+</div>
 <section>
   <div class="item__grid">
-  {% if page.id == 'outfits' %}
-    {% assign data = site.data.closet.outfit %}
-    {% assign path = 'looks' %}
-  {% else %}
-    {% assign data = site.data.closet.item %}
-    {% assign path = 'items' %}
-  {% endif %}
-
   {% for item in data %}
-    <a class="item"
+    {% assign slug = item.name | replace: "'", "" | slugify  %}
+    <a
+      data-main-color="{{item.main_color}}"
+      data-secondary-color="{{item.secondary_color}}"
+      class="item {{item.main_color}} {{item.secondary_color}} {{item.category | lowercase}}"
       data-name="{{item.name}}"
-      href="/{{path}}/{{item.name|slugify}}"
-      style="background-image: url({{item.image.url}})">
+      href="/{{path}}/{{slug}}">
+      <img src="{{item.image.url}}" class="no-click"/>
     </a>
   {% endfor %}
   </div>

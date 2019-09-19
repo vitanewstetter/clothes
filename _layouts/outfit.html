@@ -1,8 +1,36 @@
 ---
 layout: home
-body_class: 'is-fixed'
+body_class: is-fixed
+type: outfit
 ---
 
-<section class="section">
-  <div>outfit page here</div>
+<section class="subpage">
+  <button class="subpage__close">
+    {% include x.svg %}
+  </button>
+  <div class="subpage__content">
+    <div class="subpage__info">
+      <p class="subpage__title">{{page.title}}</p>
+      <div class="subpage__swatches">
+        {% for item in page.items %}
+          {% for hex in item.color %}
+          <div class="subpage__swatch" style="background-color: {{hex}}"></div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+      <div class="text">{{page.notes|markdownify}}</div>
+    </div>
+    <img class="subpage__image subpage__image--sm" src="{{page.image.url}}" />
+    <div class="subpage__grid">
+      {% for item in page.items %}
+        {% assign slug = item.name | replace: "'", "" | slugify  %}
+        <a
+          href="/items/{{slug}}"
+          class="subpage__secondary-image item"
+          data-name="{{item.name}}">
+          <img src="{{item.image.url}}" class="no-click"/>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
 </section>

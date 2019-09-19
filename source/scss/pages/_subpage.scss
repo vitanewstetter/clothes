@@ -1,0 +1,94 @@
+#subpage-wrapper {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  transition: left #{$speed * 3} $ease;
+  z-index: 1;
+}
+
+.subpage {
+  background-color: $white;
+  height: calc(100vh - #{$header});
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 20px;
+  position: relative;
+  width:calc(100vw + 20px);
+}
+
+#subpage-wrapper.is-hidden {
+  left: 100%;
+}
+
+.subpage__close {
+  background-color: transparent;
+  position: sticky;
+  float: right;
+  margin-right: 24px;
+  top: 24px;
+  z-index: 1;
+}
+
+.subpage__close:hover {
+  color: $green;
+}
+
+//----------------------------------------
+// page content
+//----------------------------------------
+.subpage__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 100px 24px;
+  transform: translateX(48px);
+  width: 100%;
+}
+
+.subpage__image {
+  width: 50%;
+}
+
+.subpage__image--sm {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.subpage__info {
+  font-style: normal;
+  font-weight: 400;
+  width: 50%;
+}
+
+.subpage__title {
+  border-bottom: 1px solid $black;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.subpage__swatches {
+  display: flex;
+}
+
+.subpage__swatch {
+  flex: 1 1 auto;
+  height: 16px;
+}
+
+.subpage__swatch + .subpage__swatch {
+  margin-left: 4px;
+}
+
+.subpage__grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.subpage__secondary-image {
+  width: calc(33% - 20px);
+}

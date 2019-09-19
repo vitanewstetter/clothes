@@ -1,8 +1,40 @@
 ---
 layout: home
 body_class: is-fixed
+type: item
 ---
-
 <section class="subpage">
-  <div>{{page.name}} here</div>
+  <button class="subpage__close">
+    {% include x.svg %}
+  </button>
+  <div class="subpage__content">
+    <div class="subpage__info">
+      <p class="subpage__title">{{page.title}}</p>
+      <div class="subpage__swatches">
+        {% for hex in page.color %}
+        <div class="subpage__swatch" style="background-color: {{hex}}"></div>
+        {% endfor %}
+      </div>
+      <p>Type: {{page.category}}</p>
+      <p>Brand: {{page.brand}}</p>
+      <p>Price: {{page.price_range}}</p>
+      <div class="text">{{page.notes|markdownify}}</div>
+    </div>
+    <img class="subpage__image" src="{{page.image.url}}"/>
+    <div class="subpage__grid">
+    {% for outfit in site.data.closet.outfit %}
+      {% for item in outfit.items %}
+        {% if item.sys.id == page.sys.id %}
+          {% assign slug = outfit.name | replace: "'", "" | slugify  %}
+          <a
+            href="/looks/{{slug}}"
+            class="subpage__secondary-image item"
+            data-name="{{outfit.name}}">
+            <img src="{{outfit.image.url}}" class="no-click"/>
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </div>
+  </div>
 </section>

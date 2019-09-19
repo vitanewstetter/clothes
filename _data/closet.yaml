@@ -3,28 +3,1055 @@ outfit:
 - sys:
     id: 5tAWIoaF9Ki2CS4sciIWi0
     created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-12 12:51:35.843000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-16 19:13:10.913000000 Z
     content_type_id: outfit
-    revision: 7
+    revision: 10
+  name: Rainy Gallery Visit
   image:
     sys:
-      id: 3eTU9POL0w8uO7xEWq1aw3
-      created_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-    title: rainy day gallery visit
-    description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/3eTU9POL0w8uO7xEWq1aw3/ee72d0826390ef9ed03920dadaffcad5/IMG_5258__1_.JPG"
+      id: 5pZvEKfoLC2Gtp57WC80vI
+      created_at: !ruby/object:DateTime 2019-09-16 18:52:20.950000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:49:17.996000000 Z
+    title: rainy day outfit
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5pZvEKfoLC2Gtp57WC80vI/04b8ac73bcaaec253706492847311d50/IMG_5258.jpg"
   date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
-  rating: 6
-  name: Rainy Gallery Visit
+  notes: Wore this to go meet a friend and go to the new museum. it was cold and wet
+    out.
+  items:
+  - sys:
+      id: 3d50DOFuvcZg7mnmnBoRCM
+      created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:37:12.453000000 Z
+      content_type_id: item
+      revision: 6
+    name: Polka Dot Pants
+    main_color: black
+    secondary_color: white
+    image:
+      sys:
+        id: wVjZaYPqabkWKllwZTum0
+        created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+      title: IMG 0522
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+    category: Pants
+    color:
+    - "#F9F7F0"
+    - "#141414"
+    brand: Ralph Lauren
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+    notes: I got these at a weird boutique in boston during college tours. they were
+      $40 and it was (at the time) the most i could possibly imagine spending on anything.
+      I think my mom bought them for me - i was so excited. They sort of fit on and
+      off for a while, i often wore them with the button undone haha.
+  - sys:
+      id: 6Q8A3I28CWa2wY42EUSsiu
+      created_at: !ruby/object:DateTime 2018-05-04 20:47:47.359000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:37:27.805000000 Z
+      content_type_id: item
+      revision: 9
+    name: Lilac Turtleneck
+    main_color: purple
+    image:
+      sys:
+        id: BN0iRot8jhXrTuFp30u89
+        created_at: !ruby/object:DateTime 2019-08-06 04:00:02.049000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:00:02.049000000 Z
+      title: IMG 0500
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/BN0iRot8jhXrTuFp30u89/060b6470626339f1226af80ed1e57bce/IMG_0500.png"
+    category: Sweater
+    color:
+    - "#BE88EB"
+    brand: No Idea
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+    notes: This was part of the huge New Orleans haul of 2018 :)
+- sys:
+    id: 2RezBKN7hB5vPbhhDVeHij
+    created_at: !ruby/object:DateTime 2019-09-16 18:59:22.771000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 12:15:22.077000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: Griffin's Putney Graduation
+  image:
+    sys:
+      id: 3voKiFLDAtu5BNrWiEZ9rA
+      created_at: !ruby/object:DateTime 2019-09-16 18:58:16.574000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:49:34.683000000 Z
+    title: Griffin's putney graduation
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3voKiFLDAtu5BNrWiEZ9rA/ade47f00cba52a3156ec77017c732859/IMG_0615.jpg"
+  date: !ruby/object:DateTime 2018-06-02 00:00:00.000000000 Z
+  notes: Wore this to Griffin's Graduation from Putney.
+  items:
+  - sys:
+      id: 38VoDcFw67pBbjFA7w5Tb4
+      created_at: !ruby/object:DateTime 2019-06-04 15:05:56.537000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:35:58.105000000 Z
+      content_type_id: item
+      revision: 5
+    name: Long Red Flower Dress
+    main_color: red
+    secondary_color: white
+    image:
+      sys:
+        id: 4FI2zYcyPGLOUphHOkG5zq
+        created_at: !ruby/object:DateTime 2019-08-06 03:55:30.924000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:22:55.273000000 Z
+      title: IMG 0513
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4FI2zYcyPGLOUphHOkG5zq/b5ca26b63cb2b592b1f18778306a7861/IMG_0513.png"
+    category: Dress
+    color:
+    - "#FF4100"
+    - "#FFFFF6"
+    - "#1EBA43"
+    brand: Malia Honolulu
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2016-11-23 00:00:00.000000000 Z
+    notes: Love this dress. Wore it to Alexis' wedding, and at the after party at
+      the club some drunk guy spilled cranberry juice on it (AND ALL OVER THE BRIDE's
+      WHITE DRESS) and there are still some stains. I brought it to a dry cleaner
+      and they didn't really get the stains out at all, AND added some yellow stains
+      haha. But still very wearable. I hemmed it when i first got it. Got it at wasteland
+      SF.
+- sys:
+    id: 4RBuYy7R4zzVUaNtnpHynp
+    created_at: !ruby/object:DateTime 2019-09-16 19:00:46.801000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 12:15:12.899000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: Wyndam and Amanda's Wedding
+  image:
+    sys:
+      id: 32iylMuP6dfrnTyTQUomZf
+      created_at: !ruby/object:DateTime 2019-09-16 19:00:06.883000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:49:49.207000000 Z
+    title: Wyndam & Amanda's wedding
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/32iylMuP6dfrnTyTQUomZf/e337be255c4b5d0808f99e237a4946d1/IMG_0235.jpg"
+  date: !ruby/object:DateTime 2018-07-28 00:00:00.000000000 Z
+  notes: Got this dress day of the wedding.
+  items:
+  - sys:
+      id: EFLqHAhyd5m9D1HiGotSp
+      created_at: !ruby/object:DateTime 2019-06-04 15:07:21.106000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:09.685000000 Z
+      content_type_id: item
+      revision: 5
+    name: Long Gold and Black Ballgown
+    main_color: metallic
+    secondary_color: black
+    image:
+      sys:
+        id: 1hXqNq8boTCwpWGZ3yyXQf
+        created_at: !ruby/object:DateTime 2019-08-06 03:56:01.677000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:19:17.205000000 Z
+      title: IMG 0514
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1hXqNq8boTCwpWGZ3yyXQf/dd00ca6b55eada0c9c6b15de49877629/IMG_0514.png"
+    category: Dress
+    color:
+    - "#D4BE70"
+    - "#000000"
+    brand: No Idea
+    price_range: "$30 - 45"
+    vintage: false
+    when: !ruby/object:DateTime 2018-07-28 00:00:00.000000000 Z
+    notes: Bought this for Wyndam and Amanda's black tie wedding, didn't like the
+      dress i had so got this day of at the williamsburg beacon's closet.
+- sys:
+    id: 1gswnkMXZ2ex7eM8ol7aYC
+    created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-16 19:05:02.125000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Work day (showing off new yellow cup)
+  image:
+    sys:
+      id: 7Iq3OO4RQom2qEfwNsP0ai
+      created_at: !ruby/object:DateTime 2019-09-16 19:01:56.918000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:50:09.034000000 Z
+    title: IMG 0170
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7Iq3OO4RQom2qEfwNsP0ai/fa77258233eba4c3f5d90f2a825ac7d0/IMG_0170.jpg"
+  date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+  notes: I had just purchased this to go cup on amazon, and i loved how it looked
+    with everything :)
+  items:
+  - sys:
+      id: 3d50DOFuvcZg7mnmnBoRCM
+      created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:37:12.453000000 Z
+      content_type_id: item
+      revision: 6
+    name: Polka Dot Pants
+    main_color: black
+    secondary_color: white
+    image:
+      sys:
+        id: wVjZaYPqabkWKllwZTum0
+        created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+      title: IMG 0522
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+    category: Pants
+    color:
+    - "#F9F7F0"
+    - "#141414"
+    brand: Ralph Lauren
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+    notes: I got these at a weird boutique in boston during college tours. they were
+      $40 and it was (at the time) the most i could possibly imagine spending on anything.
+      I think my mom bought them for me - i was so excited. They sort of fit on and
+      off for a while, i often wore them with the button undone haha.
+- sys:
+    id: 3EPOtQyMiVdKAhirAy0Gt5
+    created_at: !ruby/object:DateTime 2019-09-16 19:46:06.429000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-16 19:46:06.429000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Fabric Shopping in LA
+  image:
+    sys:
+      id: 5Rr6s4O3KGZa0o3RK9l2JJ
+      created_at: !ruby/object:DateTime 2019-09-16 19:44:43.778000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:44:43.778000000 Z
+    title: 10856482 10205143976772625 5053206086081349388 o
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5Rr6s4O3KGZa0o3RK9l2JJ/7487987d5abbf02ff502d785d0c3ff65/10856482_10205143976772625_5053206086081349388_o.jpg"
+  date: !ruby/object:DateTime 2015-10-12 00:00:00.000000000 Z
+  notes: The roomies in LA went shopping for some fabric for the FAST fashion show
+  items:
+  - sys:
+      id: 3d50DOFuvcZg7mnmnBoRCM
+      created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:37:12.453000000 Z
+      content_type_id: item
+      revision: 6
+    name: Polka Dot Pants
+    main_color: black
+    secondary_color: white
+    image:
+      sys:
+        id: wVjZaYPqabkWKllwZTum0
+        created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+      title: IMG 0522
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+    category: Pants
+    color:
+    - "#F9F7F0"
+    - "#141414"
+    brand: Ralph Lauren
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+    notes: I got these at a weird boutique in boston during college tours. they were
+      $40 and it was (at the time) the most i could possibly imagine spending on anything.
+      I think my mom bought them for me - i was so excited. They sort of fit on and
+      off for a while, i often wore them with the button undone haha.
+  - sys:
+      id: 68oOt1nhok1XPPisdaJbUK
+      created_at: !ruby/object:DateTime 2019-06-20 20:22:16.082000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:32:07.157000000 Z
+      content_type_id: item
+      revision: 5
+    name: Black and white striped sweater
+    main_color: black
+    secondary_color: white
+    image:
+      sys:
+        id: 4q4PlHhwX8JyCq48F1vi9J
+        created_at: !ruby/object:DateTime 2019-08-06 04:02:58.401000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:02:58.401000000 Z
+      title: IMG 0562
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4q4PlHhwX8JyCq48F1vi9J/b6d65734d4cdc06af2cb463c502fbf27/IMG_0562.png"
+    category: Sweater
+    color:
+    - "#000000"
+    - "#FFFFFF"
+    brand: No Idea
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2016-03-01 00:00:00.000000000 Z
+    notes: This is just the easiest best sweater. No idea where i got it.
+- sys:
+    id: 5otv7qEpqD8yFomafvN2FR
+    created_at: !ruby/object:DateTime 2019-09-16 19:48:18.955000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-16 19:48:18.955000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: 'Test Work Outfit #1'
+  image:
+    sys:
+      id: 4Er6BxLicCKPfeOHz7JRnE
+      created_at: !ruby/object:DateTime 2019-09-16 19:47:06.798000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-16 19:48:48.417000000 Z
+    title: DSC 0004
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4Er6BxLicCKPfeOHz7JRnE/6ddefaedaa1f9d85bfdaf16199a21f85/DSC_0004.jpg"
+  date: !ruby/object:DateTime 2013-05-30 00:00:00.000000000 Z
+  notes: I was trying out work appropriate outfits for my internship in new york lol
+  items:
+  - sys:
+      id: 3d50DOFuvcZg7mnmnBoRCM
+      created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:37:12.453000000 Z
+      content_type_id: item
+      revision: 6
+    name: Polka Dot Pants
+    main_color: black
+    secondary_color: white
+    image:
+      sys:
+        id: wVjZaYPqabkWKllwZTum0
+        created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+      title: IMG 0522
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+    category: Pants
+    color:
+    - "#F9F7F0"
+    - "#141414"
+    brand: Ralph Lauren
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+    notes: I got these at a weird boutique in boston during college tours. they were
+      $40 and it was (at the time) the most i could possibly imagine spending on anything.
+      I think my mom bought them for me - i was so excited. They sort of fit on and
+      off for a while, i often wore them with the button undone haha.
+- sys:
+    id: 3hOMbENsTuJArlORipq9G7
+    created_at: !ruby/object:DateTime 2019-09-17 13:26:20.026000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 13:27:59.774000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: Pink overalls, pale yellow top
+  image:
+    sys:
+      id: 3spYct6fnRhAbH1Elg7nlg
+      created_at: !ruby/object:DateTime 2019-09-17 13:25:46.975000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 13:25:46.975000000 Z
+    title: 58050536533 E12DAE81-F065-4CC0-AF86-F7109C09B2F0
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3spYct6fnRhAbH1Elg7nlg/7ec22524d0f6f96627996007455e6df1/58050536533__E12DAE81-F065-4CC0-AF86-F7109C09B2F0.jpg"
+  date: !ruby/object:DateTime 2019-05-25 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 64u6NUuFPJs36KCFx39VGS
+      created_at: !ruby/object:DateTime 2019-06-03 20:49:08.028000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:34:12.384000000 Z
+      content_type_id: item
+      revision: 5
+    name: Pink Shorts Overalls
+    main_color: pink
+    image:
+      sys:
+        id: 3rcYpvzIWK5ksUg5ZWtJVO
+        created_at: !ruby/object:DateTime 2019-08-06 03:49:49.533000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:49:49.533000000 Z
+      title: IMG 0501
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/3rcYpvzIWK5ksUg5ZWtJVO/b5e4f37bad9f8723ed8475811adb10c6/IMG_0501.png"
+    category: Jumpsuit
+    color:
+    - "#FFBAEE"
+    brand: No Idea
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2018-09-08 00:00:00.000000000 Z
+    notes: "I got these at the Park Slope Beacon's Closet. Best memory of them is
+      Amanda wearing them to Pride 2019 \U0001F602"
+  - sys:
+      id: 5evd37bppp0bsFX4U275EW
+      created_at: !ruby/object:DateTime 2019-06-04 15:21:17.866000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:40.812000000 Z
+      content_type_id: item
+      revision: 5
+    name: Pale Yellow Crochet Hooded Top
+    main_color: yellow
+    image:
+      sys:
+        id: 5Ubjbl8X5J9cT02kbQCyh5
+        created_at: !ruby/object:DateTime 2019-08-06 03:57:38.431000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:57:38.431000000 Z
+      title: IMG 0518
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/5Ubjbl8X5J9cT02kbQCyh5/33b82dde96b387dc371ed09a681e6f8f/IMG_0518.png"
+    category: Shirt
+    color:
+    - "#DEEE98"
+    brand: No Idea
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2017-07-12 00:00:00.000000000 Z
+    notes: Got this at the Beacon's Closet in manhattan i think. I was obsessed with
+      it summer of 2017.
+- sys:
+    id: 6sm9LWi7dfslN1wDNyXyi2
+    created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Floral Pants; Blue Shirt
+  image:
+    sys:
+      id: 28z2pWRUmjAWwHakIfuzbj
+      created_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+    title: IMG 0928
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/28z2pWRUmjAWwHakIfuzbj/f847400299158a4b331e94dc0d789a22/IMG_0928.jpg"
+  date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 2UJXBQMG4g8DAu8l55vA6T
+      created_at: !ruby/object:DateTime 2019-06-03 21:22:37.395000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:34:52.873000000 Z
+      content_type_id: item
+      revision: 5
+    name: Bright Blue Short Sleeve Button Down
+    main_color: blue
+    image:
+      sys:
+        id: 2mIzSbUEjUmmXd9IzDv3HY
+        created_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+      title: IMG 0506
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2mIzSbUEjUmmXd9IzDv3HY/17bfd5e0e3ae6eda8a58ac68f58f61e3/IMG_0506.png"
+    category: Shirt
+    color:
+    - "#1F88DE"
+    brand: No Idea
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+    notes: This shirt is such a great color. Been missing a button for a long time,
+      need to replace it. No idea where i got it!
+- sys:
+    id: lLPZ6et2IfAwB1Z4GNKxS
+    created_at: !ruby/object:DateTime 2019-09-17 15:17:17.013000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:17:17.013000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Inappropriate Joshua Tree Hiking Outfit
+  image:
+    sys:
+      id: 4keYbFwNdEZAgmGpxyTkDk
+      created_at: !ruby/object:DateTime 2019-09-17 15:16:14.357000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:16:14.357000000 Z
+    title: IMG 1340
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4keYbFwNdEZAgmGpxyTkDk/eb6d9d9fc45600c930b3a2c85cf8bce2/IMG_1340.jpg"
+  date: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+  notes: Whole family drove to Joshua Tree and climbed the rocks to see the sunset.
+  items:
+  - sys:
+      id: 2pKZjTq1o861r1a37NuEHn
+      created_at: !ruby/object:DateTime 2019-06-20 20:25:59.613000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:34:06.017000000 Z
+      content_type_id: item
+      revision: 5
+    name: Margaux's crochet cream top
+    main_color: white
+    image:
+      sys:
+        id: 71t1YWzNB7AQuu5ubQK0BE
+        created_at: !ruby/object:DateTime 2019-08-06 04:03:58.063000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:03:58.063000000 Z
+      title: IMG 0565
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/71t1YWzNB7AQuu5ubQK0BE/5bd6da11cf4f4d90dc9274ee608565f1/IMG_0565.png"
+    category: Shirt
+    color:
+    - "#F6F1E9"
+    brand: Judith & Charles
+    price_range: Free
+    vintage: false
+    when: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+    notes: Margaux gave me this as a hand me down. It's her parents fashion brand.
+  - sys:
+      id: epGZ8gGFa01OESYWv0FVO
+      created_at: !ruby/object:DateTime 2019-09-17 15:14:27.940000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:38:05.956000000 Z
+      content_type_id: item
+      revision: 2
+    name: Margaux's Red Cashmere Cardigan
+    main_color: red
+    image:
+      sys:
+        id: 1WQfhUzE0J1jIdhZiWaQPC
+        created_at: !ruby/object:DateTime 2019-09-17 15:11:20.403000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 15:11:20.403000000 Z
+      title: IMG 0573
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1WQfhUzE0J1jIdhZiWaQPC/86ee2cbd851cc5ab497db7e0a8715c4f/IMG_0573.png"
+    category: Sweater
+    color:
+    - "#FF331B"
+    brand: Daslu
+    price_range: Free
+    vintage: false
+    when: !ruby/object:DateTime 2018-12-21 00:00:00.000000000 Z
+    notes: This sweater was a hand me down. It's the best thing ever and sadly has
+      many holes in it, but i still wear it all the time.
+- sys:
+    id: 4PxoQ2pcgI8KrTeDWg75Fr
+    created_at: !ruby/object:DateTime 2019-09-17 15:20:00.070000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:20:00.070000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: FOST 2016
+  image:
+    sys:
+      id: 2bhwHe5F22YhYHO44Gk93h
+      created_at: !ruby/object:DateTime 2019-09-17 15:18:49.962000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:18:49.962000000 Z
+    title: IMG 2409
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2bhwHe5F22YhYHO44Gk93h/c658d6c0ec5f1df5734ecd56ee5b02b6/IMG_2409.jpg"
+  date: !ruby/object:DateTime 2016-05-20 00:00:00.000000000 Z
+  notes: In the bathroom at Snug Harbor, closing night party. had some cocktails.
+  items:
+  - sys:
+      id: 2yFGIbL0Oa3x2bRWtGJJ8
+      created_at: !ruby/object:DateTime 2019-06-20 19:55:18.791000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:33:41.381000000 Z
+      content_type_id: item
+      revision: 5
+    name: Wild color sweater that shrunk
+    main_color: multicolor
+    image:
+      sys:
+        id: 6eLB4KAA8TfnMVpGFGaSDO
+        created_at: !ruby/object:DateTime 2019-08-06 04:01:17.593000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:01:17.593000000 Z
+      title: IMG 0556
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/6eLB4KAA8TfnMVpGFGaSDO/c8083d9240b7fa9419aab346df719df8/IMG_0556.png"
+    category: Sweater
+    color:
+    - "#FF0452"
+    - "#4A3499"
+    - "#039AAB"
+    - "#5D2A14"
+    - "#D90404"
+    - "#E7E3D2"
+    brand: No Idea
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-08-01 00:00:00.000000000 Z
+    notes: I love this sweater. It shrunk in the wash, and only one section of yarn/knitted
+      material shrunk, so the left side is much shorter at the bottom than the right,
+      which i think is hilarious. Bought it at goodwill in Gramercy.
+- sys:
+    id: 6TuTzhZ75tAptzy7E6xbE9
+    created_at: !ruby/object:DateTime 2019-09-17 15:21:22.881000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:21:33.712000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Walk at Chrissy Field
+  image:
+    sys:
+      id: 5c8xCgoRad5okGk2vtD5PF
+      created_at: !ruby/object:DateTime 2019-09-17 15:20:59.991000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:20:59.991000000 Z
+    title: IMG 0745
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5c8xCgoRad5okGk2vtD5PF/0ea63d799a7f5283319a44ea8b0855e3/IMG_0745.jpg"
+  date: !ruby/object:DateTime 2015-11-28 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 2yFGIbL0Oa3x2bRWtGJJ8
+      created_at: !ruby/object:DateTime 2019-06-20 19:55:18.791000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:33:41.381000000 Z
+      content_type_id: item
+      revision: 5
+    name: Wild color sweater that shrunk
+    main_color: multicolor
+    image:
+      sys:
+        id: 6eLB4KAA8TfnMVpGFGaSDO
+        created_at: !ruby/object:DateTime 2019-08-06 04:01:17.593000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:01:17.593000000 Z
+      title: IMG 0556
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/6eLB4KAA8TfnMVpGFGaSDO/c8083d9240b7fa9419aab346df719df8/IMG_0556.png"
+    category: Sweater
+    color:
+    - "#FF0452"
+    - "#4A3499"
+    - "#039AAB"
+    - "#5D2A14"
+    - "#D90404"
+    - "#E7E3D2"
+    brand: No Idea
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-08-01 00:00:00.000000000 Z
+    notes: I love this sweater. It shrunk in the wash, and only one section of yarn/knitted
+      material shrunk, so the left side is much shorter at the bottom than the right,
+      which i think is hilarious. Bought it at goodwill in Gramercy.
+- sys:
+    id: 1xCXIqxWCbBLgsI5OdJlYf
+    created_at: !ruby/object:DateTime 2019-09-17 15:25:55.441000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:25:55.441000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Napa White Party
+  image:
+    sys:
+      id: 3BqGsbL3fNRxjHeaX59U0k
+      created_at: !ruby/object:DateTime 2019-09-17 15:24:59.551000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:25:10.583000000 Z
+    title: IMG 0727
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3BqGsbL3fNRxjHeaX59U0k/2f1488f4d59b86736f219860e5ca9a4c/IMG_0727.jpg"
+  date: !ruby/object:DateTime 2019-07-06 00:00:00.000000000 Z
+  notes: Well, we found out about the white theme a little late, and i had NO white
+    bottoms at all. so these are amanda's pants :D
+  items:
+  - sys:
+      id: 2pKZjTq1o861r1a37NuEHn
+      created_at: !ruby/object:DateTime 2019-06-20 20:25:59.613000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:34:06.017000000 Z
+      content_type_id: item
+      revision: 5
+    name: Margaux's crochet cream top
+    main_color: white
+    image:
+      sys:
+        id: 71t1YWzNB7AQuu5ubQK0BE
+        created_at: !ruby/object:DateTime 2019-08-06 04:03:58.063000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 04:03:58.063000000 Z
+      title: IMG 0565
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/71t1YWzNB7AQuu5ubQK0BE/5bd6da11cf4f4d90dc9274ee608565f1/IMG_0565.png"
+    category: Shirt
+    color:
+    - "#F6F1E9"
+    brand: Judith & Charles
+    price_range: Free
+    vintage: false
+    when: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+    notes: Margaux gave me this as a hand me down. It's her parents fashion brand.
+- sys:
+    id: 4hrGwwZci4S7xTXnvYkCSp
+    created_at: !ruby/object:DateTime 2019-09-17 15:28:25.431000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:28:45.268000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Break Room 86; Expensive uber
+  image:
+    sys:
+      id: 22RoEcwBEXUGHbgtzWN7qb
+      created_at: !ruby/object:DateTime 2019-09-17 15:27:30.994000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:27:30.994000000 Z
+    title: IMG 1926
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/22RoEcwBEXUGHbgtzWN7qb/a5238ced953205ac3156e852a11b18d0/IMG_1926.jpg"
+  date: !ruby/object:DateTime 2016-05-28 00:00:00.000000000 Z
+  notes: We took an uber xl to Break Room 86 on the east side, and it was $110, and
+    then i got there and accidentally ordered a $20 shot of tequila. But there were
+    dancers on the bar and an amazing karaoke room and it was FUN.
+  items:
+  - sys:
+      id: 7vPay1ALaP7IBmGAAb5Kzz
+      created_at: !ruby/object:DateTime 2019-06-04 15:24:11.188000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:59.235000000 Z
+      content_type_id: item
+      revision: 5
+    name: Lavender Wool Trousers
+    main_color: purple
+    image:
+      sys:
+        id: 4YTj6mDYBM4XRQGNafbcee
+        created_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+      title: IMG 0521
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4YTj6mDYBM4XRQGNafbcee/5506f5d4b25c9e5f4bf28a9ef644871a/IMG_0521.png"
+    category: Pants
+    color:
+    - "#D1BAEE"
+    brand: J Crew
+    price_range: "$20 - $30"
+    vintage: false
+    when: !ruby/object:DateTime 2011-12-16 00:00:00.000000000 Z
+    notes: I bought these at the end of Oxbow at the Napa j crew outlet store. I was
+      so excited.
+- sys:
+    id: 4BkNG8NTDg8BkzK8K3NTCa
+    created_at: !ruby/object:DateTime 2019-09-17 15:30:37.763000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-18 21:16:27.379000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Vijar Iyer in the Palisades
+  image:
+    sys:
+      id: 5fBIcWhDyDp6JDVM85Nj5c
+      created_at: !ruby/object:DateTime 2019-09-17 15:29:26.643000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:29:26.643000000 Z
+    title: IMG 1663
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5fBIcWhDyDp6JDVM85Nj5c/c1eb7aea5a31c64a18299141573e2036/IMG_1663.jpg"
+  date: !ruby/object:DateTime 2016-04-28 00:00:00.000000000 Z
+  notes: We got invited to a CAP UCLA donors private performance by Vijay Iyer in
+    somebody's living room in the Pacific Palisades. Ryoji Ikeda showed up too!!
+  items:
+  - sys:
+      id: 7vPay1ALaP7IBmGAAb5Kzz
+      created_at: !ruby/object:DateTime 2019-06-04 15:24:11.188000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:59.235000000 Z
+      content_type_id: item
+      revision: 5
+    name: Lavender Wool Trousers
+    main_color: purple
+    image:
+      sys:
+        id: 4YTj6mDYBM4XRQGNafbcee
+        created_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+      title: IMG 0521
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4YTj6mDYBM4XRQGNafbcee/5506f5d4b25c9e5f4bf28a9ef644871a/IMG_0521.png"
+    category: Pants
+    color:
+    - "#D1BAEE"
+    brand: J Crew
+    price_range: "$20 - $30"
+    vintage: false
+    when: !ruby/object:DateTime 2011-12-16 00:00:00.000000000 Z
+    notes: I bought these at the end of Oxbow at the Napa j crew outlet store. I was
+      so excited.
+  - sys:
+      id: 4zFB0g689dWY7szkUB5djR
+      created_at: !ruby/object:DateTime 2019-09-18 21:12:53.890000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:39:12.016000000 Z
+      content_type_id: item
+      revision: 2
+    name: Silky Rainbow Long Sleeve Blouse
+    main_color: red
+    secondary_color: multicolor
+    image:
+      sys:
+        id: LCJjiGrISVdmbsfI3XA2t
+        created_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+      title: IMG 0581
+      description: item
+      url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/dab0a24c4ae86ce305a88e781e7fc7fa/IMG_0581.png"
+    category: Shirt
+    color:
+    - "#DD0404"
+    - "#220881"
+    - "#F27289"
+    - "#FEB15E"
+    - "#FED7B5"
+    - "#64A58F"
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2013-11-21 00:00:00.000000000 Z
+    notes: I got this at a thrift store across the parking lot from Duarte's in Pescadero.
+      Tiny shop, ran over while my parents were paying the lunch bill.
+- sys:
+    id: x2QPBpxUs2atYkN6CxIJL
+    created_at: !ruby/object:DateTime 2019-09-17 15:31:37.081000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:46:35.007000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Happy New Year
+  image:
+    sys:
+      id: 5pJTTkVr39PFkGXoIjWL5u
+      created_at: !ruby/object:DateTime 2019-09-17 15:31:18.762000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:31:18.762000000 Z
+    title: IMG 0853
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5pJTTkVr39PFkGXoIjWL5u/00e573b6e63b8a5ed904c8f46b5f5b2c/IMG_0853.jpg"
+  date: !ruby/object:DateTime 2015-12-18 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 7vPay1ALaP7IBmGAAb5Kzz
+      created_at: !ruby/object:DateTime 2019-06-04 15:24:11.188000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:59.235000000 Z
+      content_type_id: item
+      revision: 5
+    name: Lavender Wool Trousers
+    main_color: purple
+    image:
+      sys:
+        id: 4YTj6mDYBM4XRQGNafbcee
+        created_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:58:47.858000000 Z
+      title: IMG 0521
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4YTj6mDYBM4XRQGNafbcee/5506f5d4b25c9e5f4bf28a9ef644871a/IMG_0521.png"
+    category: Pants
+    color:
+    - "#D1BAEE"
+    brand: J Crew
+    price_range: "$20 - $30"
+    vintage: false
+    when: !ruby/object:DateTime 2011-12-16 00:00:00.000000000 Z
+    notes: I bought these at the end of Oxbow at the Napa j crew outlet store. I was
+      so excited.
+- sys:
+    id: 4K2hQR5FUDv0ymvK4BjzjV
+    created_at: !ruby/object:DateTime 2019-09-17 15:33:05.451000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:33:05.451000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: FOST 2015
+  image:
+    sys:
+      id: 6zjS4o7nwNVwGst4PUqbTB
+      created_at: !ruby/object:DateTime 2019-09-17 15:32:31.019000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:32:31.019000000 Z
+    title: IMG 0216
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6zjS4o7nwNVwGst4PUqbTB/008a88e6140fadc43253eb47c9e91405/IMG_0216.jpg"
+  date: !ruby/object:DateTime 2015-10-08 00:00:00.000000000 Z
+  notes: Asher and I are showing off our matching cell phone cases haha
+  items:
+  - sys:
+      id: 5MpiOIsZhVPr1YsGM4BpEG
+      created_at: !ruby/object:DateTime 2019-06-04 15:12:00.789000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:16.821000000 Z
+      content_type_id: item
+      revision: 5
+    name: Favorite 80s Silk Jumpsuit
+    main_color: multicolor
+    image:
+      sys:
+        id: 15JBchimJr41p0j6g6crRM
+        created_at: !ruby/object:DateTime 2019-08-06 03:56:23.061000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:56:23.061000000 Z
+      title: IMG 0515
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/15JBchimJr41p0j6g6crRM/c5358d46a9ad5b8c65c33c64ec79713c/IMG_0515.png"
+    category: Jumpsuit
+    color:
+    - "#3A00B3"
+    - "#EBBB67"
+    - "#D9048E"
+    - "#FE0735"
+    - "#00A9E4"
+    - "#A80132"
+    - "#240107"
+    brand: Jeanne Marc
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2014-09-03 00:00:00.000000000 Z
+    notes: Laurie Lambert bought this for me at Wasteland for my birthday and i just
+      remember her asking you're sure you'll wear this and i was like YES. i love
+      it. it might be my favorite item of clothing. They sometimes sell on ebay of
+      $100+. Rare find.
+- sys:
+    id: 3pkJ9vIlpTugtQLDUicFK9
+    created_at: !ruby/object:DateTime 2019-09-17 15:34:52.430000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 15:38:49.482000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: River of Fundament Screening
+  image:
+    sys:
+      id: 2OgcqYninDVgP3cUOwrlOh
+      created_at: !ruby/object:DateTime 2019-09-17 15:38:44.867000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:38:44.867000000 Z
+    title: IMG 5527
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2OgcqYninDVgP3cUOwrlOh/c7fc5ed79b274a99d531aea20dccc1f4/IMG_5527.jpg"
+  date: !ruby/object:DateTime 2015-04-26 00:00:00.000000000 Z
+  notes: Cindy and i got this picture in the middle of the 6 hour Matthew Barney screening.
+    At Royce Hall at UCLA.
+  items:
+  - sys:
+      id: 5MpiOIsZhVPr1YsGM4BpEG
+      created_at: !ruby/object:DateTime 2019-06-04 15:12:00.789000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:36:16.821000000 Z
+      content_type_id: item
+      revision: 5
+    name: Favorite 80s Silk Jumpsuit
+    main_color: multicolor
+    image:
+      sys:
+        id: 15JBchimJr41p0j6g6crRM
+        created_at: !ruby/object:DateTime 2019-08-06 03:56:23.061000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:56:23.061000000 Z
+      title: IMG 0515
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/15JBchimJr41p0j6g6crRM/c5358d46a9ad5b8c65c33c64ec79713c/IMG_0515.png"
+    category: Jumpsuit
+    color:
+    - "#3A00B3"
+    - "#EBBB67"
+    - "#D9048E"
+    - "#FE0735"
+    - "#00A9E4"
+    - "#A80132"
+    - "#240107"
+    brand: Jeanne Marc
+    price_range: "$30 - 45"
+    vintage: true
+    when: !ruby/object:DateTime 2014-09-03 00:00:00.000000000 Z
+    notes: Laurie Lambert bought this for me at Wasteland for my birthday and i just
+      remember her asking you're sure you'll wear this and i was like YES. i love
+      it. it might be my favorite item of clothing. They sometimes sell on ebay of
+      $100+. Rare find.
+- sys:
+    id: 4EZCa1WFxmYNrthspjFwuP
+    created_at: !ruby/object:DateTime 2019-09-17 19:05:45.363000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 19:05:56.407000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: Sick of covering ankles in winter
+  image:
+    sys:
+      id: 4PSA0HWHVbxksrodVmflil
+      created_at: !ruby/object:DateTime 2019-09-17 19:04:54.500000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:04:54.500000000 Z
+    title: IMG 1494
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4PSA0HWHVbxksrodVmflil/f063b5aa61e4e8e5c6b1e8ea2920c74c/IMG_1494.jpg"
+  date: !ruby/object:DateTime 2019-02-26 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 3BGziZxCOkAjh9ZoOT3hLA
+      created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:38:42.483000000 Z
+      content_type_id: item
+      revision: 2
+    name: Neon Orange Sweater
+    main_color: orange
+    image:
+      sys:
+        id: 1Aw1PuHxQTatD5tF7YRMab
+        created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+      title: IMG 0577
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+    category: Sweater
+    color:
+    - "#FF8C00"
+    brand: Obermeyer
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+    notes: I think I got this at wasteland. Didn't wear it for a long time, and now
+      it's my favorite.
+- sys:
+    id: 2vA4o8b0vFLKf5m8rtlvFs
+    created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Please Hire Me
+  image:
+    sys:
+      id: 1DMpwFY2RjTezgZZDIMCxs
+      created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+    title: IMG 4150
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+  date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+  notes: Was trying to find a job in New York before I graduated from college. Horrible
+    day, great outfit.
+  items:
+  - sys:
+      id: 3BGziZxCOkAjh9ZoOT3hLA
+      created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:38:42.483000000 Z
+      content_type_id: item
+      revision: 2
+    name: Neon Orange Sweater
+    main_color: orange
+    image:
+      sys:
+        id: 1Aw1PuHxQTatD5tF7YRMab
+        created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+      title: IMG 0577
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+    category: Sweater
+    color:
+    - "#FF8C00"
+    brand: Obermeyer
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+    notes: I think I got this at wasteland. Didn't wear it for a long time, and now
+      it's my favorite.
+- sys:
+    id: 6J7Sr4WekFqLP789Ccmj3i
+    created_at: !ruby/object:DateTime 2019-09-17 19:10:44.370000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-17 19:10:44.370000000 Z
+    content_type_id: outfit
+    revision: 1
+  name: Orange Sweater, Great Leggings
+  image:
+    sys:
+      id: bKolpv0Jv0WJJ13GBOWuj
+      created_at: !ruby/object:DateTime 2019-09-17 19:08:16.912000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:08:16.912000000 Z
+    title: IMG 3702
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/bKolpv0Jv0WJJ13GBOWuj/7b2d6cb544b5b6588c9f60049c7d62d1/IMG_3702.jpg"
+  date: !ruby/object:DateTime 2017-01-26 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 3BGziZxCOkAjh9ZoOT3hLA
+      created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-19 12:38:42.483000000 Z
+      content_type_id: item
+      revision: 2
+    name: Neon Orange Sweater
+    main_color: orange
+    image:
+      sys:
+        id: 1Aw1PuHxQTatD5tF7YRMab
+        created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+      title: IMG 0577
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+    category: Sweater
+    color:
+    - "#FF8C00"
+    brand: Obermeyer
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+    notes: I think I got this at wasteland. Didn't wear it for a long time, and now
+      it's my favorite.
 item:
 - sys:
     id: 6Q8A3I28CWa2wY42EUSsiu
     created_at: !ruby/object:DateTime 2018-05-04 20:47:47.359000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:16.798000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:27.805000000 Z
     content_type_id: item
-    revision: 7
+    revision: 9
   name: Lilac Turtleneck
+  main_color: purple
   image:
     sys:
       id: BN0iRot8jhXrTuFp30u89
@@ -33,40 +1060,22 @@ item:
     title: IMG 0500
     description: 
     url: "//images.ctfassets.net/4sf3k05ydnj7/BN0iRot8jhXrTuFp30u89/060b6470626339f1226af80ed1e57bce/IMG_0500.png"
-  tags:
-  - winter
-  - cashmere
   category: Sweater
   color:
-  - "#E7BBFF"
+  - "#BE88EB"
   brand: No Idea
   price_range: Under $10
-  outfits:
-  - sys:
-      id: 5tAWIoaF9Ki2CS4sciIWi0
-      created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-12 12:51:35.843000000 Z
-      content_type_id: outfit
-      revision: 7
-    image:
-      sys:
-        id: 3eTU9POL0w8uO7xEWq1aw3
-        created_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-        updated_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-      title: rainy day gallery visit
-      description: 
-      url: "//images.ctfassets.net/4sf3k05ydnj7/3eTU9POL0w8uO7xEWq1aw3/ee72d0826390ef9ed03920dadaffcad5/IMG_5258__1_.JPG"
-    date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
-    rating: 6
-    name: Rainy Gallery Visit
   vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: This was part of the huge New Orleans haul of 2018 :)
 - sys:
     id: 64u6NUuFPJs36KCFx39VGS
     created_at: !ruby/object:DateTime 2019-06-03 20:49:08.028000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:27:44.589000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:12.384000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Pink Shorts Overalls
+  main_color: pink
   image:
     sys:
       id: 3rcYpvzIWK5ksUg5ZWtJVO
@@ -75,21 +1084,23 @@ item:
     title: IMG 0501
     description: 
     url: "//images.ctfassets.net/4sf3k05ydnj7/3rcYpvzIWK5ksUg5ZWtJVO/b5e4f37bad9f8723ed8475811adb10c6/IMG_0501.png"
-  tags:
-  - summer
   category: Jumpsuit
   color:
   - "#FFBAEE"
   brand: No Idea
   price_range: "$10 - $20"
   vintage: true
+  when: !ruby/object:DateTime 2018-09-08 00:00:00.000000000 Z
+  notes: "I got these at the Park Slope Beacon's Closet. Best memory of them is Amanda
+    wearing them to Pride 2019 \U0001F602"
 - sys:
     id: 4VmmDmMgrXwZcw3TsfmDxm
     created_at: !ruby/object:DateTime 2019-06-03 20:56:32.049000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:27:52.378000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:18.535000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Light Purple Cotton Blouse
+  main_color: purple
   image:
     sys:
       id: 1p69HXyikdiayThzdVrgo8
@@ -104,13 +1115,17 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: Got this in my huge New Orleans haul. It's one of my favorite shirts, love
+    to wear it with red :)
 - sys:
     id: 3yn7oEtQnqbwLfSrEHRYDr
     created_at: !ruby/object:DateTime 2019-06-03 21:03:37.185000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:00.802000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:25.311000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Long Sleeve Multicolor Smock
+  main_color: multicolor
   image:
     sys:
       id: MgwAFP3EfjDhn5KRYEka3
@@ -132,13 +1147,18 @@ item:
   brand: No Idea
   price_range: "$20 - $30"
   vintage: true
+  when: !ruby/object:DateTime 2018-02-24 00:00:00.000000000 Z
+  notes: I cannot remember where i got this. Has beautiful cloth covered matching
+    buttons on it.
 - sys:
     id: 3QqNUFWRjId93UaybOML5D
     created_at: !ruby/object:DateTime 2019-06-03 21:06:51.580000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:08.009000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:35.085000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Vintage Striped Sweater
+  main_color: blue
+  secondary_color: green
   image:
     sys:
       id: 7e0lXsKxqybMjgKRqvCDmx
@@ -155,13 +1175,19 @@ item:
   brand: Diane von Furstenburg
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2015-09-01 00:00:00.000000000 Z
+  notes: I got this sweater at a goodwill in gramercy! was such a great cheap vintage
+    designer find. Made me believe in the possibility of NYC thrift stores way longer
+    than they deserve.
 - sys:
     id: qPAS2ENUYr2nFuS8A6OqM
     created_at: !ruby/object:DateTime 2019-06-03 21:15:11.934000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:16.806000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:45.465000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Wild Wool Squiggle Sweater
+  main_color: multicolor
+  secondary_color: blue
   image:
     sys:
       id: 2yVyhHPjvLyCaELOCpvCT5
@@ -180,13 +1206,18 @@ item:
   brand: No Idea
   price_range: "$10 - $20"
   vintage: false
+  when: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 Z
+  notes: This sweater is bizarre af and i forget to wear it ... the mesh isn't great
+    or breathable for summer, or winter. And i am scared of washing it! but it's so
+    cool. I should try and make my own with some wool roving.
 - sys:
     id: 2UJXBQMG4g8DAu8l55vA6T
     created_at: !ruby/object:DateTime 2019-06-03 21:22:37.395000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:25.690000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:52.873000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Bright Blue Short Sleeve Button Down
+  main_color: blue
   image:
     sys:
       id: 2mIzSbUEjUmmXd9IzDv3HY
@@ -196,16 +1227,22 @@ item:
     description: 
     url: "//images.ctfassets.net/4sf3k05ydnj7/2mIzSbUEjUmmXd9IzDv3HY/17bfd5e0e3ae6eda8a58ac68f58f61e3/IMG_0506.png"
   category: Shirt
+  color:
+  - "#1F88DE"
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+  notes: This shirt is such a great color. Been missing a button for a long time,
+    need to replace it. No idea where i got it!
 - sys:
     id: 219O6pDGqnJVQH0gPf0smZ
     created_at: !ruby/object:DateTime 2019-06-03 21:24:22.860000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:33.148000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:59.887000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Plain Navy Sweater
+  main_color: blue
   image:
     sys:
       id: 4gUAjD23Ikzd8t5bCFQFoL
@@ -220,13 +1257,18 @@ item:
   brand: Uniqlo
   price_range: "$30 - 45"
   vintage: false
+  when: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+  notes: My mom bought this sweater, but she said she doesn't wear it, and let me
+    take it. It's soft and boring.
 - sys:
     id: 6ogt7iRa2KA9TLrXyaXL1O
     created_at: !ruby/object:DateTime 2019-06-03 21:34:29.670000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:40.185000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:11.791000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Polyester Summer Floral Tie Dress
+  main_color: blue
+  secondary_color: white
   image:
     sys:
       id: 2xLgqp3Vm1kUTxFEZ2gLXG
@@ -244,13 +1286,19 @@ item:
   brand: Espirit
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2011-07-06 00:00:00.000000000 Z
+  notes: I *think* I bought this in Florida when i was in high school. At an amazing
+    central florida goodwill. The fabric is so unbreathable and synthetic, but otherwise
+    this dress is great.
 - sys:
     id: 3U9puj70osanL6g0HpcJPL
     created_at: !ruby/object:DateTime 2019-06-04 14:33:45.930000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:49.556000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:19.215000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Annakai Blue and Yellow Flower Dress
+  main_color: blue
+  secondary_color: yellow
   image:
     sys:
       id: 2OF5v1kjCKcUXbolhIGxQ2
@@ -268,13 +1316,17 @@ item:
   brand: No Idea
   price_range: Free
   vintage: true
+  when: !ruby/object:DateTime 2013-09-30 00:00:00.000000000 Z
+  notes: This dress was Annakai's - maybe her mom's - and she gave it to me because
+    i liked it so much :)
 - sys:
     id: 5rWM7XQG7NsG5MR4OV70HM
     created_at: !ruby/object:DateTime 2019-06-04 14:38:51.804000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:28:57.432000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:28.662000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Pale Blue Soft Short Sleeve Sweater
+  main_color: blue
   image:
     sys:
       id: 2fyTPHFMr99KnkZxJS4XZO
@@ -289,13 +1341,16 @@ item:
   brand: Topshop
   price_range: "$10 - $20"
   vintage: false
+  when: !ruby/object:DateTime 2018-09-20 00:00:00.000000000 Z
+  notes: Got this at the Park Slope Beacon's Closet.
 - sys:
     id: 6j7urynT7vxI7XgmJZ0GGr
     created_at: !ruby/object:DateTime 2019-06-04 14:49:56.558000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:10.839000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:39.467000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Tufty Jewel Green Silk Smock
+  main_color: green
   image:
     sys:
       id: 4QUjfZeHE9bKFkzWLDIIF3
@@ -307,16 +1362,20 @@ item:
   category: Dress
   color:
   - "#0099B1"
-  brand: No Idea
+  brand: Trina Turk
   price_range: "$10 - $20"
   vintage: false
+  when: !ruby/object:DateTime 2019-05-22 00:00:00.000000000 Z
+  notes: This photo really doesn't capture the color. It's a sort of jewel greenish
+    blue. Very lovely color. Got it at the Park Slope Beacon's Closet
 - sys:
     id: 6aqhYpYWyP2uhlLRpxZbuC
     created_at: !ruby/object:DateTime 2019-06-04 15:04:12.482000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:20.659000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:44.484000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Yellow Blazer
+  main_color: yellow
   image:
     sys:
       id: 2nUBlsICcsWae9fuPYLfoY
@@ -331,21 +1390,27 @@ item:
   brand: No Idea
   price_range: "$10 - $20"
   vintage: true
+  when: !ruby/object:DateTime 2008-09-01 00:00:00.000000000 Z
+  notes: I have had this blazer....so....long. The sleeves are way too short it's
+    useless but the color is so good. Pretty sure i got it at the mission thrift town
+    in .... middle school????
 - sys:
     id: 38VoDcFw67pBbjFA7w5Tb4
     created_at: !ruby/object:DateTime 2019-06-04 15:05:56.537000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:32.316000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:35:58.105000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Long Red Flower Dress
+  main_color: red
+  secondary_color: white
   image:
     sys:
       id: 4FI2zYcyPGLOUphHOkG5zq
       created_at: !ruby/object:DateTime 2019-08-06 03:55:30.924000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-06 03:55:30.924000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:22:55.273000000 Z
     title: IMG 0513
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/4FI2zYcyPGLOUphHOkG5zq/f74dc26f242025a24bee43794bf46146/IMG_0513.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4FI2zYcyPGLOUphHOkG5zq/b5ca26b63cb2b592b1f18778306a7861/IMG_0513.png"
   category: Dress
   color:
   - "#FF4100"
@@ -354,21 +1419,29 @@ item:
   brand: Malia Honolulu
   price_range: "$30 - 45"
   vintage: true
+  when: !ruby/object:DateTime 2016-11-23 00:00:00.000000000 Z
+  notes: Love this dress. Wore it to Alexis' wedding, and at the after party at the
+    club some drunk guy spilled cranberry juice on it (AND ALL OVER THE BRIDE's WHITE
+    DRESS) and there are still some stains. I brought it to a dry cleaner and they
+    didn't really get the stains out at all, AND added some yellow stains haha. But
+    still very wearable. I hemmed it when i first got it. Got it at wasteland SF.
 - sys:
     id: EFLqHAhyd5m9D1HiGotSp
     created_at: !ruby/object:DateTime 2019-06-04 15:07:21.106000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:40.515000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:09.685000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Long Gold and Black Ballgown
+  main_color: metallic
+  secondary_color: black
   image:
     sys:
       id: 1hXqNq8boTCwpWGZ3yyXQf
       created_at: !ruby/object:DateTime 2019-08-06 03:56:01.677000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-06 03:56:01.677000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:19:17.205000000 Z
     title: IMG 0514
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/1hXqNq8boTCwpWGZ3yyXQf/f1493844fa5ef9a0615c5680d3cdc79b/IMG_0514.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1hXqNq8boTCwpWGZ3yyXQf/dd00ca6b55eada0c9c6b15de49877629/IMG_0514.png"
   category: Dress
   color:
   - "#D4BE70"
@@ -376,13 +1449,17 @@ item:
   brand: No Idea
   price_range: "$30 - 45"
   vintage: false
+  when: !ruby/object:DateTime 2018-07-28 00:00:00.000000000 Z
+  notes: Bought this for Wyndam and Amanda's black tie wedding, didn't like the dress
+    i had so got this day of at the williamsburg beacon's closet.
 - sys:
     id: 5MpiOIsZhVPr1YsGM4BpEG
     created_at: !ruby/object:DateTime 2019-06-04 15:12:00.789000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:48.662000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:16.821000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Favorite 80s Silk Jumpsuit
+  main_color: multicolor
   image:
     sys:
       id: 15JBchimJr41p0j6g6crRM
@@ -403,13 +1480,20 @@ item:
   brand: Jeanne Marc
   price_range: "$30 - 45"
   vintage: true
+  when: !ruby/object:DateTime 2014-09-03 00:00:00.000000000 Z
+  notes: Laurie Lambert bought this for me at Wasteland for my birthday and i just
+    remember her asking you're sure you'll wear this and i was like YES. i love it.
+    it might be my favorite item of clothing. They sometimes sell on ebay of $100+.
+    Rare find.
 - sys:
     id: 5DO87K415EQe9jAeq3B6z0
     created_at: !ruby/object:DateTime 2019-06-04 15:15:44.322000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:29:56.665000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:25.616000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Red Purple Plaid Fuzzy Coat
+  main_color: red
+  secondary_color: purple
   image:
     sys:
       id: 2bBbFQx8SLCW7Tau5rqymf
@@ -426,13 +1510,19 @@ item:
   - "#DB6CAC"
   price_range: "$250 and up"
   vintage: false
+  when: !ruby/object:DateTime 2019-03-28 00:00:00.000000000 Z
+  notes: I bought this coat hoping it could be my amazing warm winter coat i was missing.
+    It is not, sadly. It's not that warm and exceptionally NOT water proof. But i
+    love it, and the colors are my fave, they look great with everything.
 - sys:
     id: 4ZYzuRQ8KjdCv9Z5axA2fJ
     created_at: !ruby/object:DateTime 2019-06-04 15:19:54.803000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:05.470000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:33.892000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Favorite White Tee Shirt
+  main_color: white
+  secondary_color: multicolor
   image:
     sys:
       id: 6fwKWiPG6CBhHNtXJsTIiy
@@ -449,13 +1539,20 @@ item:
   brand: PAOM
   price_range: "$30 - 45"
   vintage: false
+  when: !ruby/object:DateTime 2016-09-01 00:00:00.000000000 Z
+  notes: 'When i worked at affirm, i got affirm credit to spend on whatever i wanted,
+    to test the product. I used it to get a pair of pants and this shirt from Print
+    All Over Me (which i know know is a SHIT company that treats their artists like
+    crap: https://www.instagram.com/p/BwDyLPcjrmE/). This shirt is my fave tshirt
+    ever. was designed by http://feel.thatsh.it/'
 - sys:
     id: 5evd37bppp0bsFX4U275EW
     created_at: !ruby/object:DateTime 2019-06-04 15:21:17.866000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:16.811000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:40.812000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Pale Yellow Crochet Hooded Top
+  main_color: yellow
   image:
     sys:
       id: 5Ubjbl8X5J9cT02kbQCyh5
@@ -470,13 +1567,17 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2017-07-12 00:00:00.000000000 Z
+  notes: Got this at the Beacon's Closet in manhattan i think. I was obsessed with
+    it summer of 2017.
 - sys:
     id: 4vET7zk1wh6vsk8DUdnwLj
     created_at: !ruby/object:DateTime 2019-06-04 15:22:13.254000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:27.276000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:46.663000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Burnt Orange Velvet Tank
+  main_color: orange
   image:
     sys:
       id: 3CKVOiqkh2kYQQRpoKZXVE
@@ -491,13 +1592,18 @@ item:
   brand: Express
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2011-08-17 00:00:00.000000000 Z
+  notes: Got this at Mission Community Thrift in San Francisco. It's so hard to find
+    tiny colorful shirts.
 - sys:
     id: 56KUHAnuiLHkRja15P9tyi
     created_at: !ruby/object:DateTime 2019-06-04 15:23:21.055000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:34.545000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:54.634000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Goodwill Grid Pants
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: 1Ekf5YfzVxmXEjvr2X3sLT
@@ -513,13 +1619,18 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2016-06-05 00:00:00.000000000 Z
+  notes: Got these at a Goodwill boutique in Sacramento when i went with my sister
+    for a girls weekend. They looked really good on me for a while and then something
+    happened and now they weirdly don't look as good.
 - sys:
     id: 7vPay1ALaP7IBmGAAb5Kzz
     created_at: !ruby/object:DateTime 2019-06-04 15:24:11.188000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:47.947000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:36:59.235000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Lavender Wool Trousers
+  main_color: purple
   image:
     sys:
       id: 4YTj6mDYBM4XRQGNafbcee
@@ -534,13 +1645,18 @@ item:
   brand: J Crew
   price_range: "$20 - $30"
   vintage: false
+  when: !ruby/object:DateTime 2011-12-16 00:00:00.000000000 Z
+  notes: I bought these at the end of Oxbow at the Napa j crew outlet store. I was
+    so excited.
 - sys:
     id: 3d50DOFuvcZg7mnmnBoRCM
     created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:06.346000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:12.453000000 Z
     content_type_id: item
-    revision: 4
+    revision: 6
   name: Polka Dot Pants
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: wVjZaYPqabkWKllwZTum0
@@ -555,32 +1671,20 @@ item:
   - "#141414"
   brand: Ralph Lauren
   price_range: "$30 - 45"
-  outfits:
-  - sys:
-      id: 5tAWIoaF9Ki2CS4sciIWi0
-      created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-12 12:51:35.843000000 Z
-      content_type_id: outfit
-      revision: 7
-    image:
-      sys:
-        id: 3eTU9POL0w8uO7xEWq1aw3
-        created_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-        updated_at: !ruby/object:DateTime 2019-09-09 12:27:48.478000000 Z
-      title: rainy day gallery visit
-      description: 
-      url: "//images.ctfassets.net/4sf3k05ydnj7/3eTU9POL0w8uO7xEWq1aw3/ee72d0826390ef9ed03920dadaffcad5/IMG_5258__1_.JPG"
-    date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
-    rating: 6
-    name: Rainy Gallery Visit
   vintage: true
+  when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+  notes: I got these at a weird boutique in boston during college tours. they were
+    $40 and it was (at the time) the most i could possibly imagine spending on anything.
+    I think my mom bought them for me - i was so excited. They sort of fit on and
+    off for a while, i often wore them with the button undone haha.
 - sys:
     id: 7hKxFfF2jVCubR6C0zSG4w
     created_at: !ruby/object:DateTime 2019-06-04 15:39:34.187000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:30:55.815000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:06.268000000 Z
     content_type_id: item
-    revision: 4
+    revision: 6
   name: High Waisted Blue Flair Pants
+  main_color: blue
   image:
     sys:
       id: 4hxcKzHyqEw0z2TGAoCbKV
@@ -595,13 +1699,17 @@ item:
   brand: Sears
   price_range: "$10 - $20"
   vintage: true
+  when: !ruby/object:DateTime 2019-01-03 00:00:00.000000000 Z
+  notes: I think i got these at El Sobrante Thrift Town. They fit great.
 - sys:
     id: 2JW5Qfg4UtYDllFoI6AZWE
     created_at: !ruby/object:DateTime 2019-06-20 19:48:37.133000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:24.522000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:36.633000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Thursday Sweater
+  main_color: yellow
+  secondary_color: blue
   image:
     sys:
       id: 4cAC0pXJHyo4rTZYhUIclv
@@ -617,13 +1725,19 @@ item:
   brand: Alberta Ferretti
   price_range: Under $10
   vintage: false
+  when: !ruby/object:DateTime 2018-10-24 00:00:00.000000000 Z
+  notes: |-
+    I got this at a shitty consignment store on 5th ave in brooklyn. it was $10, even though it originally sold for $300+, because there was a stain on the front and the woman wasn't sure it would come out. I got it out with water :)
+
+    I go back and forth on whether it's better to wear it on a thursday or on any day BUT thursday.
 - sys:
     id: 5M0WjavSV4wxtVcvhFSUXi
     created_at: !ruby/object:DateTime 2019-06-20 19:51:17.536000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:35.067000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:42.937000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Silver Blouse
+  main_color: metallic
   image:
     sys:
       id: 7v9SIerIPK3WjxsF83EPUx
@@ -639,13 +1753,16 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2018-02-20 00:00:00.000000000 Z
+  notes: I cannot remember at all where i got this.
 - sys:
     id: 2yFGIbL0Oa3x2bRWtGJJ8
     created_at: !ruby/object:DateTime 2019-06-20 19:55:18.791000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:42.717000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:33:41.381000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Wild color sweater that shrunk
+  main_color: multicolor
   image:
     sys:
       id: 6eLB4KAA8TfnMVpGFGaSDO
@@ -665,13 +1782,19 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2015-08-01 00:00:00.000000000 Z
+  notes: I love this sweater. It shrunk in the wash, and only one section of yarn/knitted
+    material shrunk, so the left side is much shorter at the bottom than the right,
+    which i think is hilarious. Bought it at goodwill in Gramercy.
 - sys:
     id: 71aV2WaJKW3hmQXBwt02TE
     created_at: !ruby/object:DateTime 2019-06-20 19:59:41.171000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:31:54.461000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:33:02.943000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: 'Rainbow Polka dot sweater #1'
+  main_color: black
+  secondary_color: multicolor
   image:
     sys:
       id: 6IQxAlWVHA4Z5eHcsvY1q1
@@ -690,13 +1813,17 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: false
+  when: !ruby/object:DateTime 2013-07-01 00:00:00.000000000 Z
+  label: Sold
 - sys:
     id: 2kAQwogsBZKrzWHOCeGfzX
     created_at: !ruby/object:DateTime 2019-06-20 20:20:19.854000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:32:01.501000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:32:50.315000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Black and white cotton shirt
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: 2rYo5SlG75OKp4wRP10cUQ
@@ -712,13 +1839,18 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2017-05-11 00:00:00.000000000 Z
+  notes: This shirt I bought, thought it was cute, really never wore it. Not my style.
+  label: Gave to Friend
 - sys:
     id: 2aj784694lFGXbN4XL4eKv
     created_at: !ruby/object:DateTime 2019-06-20 20:21:27.904000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:32:25.050000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:32:34.921000000 Z
     content_type_id: item
-    revision: 4
+    revision: 6
   name: Black and white summer dress
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: 2aPcTS93CZqBrhuU5xONBt
@@ -734,13 +1866,19 @@ item:
   brand: Anne Klein
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2013-03-01 00:00:00.000000000 Z
+  notes: This dress i didn't wear much when i first got it because i thought it had
+    to be belted, and when i belted it, it was too short. Now i love it. Tt's sorta
+    indestructable.
 - sys:
     id: 68oOt1nhok1XPPisdaJbUK
     created_at: !ruby/object:DateTime 2019-06-20 20:22:16.082000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:32:32.530000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:32:07.157000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Black and white striped sweater
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: 4q4PlHhwX8JyCq48F1vi9J
@@ -756,13 +1894,17 @@ item:
   brand: No Idea
   price_range: "$10 - $20"
   vintage: true
+  when: !ruby/object:DateTime 2016-03-01 00:00:00.000000000 Z
+  notes: This is just the easiest best sweater. No idea where i got it.
 - sys:
     id: 2i0zfaaTOcTDvX0g3iV3Z1
     created_at: !ruby/object:DateTime 2019-06-20 20:23:41.028000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:32:47.806000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:32:26.118000000 Z
     content_type_id: item
-    revision: 3
+    revision: 7
   name: Super bulky short sleeved sweater
+  main_color: black
+  secondary_color: white
   image:
     sys:
       id: 49y6sM30MhnfHQIIIDHoT
@@ -777,14 +1919,20 @@ item:
   - "#FFFFFF"
   brand: Caché
   price_range: "$10 - $20"
-  vintage: true
+  vintage: false
+  when: !ruby/object:DateTime 2017-07-01 00:00:00.000000000 Z
+  notes: I love this sweater. It's so annoying to pack because it takes up so much
+    space, and it's really good for fall since it's so thick. Love to wear it with
+    a funky all black and white outfit. I got it at Painted Bird in SF (RIP)
 - sys:
     id: 11Voyq8uB14d8gVjvLFYE3
     created_at: !ruby/object:DateTime 2019-06-20 20:25:09.158000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:32:56.752000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:32:17.469000000 Z
     content_type_id: item
-    revision: 3
+    revision: 6
   name: Magenta and purple summer dress
+  main_color: purple
+  secondary_color: pink
   image:
     sys:
       id: 1sdlVpfhDUEFKGfTuq2Yx6
@@ -798,15 +1946,21 @@ item:
   - "#FF1697"
   - "#633DEB"
   brand: No Idea
-  price_range: "$10 - $20"
+  price_range: "$30 - 45"
   vintage: true
+  when: !ruby/object:DateTime 2015-05-01 00:00:00.000000000 Z
+  notes: |-
+    When i first got this dress, i was still in my "put a belt on it" phase. It looks okayyyy with a belt, way better without. Once i got over that i started wearing it all the time - the colors look awesome with a green or red. I frequently tie a light jacket or cardigan around my waist as a psuedo-belt, and to add more color.
+
+    Got it at wasteland in SF, and I remember at the time it felt like way too much money (probably $35) for a simple sheath. But I love it  ¯\_(ツ)_/¯
 - sys:
     id: 2pKZjTq1o861r1a37NuEHn
     created_at: !ruby/object:DateTime 2019-06-20 20:25:59.613000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:27:36.762000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:06.017000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Margaux's crochet cream top
+  main_color: white
   image:
     sys:
       id: 71t1YWzNB7AQuu5ubQK0BE
@@ -818,16 +1972,19 @@ item:
   category: Shirt
   color:
   - "#F6F1E9"
-  brand: No Idea
+  brand: Judith & Charles
   price_range: Free
   vintage: false
+  when: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+  notes: Margaux gave me this as a hand me down. It's her parents fashion brand.
 - sys:
     id: 1aJs9namZTnxHJOFgaUmU0
     created_at: !ruby/object:DateTime 2019-06-20 20:27:51.000000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:27:29.332000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:34:00.684000000 Z
     content_type_id: item
-    revision: 3
+    revision: 5
   name: Cotton purple crop sweater
+  main_color: purple
   image:
     sys:
       id: 3pi2nTVGQhrBFTNbgwo6re
@@ -842,13 +1999,17 @@ item:
   brand: No Idea
   price_range: Under $10
   vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: I bought this in New Orleans i think, on my company retreat. It is the best
+    sweater. Looks so good with a high waisted bottom. I love wearing it with red.
 - sys:
     id: 3yDNqYQOXHSvEFLy9iN1z9
     created_at: !ruby/object:DateTime 2019-06-21 02:49:42.803000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-08 16:27:20.854000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:33:54.338000000 Z
     content_type_id: item
-    revision: 5
+    revision: 7
   name: 80s Rainbow Sweatshirt Dress
+  main_color: multicolor
   image:
     sys:
       id: 51zfvQGDDGse9hMWCBLVCZ
@@ -868,6 +2029,419 @@ item:
   - "#4ACFF7"
   - "#08151A"
   - "#EBF5F5"
-  brand: No Idea
+  brand: Adrienne Vittadini
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
+  notes: I spent (what felt like) too much money on this sloppy sweatshirt sack, but
+    i just thought it was so comfy and i loved it. I think it's from wasteland? maybe
+    some other vintage store.
+- sys:
+    id: qeO6GUcbHqG5BmZCBAXr9
+    created_at: !ruby/object:DateTime 2019-09-17 13:33:20.751000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:49.901000000 Z
+    content_type_id: item
+    revision: 2
+  name: Green and Blue Polka Dot Dress
+  main_color: green
+  secondary_color: blue
+  image:
+    sys:
+      id: 6ErxzevP33VRDaebpV78P6
+      created_at: !ruby/object:DateTime 2019-09-17 13:30:56.643000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 13:30:56.643000000 Z
+    title: Green and blue dress
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6ErxzevP33VRDaebpV78P6/4d4a317c5af4889d09886299b4ed3352/IMG_0569.png"
+  category: Dress
+  color:
+  - "#0497DB"
+  - "#607A02"
+  price_range: "$30 - 45"
+  vintage: true
+  when: !ruby/object:DateTime 2013-09-03 00:00:00.000000000 Z
+  notes: Charlotte got me this dress for my birthday at Pretty Penny on Guerrero (RIP)
+- sys:
+    id: 7r1FyRawDM9S8xvi0GPz2i
+    created_at: !ruby/object:DateTime 2019-09-17 13:35:23.117000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:37:55.757000000 Z
+    content_type_id: item
+    revision: 2
+  name: Chartreuse Chunky Sweater
+  main_color: green
+  image:
+    sys:
+      id: 4tbwO3BqfA7c3ttnwYd5qA
+      created_at: !ruby/object:DateTime 2019-09-17 13:34:03.970000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 13:34:03.970000000 Z
+    title: IMG 0570
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4tbwO3BqfA7c3ttnwYd5qA/de397238f594b0fdfc339e0f40e67459/IMG_0570.png"
+  category: Sweater
+  color:
+  - "#D5D104"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2015-07-15 00:00:00.000000000 Z
+  notes: No idea where, or when i got this. It's very warm and the BEST color.
+- sys:
+    id: 32XOC5gYTR07NBEeBg6PFg
+    created_at: !ruby/object:DateTime 2019-09-17 13:39:37.566000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:00.609000000 Z
+    content_type_id: item
+    revision: 2
+  name: Rainbow Chunky Cardigan
+  main_color: multicolor
+  image:
+    sys:
+      id: 29Ki7lFCmNGgvS46rHa3Oi
+      created_at: !ruby/object:DateTime 2019-09-17 13:36:30.308000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 13:36:30.308000000 Z
+    title: IMG 0571
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/29Ki7lFCmNGgvS46rHa3Oi/714f83c4ea8112f0a3b6dc42b1575897/IMG_0571.png"
+  category: Sweater
+  color:
+  - "#E3C458"
+  - "#CD0505"
+  - "#DC5208"
+  - "#029A5E"
+  - "#049EBD"
+  - "#033496"
+  - "#0D0D0D"
   price_range: "$10 - $20"
   vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: Got this at a really cool used clothing store in New Orleans
+- sys:
+    id: 4tmBFxYhQ8OGyNi1KE0mFS
+    created_at: !ruby/object:DateTime 2019-09-17 15:10:10.937000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:10.485000000 Z
+    content_type_id: item
+    revision: 3
+  name: Chartreuse Cashmere Cardigan
+  main_color: green
+  image:
+    sys:
+      id: 33wkBrOkmGtDvdiJ6yvycI
+      created_at: !ruby/object:DateTime 2019-09-17 15:07:10.675000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:07:10.675000000 Z
+    title: IMG 0572
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/33wkBrOkmGtDvdiJ6yvycI/ead986afe071c1f85731d36a83ba07c8/IMG_0572.png"
+  category: Sweater
+  color:
+  - "#D1E805"
+  brand: White + Warren
+  price_range: Under $10
+  vintage: false
+  when: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 Z
+- sys:
+    id: epGZ8gGFa01OESYWv0FVO
+    created_at: !ruby/object:DateTime 2019-09-17 15:14:27.940000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:05.956000000 Z
+    content_type_id: item
+    revision: 2
+  name: Margaux's Red Cashmere Cardigan
+  main_color: red
+  image:
+    sys:
+      id: 1WQfhUzE0J1jIdhZiWaQPC
+      created_at: !ruby/object:DateTime 2019-09-17 15:11:20.403000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:11:20.403000000 Z
+    title: IMG 0573
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1WQfhUzE0J1jIdhZiWaQPC/86ee2cbd851cc5ab497db7e0a8715c4f/IMG_0573.png"
+  category: Sweater
+  color:
+  - "#FF331B"
+  brand: Daslu
+  price_range: Free
+  vintage: false
+  when: !ruby/object:DateTime 2018-12-21 00:00:00.000000000 Z
+  notes: This sweater was a hand me down. It's the best thing ever and sadly has many
+    holes in it, but i still wear it all the time.
+- sys:
+    id: 5tb3v0gUhsdDaX2hVHj2Ts
+    created_at: !ruby/object:DateTime 2019-09-17 18:56:05.750000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:17.637000000 Z
+    content_type_id: item
+    revision: 2
+  name: Chartreuse Mini Dress
+  main_color: green
+  image:
+    sys:
+      id: 4USOoIWxn6V9iawHqICggW
+      created_at: !ruby/object:DateTime 2019-09-17 18:54:49.614000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 18:54:49.614000000 Z
+    title: IMG 0574
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4USOoIWxn6V9iawHqICggW/47696cd10edeaf86c3349ea1d651c555/IMG_0574.png"
+  category: Dress
+  color:
+  - "#D1DB04"
+  brand: Forever 21
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2014-08-13 00:00:00.000000000 Z
+  notes: This was a surprisingly well made forever 21 dress. I really liked it, but
+    it started to rip and has a crazy wine stain on the front now.
+  label: Gave Away
+- sys:
+    id: 50f9WLo2JqpbHaR8Ub2Bdc
+    created_at: !ruby/object:DateTime 2019-09-17 18:57:32.242000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:23.046000000 Z
+    content_type_id: item
+    revision: 2
+  name: Yellow Short Sleeve Sweater
+  main_color: yellow
+  image:
+    sys:
+      id: 7EskG8cnXDaKpJWWq2fiJ0
+      created_at: !ruby/object:DateTime 2019-09-17 18:57:03.808000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 18:57:03.808000000 Z
+    title: IMG 0575
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7EskG8cnXDaKpJWWq2fiJ0/167c33bab17660fa3e4d8f7622e845e0/IMG_0575.png"
+  category: Shirt
+  color:
+  - "#F2D505"
+  brand: No Idea
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: Got this at a thrift store in new orleans
+- sys:
+    id: 4anAypOgQSEuWQm4JjPuKB
+    created_at: !ruby/object:DateTime 2019-09-17 19:01:56.841000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:37.322000000 Z
+    content_type_id: item
+    revision: 2
+  name: Primary Pattern Frock
+  main_color: red
+  secondary_color: multicolor
+  image:
+    sys:
+      id: tAtK7OkSN14ODHbysfLuG
+      created_at: !ruby/object:DateTime 2019-09-17 18:59:09.203000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 18:59:09.203000000 Z
+    title: IMG 0576
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/tAtK7OkSN14ODHbysfLuG/303c2ad15f49f6a27648f962f4545828/IMG_0576.png"
+  category: Dress
+  color:
+  - "#F20504"
+  - "#113599"
+  - "#FFF41F"
+  - "#02912A"
+  brand: No Idea
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2016-10-01 00:00:00.000000000 Z
+  notes: I love this dress. Many people over the age of 40 tell me it looks like something
+    they made in Home Ec class haha. Goes with all my other colors I own!
+- sys:
+    id: 3BGziZxCOkAjh9ZoOT3hLA
+    created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:42.483000000 Z
+    content_type_id: item
+    revision: 2
+  name: Neon Orange Sweater
+  main_color: orange
+  image:
+    sys:
+      id: 1Aw1PuHxQTatD5tF7YRMab
+      created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+    title: IMG 0577
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+  category: Sweater
+  color:
+  - "#FF8C00"
+  brand: Obermeyer
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+  notes: I think I got this at wasteland. Didn't wear it for a long time, and now
+    it's my favorite.
+- sys:
+    id: 2Xbjx2CsSMoyEialbIHZ6R
+    created_at: !ruby/object:DateTime 2019-09-18 21:06:12.032000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:52.288000000 Z
+    content_type_id: item
+    revision: 2
+  name: Red Sequin Top
+  main_color: red
+  secondary_color: black
+  image:
+    sys:
+      id: 4dCm9AcmzxBZkfmzuCmUVc
+      created_at: !ruby/object:DateTime 2019-09-18 21:05:01.386000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:05:01.386000000 Z
+    title: IMG 0578
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4dCm9AcmzxBZkfmzuCmUVc/e3ca9680266426228765d32146d34366/IMG_0578.png"
+  category: Shirt
+  color:
+  - "#DE2A2A"
+  - "#0D0D0D"
+  brand: No Idea
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2019-03-28 00:00:00.000000000 Z
+  notes: Got this at El Sobrante Thrift Town before my sister's 40th bday party.
+- sys:
+    id: 1mozvTbvs8Kh3XiM8RxXbv
+    created_at: !ruby/object:DateTime 2019-09-18 21:07:40.145000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:38:57.316000000 Z
+    content_type_id: item
+    revision: 2
+  name: Mock Neck Red Cashmere Sweater
+  main_color: red
+  image:
+    sys:
+      id: YRQ3KOJoYMgWNqa381dqV
+      created_at: !ruby/object:DateTime 2019-09-18 21:06:56.708000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:06:56.708000000 Z
+    title: IMG 0579
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/YRQ3KOJoYMgWNqa381dqV/b86c57936de7f58fa6124c0b4fade419/IMG_0579.png"
+  category: Sweater
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  notes: Got this in the big ole New Orleans thrift haul.
+- sys:
+    id: 5BUA7HSYyUnBl37i105Yqf
+    created_at: !ruby/object:DateTime 2019-09-18 21:09:25.735000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:39:04.270000000 Z
+    content_type_id: item
+    revision: 2
+  name: Cropped Red Wool Short Sleeve Button Down
+  main_color: red
+  image:
+    sys:
+      id: 2FtfSnnBls6BNCoDCSyVTG
+      created_at: !ruby/object:DateTime 2019-09-18 21:08:12.776000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:08:50.679000000 Z
+    title: IMG 0580
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2FtfSnnBls6BNCoDCSyVTG/0cd087031b383b850791a767b62e6b41/IMG_0580.png"
+  category: Shirt
+  color:
+  - "#E02A2A"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-01-04 00:00:00.000000000 Z
+- sys:
+    id: 4zFB0g689dWY7szkUB5djR
+    created_at: !ruby/object:DateTime 2019-09-18 21:12:53.890000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:39:12.016000000 Z
+    content_type_id: item
+    revision: 2
+  name: Silky Rainbow Long Sleeve Blouse
+  main_color: red
+  secondary_color: multicolor
+  image:
+    sys:
+      id: LCJjiGrISVdmbsfI3XA2t
+      created_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+    title: IMG 0581
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/dab0a24c4ae86ce305a88e781e7fc7fa/IMG_0581.png"
+  category: Shirt
+  color:
+  - "#DD0404"
+  - "#220881"
+  - "#F27289"
+  - "#FEB15E"
+  - "#FED7B5"
+  - "#64A58F"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2013-11-21 00:00:00.000000000 Z
+  notes: I got this at a thrift store across the parking lot from Duarte's in Pescadero.
+    Tiny shop, ran over while my parents were paying the lunch bill.
+- sys:
+    id: 6ieunWAkaAXYMUhSNB8b2F
+    created_at: !ruby/object:DateTime 2019-09-18 21:14:22.788000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:39:18.397000000 Z
+    content_type_id: item
+    revision: 2
+  name: Hot Pink Work Shirt
+  main_color: pink
+  image:
+    sys:
+      id: 5r5RqLud0gKvFwGH2NKpNn
+      created_at: !ruby/object:DateTime 2019-09-18 21:13:34.794000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:13:34.794000000 Z
+    title: IMG 0582
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5r5RqLud0gKvFwGH2NKpNn/075489d8b976fce5c9f72a4b92511682/IMG_0582.png"
+  category: Shirt
+  color:
+  - "#F53C71"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-01-30 00:00:00.000000000 Z
+  notes: Got it at Park Slope Beacon's Closet
+- sys:
+    id: JNVSsyhZlSn5NOWy5rzwE
+    created_at: !ruby/object:DateTime 2019-09-18 21:20:16.396000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:33:29.597000000 Z
+    content_type_id: item
+    revision: 4
+  name: Fun Beach Romper
+  main_color: multicolor
+  image:
+    sys:
+      id: 5WBi7dHp4mHDsk1tmfYTQG
+      created_at: !ruby/object:DateTime 2019-09-18 21:18:05.386000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:18:05.386000000 Z
+    title: IMG 0583
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5WBi7dHp4mHDsk1tmfYTQG/63981249c079966d0fde30f226b5c6d2/IMG_0583.png"
+  category: Jumpsuit
+  color:
+  - "#D95546"
+  - "#D94E9C"
+  - "#8DD5DA"
+  - "#F2E205"
+  - "#8DD5C2"
+  - "#8884D9"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-05-02 00:00:00.000000000 Z
+  notes: This is my beach uniform. Not sure where I got it....
+- sys:
+    id: 7mmmqNCdPVUx90JsgCbMty
+    created_at: !ruby/object:DateTime 2019-09-18 21:24:35.833000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-19 12:31:29.564000000 Z
+    content_type_id: item
+    revision: 2
+  name: Fun Navy Bird Smock
+  main_color: blue
+  image:
+    sys:
+      id: 3EvV3wryARAdNKp7QcENnI
+      created_at: !ruby/object:DateTime 2019-09-18 21:20:59.797000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-18 21:21:16.891000000 Z
+    title: IMG 0584
+    description: item
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3EvV3wryARAdNKp7QcENnI/4aeb958b0bb99fa161173cb82cac6fd4/IMG_0584.png"
+  category: Dress
+  color:
+  - "#0A0C58"
+  - "#37A6CF"
+  - "#1CA38A"
+  - "#73338F"
+  - "#D11D38"
+  - "#F4DF55"
+  - "#D64782"
+  - "#EDF3F9"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2016-09-11 00:00:00.000000000 Z
+  notes: Got this at wasteland!

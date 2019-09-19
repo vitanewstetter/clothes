@@ -3,6 +3,7 @@
 // Main SCSS file
 //
 //-------------------------------------------
+@import 'things/_vars';
 
 *,
 *::before,
@@ -16,7 +17,7 @@ a {
     cursor: pointer;
     outline: none;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 html, body {
@@ -31,8 +32,30 @@ body.is-fixed {
   overflow: hidden;
 }
 
-@import 'things/vars';
-@import 'things/headers';
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  transition: all $speed $ease;
+}
 
-@import 'pages/items';
-@import 'pages/subpage';
+.text {
+  p + p {
+    margin-top: 8px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.no-click {
+  pointer-events: none;
+}
+
+@import 'things/_headers';
+
+@import 'pages/_items';
+
+@import 'pages/_subpage';

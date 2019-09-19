@@ -1,0 +1,12 @@
+.item__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: $header;
+  padding: 0 16px 16px 16px;
+}
+
+.item {
+  margin-top: 16px;
+  width: calc(20% - 20px);
+}
