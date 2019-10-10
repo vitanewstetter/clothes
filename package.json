@@ -37,6 +37,7 @@
   "dependencies": {
     "es6-promise": "^4.2.4",
     "imagesloaded": "^4.1.4",
+    "infinite-scroll": "^3.0.6",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",

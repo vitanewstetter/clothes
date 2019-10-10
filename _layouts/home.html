@@ -8,19 +8,24 @@ layout: default
   {% assign data = site.data.closet.item %}
   {% assign path = 'items' %}
 {% endif %}
+
+{% assign types = 'shirt, sweater, skirt, pants, dress, jumpsuit, outerwear, shoes' | split: ', ' %}
+{% assign colors = 'red, orange, yellow, green, blue, purple, pink' | split: ', '%}
 <section class="section">
   <div class="header">
     <div class="header__item header__item--type">
-      <p>shirt</p>
+      <p id="selected-type">Show All</p>
+      <div class="header__type-dropdown">
+        {% for type in types %}
+          <a class="header__type" data-type="{{type}}">{{type}}</a>
+        {% endfor %}
+          <a class="header__type" data-type="*">Show All</a>
+      </div>
     </div>
     <div class="header__item header__item--color">
-      <div class="header__color-block" data-color='red'></div>
-      <div class="header__color-block" data-color='orange'></div>
-      <div class="header__color-block" data-color='yellow'></div>
-      <div class="header__color-block is-active" data-color='green'></div>
-      <div class="header__color-block" data-color='blue'></div>
-      <div class="header__color-block" data-color='purple'></div>
-      <div class="header__color-block" data-color='pink'></div>
+      {% for color in colors %}
+        <div class="header__color-block" data-color={{color}}></div>
+      {% endfor %}
       <div class="header__color-block header__color-block--sm" data-color='white'></div>
       <div class="header__color-block header__color-block--sm" data-color='metallic'></div>
       <div class="header__color-block header__color-block--sm" data-color='black'></div>
@@ -36,17 +41,10 @@ layout: default
   {{content}}
 </div>
 <section>
-  <div class="item__grid">
-  {% for item in data %}
-    {% assign slug = item.name | replace: "'", "" | slugify  %}
-    <a
-      data-main-color="{{item.main_color}}"
-      data-secondary-color="{{item.secondary_color}}"
-      class="item {{item.main_color}} {{item.secondary_color}} {{item.category | lowercase}}"
-      data-name="{{item.name}}"
-      href="/{{path}}/{{slug}}">
-      <img src="{{item.image.url}}" class="no-click"/>
-    </a>
-  {% endfor %}
+  <div class="item__grid hidden">
   </div>
 </section>
+
+<script id="bootstrap-items">
+  {{ data|jsonify }}
+</script>

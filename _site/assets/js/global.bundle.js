@@ -14500,17 +14500,23 @@ var _isotopeLayout = __webpack_require__(/*! isotope-layout */ "./node_modules/i
 
 var _isotopeLayout2 = _interopRequireDefault(_isotopeLayout);
 
+var _utils = __webpack_require__(/*! ./utils */ "./source/js/utils.js");
+
 var _imagesloaded = __webpack_require__(/*! imagesloaded */ "./node_modules/imagesloaded/imagesloaded.js");
 
 var _imagesloaded2 = _interopRequireDefault(_imagesloaded);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var isotope = null;
+var items = (0, _utils.shuffleArray)((0, _utils.bootstrapData)('items'));
+var itemsToAdd = 25;
+var idx = 0;
+var grid = initializeIsotope('.item__grid');
+var url = window.location.href.includes('looks') ? '/outfits' : '/';
+var path = window.location.pathname.includes('outfit') ? 'looks' : 'items';
 
-(0, _imagesloaded2.default)('.item__grid', function () {
-  initializeIsotope('.item__grid');
-});
+addItems();
+(0, _imagesloaded2.default)('.item__grid', removeHiddenClass);
 
 (0, _imagesloaded2.default)('.subpage__grid', function () {
   initializeIsotope('.subpage__grid');
@@ -14523,8 +14529,59 @@ document.addEventListener('click', function (e) {
     closeSubpage();
   } else if (e.target.classList.contains('header__color-block')) {
     selectColor(e);
+  } else if (e.target.classList.contains('header__type')) {
+    selectType(e);
   }
 });
+
+document.addEventListener('scroll', function () {
+  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 100) {
+    if (items.length > grid.items.length) addItems();
+    (0, _imagesloaded2.default)('.item__grid', removeHiddenClass);
+  }
+});
+
+/**
+ * Adds next group of items to the grid
+ * @param {MouseEvent} e - click event
+ */
+function addItems() {
+  var arr = [];
+  var gridEl = document.querySelector('.item__grid');
+  for (var i = 0; i < itemsToAdd; i++) {
+    var item = items[i + idx];
+    if (item) {
+      var el = document.createElement('a');
+
+      el.classList.add('item', 'hidden');
+
+      if (path == 'items') {
+        el.classList.add(item.main_color, item.secondary_color, item.category.toLowerCase());
+      }
+      // else el.dataSet.date = item.date;
+
+      el.href = '/' + path + '/' + (0, _utils.slugify)(item.name);
+      el.innerHTML = '<img src="' + item.image.url + '" class="no-click" />';
+      arr.push(el);
+      gridEl.appendChild(el);
+    };
+  }
+  idx += itemsToAdd;
+  grid.appended(arr);
+};
+
+/**
+ * Remove hidden class for all items, once they've loaded
+ * @param {MouseEvent} e - click event
+ */
+function removeHiddenClass() {
+  grid.arrange();
+  grid.element.classList.remove('hidden');
+  var items = document.querySelectorAll('.item');
+  items.forEach(function (el) {
+    el.classList.remove('hidden');
+  });
+}
 
 /**
  * Opens the subpage, with content from generated HTML file
@@ -14555,8 +14612,6 @@ function openSubpage(e) {
 function closeSubpage() {
   var sp = document.getElementById('subpage-wrapper');
   sp.classList.add('is-hidden');
-
-  var url = window.location.href.includes('looks') ? '/outfits' : '/';
   if (window.location.href.includes('looks')) document.title = 'Outfits';else document.title = 'Closet';
 
   history.pushState('', name, url);
@@ -14569,14 +14624,20 @@ function closeSubpage() {
 /**
  * initialize isotope
  * @param {Element} selector
+ * @return {Element}
  */
 function initializeIsotope(selector) {
   if (document.querySelector(selector)) {
-    isotope = new _isotopeLayout2.default(selector, {
+    return new _isotopeLayout2.default(selector, {
+      hiddenStyle: {
+        opacity: 0
+      },
+      visibleStyle: {
+        opacity: 1
+      },
       itemSelector: '.item',
       percentPosition: true,
       layoutMode: 'masonry',
-      sortBy: 'random',
       masonry: {
         gutter: 16
       },
@@ -14593,16 +14654,96 @@ function initializeIsotope(selector) {
  * @param {Event} e
  */
 function selectColor(e) {
-  // const allColors = document.querySelectorAll('.header__color-block');
-  // allColors.forEach((block) => {
-  //   block.classList.remove('is-active');
-  // });
-  isotope.arrange({
+  grid.arrange({
     filter: '.' + e.target.dataset.color
   });
-  // console.log(el);
-  // el.classList.add('is-active');
-  // console.log(el.dataset.color);
+}
+
+/**
+ * select type of clothing
+ * @param {Event} e
+ */
+function selectType(e) {
+  if (e.target.dataset.type === '*') {
+    grid.arrange({
+      filter: ''
+    });
+  } else {
+    grid.arrange({
+      filter: '.' + e.target.dataset.type
+    });
+  }
+}
+
+/***/ }),
+
+/***/ "./source/js/utils.js":
+/*!****************************!*\
+  !*** ./source/js/utils.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.bootstrapData = bootstrapData;
+exports.shuffleArray = shuffleArray;
+exports.slugify = slugify;
+/**
+ * Loads data stored within a DOM element using the `bootstrap` namespace
+ * @param  {string} id
+ * @return {(Object|undefined)}
+ */
+function bootstrapData(id) {
+  var el = document.getElementById('bootstrap-' + id);
+
+  if (el == null) return {};
+
+  var escapedData = el.innerHTML;
+  var div = document.createElement('div');
+
+  div.innerHTML = escapedData;
+  return JSON.parse(div.innerText);
+}
+
+/**
+ * Shuffles all array elements in place
+ * @param  {array} array
+ * @return {array}
+ */
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var _ref = [array[j], array[i]];
+    array[i] = _ref[0];
+    array[j] = _ref[1];
+  }
+  return array;
+}
+
+/**
+ * Returns slugified text
+ * @param  {String} string
+ * @return {array}
+ */
+function slugify(string) {
+  var a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;';
+  var b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiilmnnnnooooooooprrsssssttuuuuuuuuuwxyyzzz------';
+  var p = new RegExp(a.split('').join('|'), 'g');
+
+  return string.toString().toLowerCase().replace(/\s+/g, '-') // Replace spaces with -
+  .replace(p, function (c) {
+    return b.charAt(a.indexOf(c));
+  }) // Replace special characters
+  .replace(/&/g, '-and-') // Replace & with 'and'
+  .replace(/[^\w\-]+/g, '') // Remove all non-word characters
+  .replace(/\-\-+/g, '-') // Replace multiple - with single -
+  .replace(/^-+/, '') // Trim - from start of text
+  .replace(/-+$/, ''); // Trim - from end of text
 }
 
 /***/ }),
