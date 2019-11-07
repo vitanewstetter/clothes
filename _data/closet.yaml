@@ -2446,3 +2446,316 @@ item:
   vintage: true
   when: !ruby/object:DateTime 2016-09-11 00:00:00.000000000 Z
   notes: Got this at wasteland!
+- sys:
+    id: 6dsvWBwLumqxl2JmYw347I
+    created_at: !ruby/object:DateTime 2019-10-10 23:26:03.847000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:26:03.847000000 Z
+    content_type_id: item
+    revision: 1
+  name: Black Embroidered Tshirt
+  main_color: black
+  secondary_color: multicolor
+  image:
+    sys:
+      id: 3se1Gk6uvoGULpjDE5E95D
+      created_at: !ruby/object:DateTime 2019-10-10 20:50:24.662000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 20:50:24.662000000 Z
+    title: IMG 0585
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3se1Gk6uvoGULpjDE5E95D/7b98be82c040ffad463bce25fa8af124/IMG_0585.png"
+  category: Shirt
+  color:
+  - "#007849"
+  - "#0D0D0D"
+  - "#F2DB52"
+  - "#C40000"
+  - "#4BAED2"
+  - "#D9751C"
+  - "#E06C83"
+  - "#3C2A84"
+  - "#86724E"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2015-03-25 00:00:00.000000000 Z
+  notes: No idea where i got this shirt. For a long time, it was my only tshirt that
+    i wore.
+- sys:
+    id: 4EQgRgZQ4mlSc7PdZOc0Io
+    created_at: !ruby/object:DateTime 2019-10-10 23:30:57.989000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:30:57.989000000 Z
+    content_type_id: item
+    revision: 1
+  name: Lame Striped Tshirt Dress
+  main_color: white
+  secondary_color: black
+  image:
+    sys:
+      id: 4SIPOlc5fuNtszPFA1zVzL
+      created_at: !ruby/object:DateTime 2019-10-10 23:29:40.275000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:29:40.275000000 Z
+    title: IMG 0586
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4SIPOlc5fuNtszPFA1zVzL/d98277748396f2603b7c88c22315bb5b/IMG_0586.png"
+  category: Dress
+  color:
+  - "#001135"
+  - "#F2F8F2"
+  brand: J Crew
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2014-02-01 00:00:00.000000000 Z
+  notes: This dress is lame, but it's comfy. I bring it out in summer.
+- sys:
+    id: 6QwSn2eHuZHPQNRnnBlMI3
+    created_at: !ruby/object:DateTime 2019-10-10 23:33:33.571000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:33:33.571000000 Z
+    content_type_id: item
+    revision: 1
+  name: Red Mock Neck Sleeveless Sweater
+  main_color: red
+  image:
+    sys:
+      id: 3sAZuS7GqBylXS5KbLLVct
+      created_at: !ruby/object:DateTime 2019-10-10 23:32:07.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:32:07.748000000 Z
+    title: IMG 0588
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3sAZuS7GqBylXS5KbLLVct/09e48c6bcc69eed884559a5b508fbe0e/IMG_0588.png"
+  category: Shirt
+  color:
+  - "#DB212E"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-03-07 00:00:00.000000000 Z
+  notes: I have never worn this. lol. It's sorta itchy.
+- sys:
+    id: 4rRE1NoYRam3DhUzkGHQqb
+    created_at: !ruby/object:DateTime 2019-10-10 23:38:27.435000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:38:27.435000000 Z
+    content_type_id: item
+    revision: 1
+  name: Yellow and White Striped Button Down
+  main_color: yellow
+  secondary_color: white
+  image:
+    sys:
+      id: 1nMsTtVS8AjAaRzwWnTfbd
+      created_at: !ruby/object:DateTime 2019-10-10 23:38:00.883000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:38:00.883000000 Z
+    title: IMG 0589
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1nMsTtVS8AjAaRzwWnTfbd/c297a1f2ab6aafb3d979398d99d2ba7c/IMG_0589.png"
+  category: Shirt
+  color:
+  - "#F2E205"
+  - "#FFF"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2016-10-12 00:00:00.000000000 Z
+- sys:
+    id: 5S3ryFB4qARY6Ye5NNbYPW
+    created_at: !ruby/object:DateTime 2019-10-10 23:44:36.820000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:44:36.821000000 Z
+    content_type_id: item
+    revision: 1
+  name: Striped Rainbow Smock Dress
+  main_color: multicolor
+  image:
+    sys:
+      id: rTPA5wOUdopwlpTnOwwzU
+      created_at: !ruby/object:DateTime 2019-10-10 23:41:45.941000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:41:45.941000000 Z
+    title: IMG 0590
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/rTPA5wOUdopwlpTnOwwzU/9612e2dffd000930e8400e2853049e20/IMG_0590.png"
+  category: Dress
+  color:
+  - "#BF046B"
+  - "#038C3E"
+  - "#F2D605"
+  - "#F20505"
+  - "#009BC2"
+  - "#860665"
+  - "#0A189D"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2015-12-10 00:00:00.000000000 Z
+  notes: This dress is the best.
+- sys:
+    id: 2dIK2CE9ElDn5EaW47KPrl
+    created_at: !ruby/object:DateTime 2019-10-10 23:46:50.688000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:46:50.688000000 Z
+    content_type_id: item
+    revision: 1
+  name: Simple Cargo Green Tank Top
+  main_color: green
+  image:
+    sys:
+      id: 2hKvyG7uR2NNO3abcptWM2
+      created_at: !ruby/object:DateTime 2019-10-10 23:45:43.832000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:45:43.832000000 Z
+    title: IMG 0591
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2hKvyG7uR2NNO3abcptWM2/2b809d88b01804a341311abc980dd4cb/IMG_0591.png"
+  category: Shirt
+  color:
+  - "#594C02"
+  brand: Old Navy
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2016-06-01 00:00:00.000000000 Z
+  notes: Bought this right before my summer internship in San Francisco (2015)
+- sys:
+    id: 3e6ckvAEGVaHiWPtlaZdia
+    created_at: !ruby/object:DateTime 2019-10-10 23:52:48.329000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-10 23:52:48.329000000 Z
+    content_type_id: item
+    revision: 1
+  name: White Flower Sleeveless Dress
+  main_color: white
+  image:
+    sys:
+      id: wZh28aWgwWz1xPVA0jxRA
+      created_at: !ruby/object:DateTime 2019-10-10 23:51:00.168000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:51:00.168000000 Z
+    title: IMG 0592
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/wZh28aWgwWz1xPVA0jxRA/f6285f782da11d6cd5646312d53785fd/IMG_0592.png"
+  category: Dress
+  color:
+  - "#ECE6E4"
+  brand: All That Jazz
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2016-09-08 00:00:00.000000000 Z
+  notes: This is charlottes dress, she lent it to me semi permanently until she lives
+    somewhere that is *ever* warm enough
+- sys:
+    id: Kc7GOhJbxM4JHKBeLFgaX
+    created_at: !ruby/object:DateTime 2019-10-11 00:00:07.351000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-11 00:00:07.351000000 Z
+    content_type_id: item
+    revision: 1
+  name: Weird Tiny Teapot Sweater
+  main_color: multicolor
+  image:
+    sys:
+      id: 7LhYCxDdsZltyAg9R1ALOT
+      created_at: !ruby/object:DateTime 2019-10-10 23:57:40.330000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-10 23:57:40.330000000 Z
+    title: IMG 0593
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7LhYCxDdsZltyAg9R1ALOT/b3750318bc8222fd9ee71dc026223355/IMG_0593.png"
+  category: Sweater
+  color:
+  - "#FFCF27"
+  - "#BF3681"
+  - "#C90F1E"
+  - "#037FB5"
+  - "#0D0D0D"
+  - "#6DA069"
+  - "#DADADA"
+  - "#223179"
+  vintage: true
+  when: !ruby/object:DateTime 2017-03-01 00:00:00.000000000 Z
+  notes: This is a child's sweater.
+- sys:
+    id: 79Ar1hsCvEdDU5HencLJSD
+    created_at: !ruby/object:DateTime 2019-10-11 00:03:29.547000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-11 00:03:29.547000000 Z
+    content_type_id: item
+    revision: 1
+  name: Striped Long Sleeve Button Down
+  main_color: multicolor
+  image:
+    sys:
+      id: 3bEcnSRhAG6nhakp1f7nxA
+      created_at: !ruby/object:DateTime 2019-10-11 00:01:01.895000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-11 00:01:01.895000000 Z
+    title: IMG 0594
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3bEcnSRhAG6nhakp1f7nxA/f6544d3e8cff9e99080bd7dacf5ac805/IMG_0594.png"
+  category: Shirt
+  color:
+  - "#C92E33"
+  - "#7258A0"
+  - "#038CAB"
+  - "#EDC856"
+  - "#46935E"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2016-03-02 00:00:00.000000000 Z
+  notes: Comfy
+- sys:
+    id: 32gYr2a4HZMvd6czn3wzOu
+    created_at: !ruby/object:DateTime 2019-10-11 00:13:54.497000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-11 00:13:54.497000000 Z
+    content_type_id: item
+    revision: 1
+  name: Ghost World Printed Button Down
+  main_color: multicolor
+  image:
+    sys:
+      id: 7IHPJU0M7CNJLa2LAdqJie
+      created_at: !ruby/object:DateTime 2019-10-11 00:11:18.783000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-11 00:11:18.783000000 Z
+    title: IMG 0595
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7IHPJU0M7CNJLa2LAdqJie/933cbcc4a22df25346b5894d4759ed81/IMG_0595.png"
+  category: Shirt
+  color:
+  - "#633F7E"
+  - "#F9C2B1"
+  - "#738CBF"
+  - "#D93030"
+  - "#B593C1"
+  brand: Print All Over Me
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2016-05-30 00:00:00.000000000 Z
+  notes: This is a print all over me shirt that somebody printed (custom) and i got
+    it at a thirft store.
+- sys:
+    id: 38nrTVKe3RkaiM0idRpcnc
+    created_at: !ruby/object:DateTime 2019-10-11 00:15:28.046000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-11 00:15:28.046000000 Z
+    content_type_id: item
+    revision: 1
+  name: Yellow Plain Tank
+  main_color: yellow
+  image:
+    sys:
+      id: 6CKaREnxUmc4yEazNSJr20
+      created_at: !ruby/object:DateTime 2019-10-11 00:14:51.735000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-11 00:14:51.735000000 Z
+    title: IMG 0596
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6CKaREnxUmc4yEazNSJr20/b3e6cd0605afabbc1cf46712ae2ddd03/IMG_0596.png"
+  category: Shirt
+  color:
+  - "#F2CB05"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2015-07-08 00:00:00.000000000 Z
+- sys:
+    id: 5ruvo2ITvShbNaUCmydnyt
+    created_at: !ruby/object:DateTime 2019-10-11 01:04:57.784000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-11 01:04:57.784000000 Z
+    content_type_id: item
+    revision: 1
+  name: Dark Gray Cabled Cashmere Cardigan
+  main_color: black
+  image:
+    sys:
+      id: 4oWX8VjfyNncq0GwNax6MU
+      created_at: !ruby/object:DateTime 2019-10-11 00:37:54.198000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-11 00:37:54.198000000 Z
+    title: IMG 0603
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4oWX8VjfyNncq0GwNax6MU/1ef98bcada5a466533f2f2ccbb7bff5b/IMG_0603.png"
+  category: Sweater
+  color:
+  - "#383838"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2017-06-14 00:00:00.000000000 Z

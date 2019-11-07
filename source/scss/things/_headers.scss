@@ -3,103 +3,197 @@
 // Headers
 //
 //-------------------------------------------
-.header {
-  border-bottom: 1px solid$black;
-  border-top: 1px solid $black;
+nav {
+  border: 2px solid $black;
   display: flex;
-  height: $header;
-  position: fixed;
-  top: 0;
+  flex-direction: column;
+  height: 100%;
+  max-width: $nav;
   width: 100%;
+}
+
+.nav__types {
+  display: flex;
+  flex: 1 1 20%;
+  flex-direction: column;
+  font-size: 40px;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nav__types-item {
   z-index: 1;
 }
 
-.header__item {
-  flex: 1 1 33%;
-  height: 100%;
-  text-align: center;
+.nav__types-item.selected {
+  color: $green;
 }
 
-.header__item--category {
-  align-items: center;
-  display: flex;
-  font-size: 24px;
-  justify-content: space-around;
-  position: relative;
-  text-transform: uppercase;
-
-  .header__category {
-    color: $black;
-  }
-  .header__category + .header__category {
-    color: $green;
-  }
-}
-
-.header__item--category svg {
+.nav__types svg {
   height: 100%;
   position: absolute;
+  top: 0;
   width: 100%;
-  z-index: -1;
 }
 
-.header__item--category.outfits {
-  .header__category {
-    color: $green;
-  }
-  .header__category + .header__category {
-    color: $black;
-  }
+.outfits .nav__types svg {
+  transform: rotateZ(180deg);
 }
 
-.header__item--color {
-  background: -moz-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-  background: -webkit-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-  background: linear-gradient(to right, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-  border-left: 1px solid $black;
-  border-right: 1px solid $black;
-  display: flex;
-}
-
-.header__color-block {
-  flex: 2 1 auto;
-  height: 100%;
-  position: relative;
-}
-
-.header__color-block--sm {
-  flex: 1 1 auto;
-}
-
-.header__item--type {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  background-color: $white;
-  position: relative;
-  text-transform: uppercase;
-}
-
-.header__type-dropdown {
-  background-color: $white;
-  border-top: 1px solid $black;
+.nav__colors {
+  border-bottom: 2px solid $black;
+  border-top: 2px solid $black;
   display: flex;
   flex-wrap: wrap;
-  height: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 100%;
-  transition: height $speed ease-in-out;
-  width: 100%;
+  flex: 1 1 40%;
+  justify-content: space-around;
+  padding: 16px 0;
 }
 
-.header__item--type:hover .header__type-dropdown  {
-  height: 232px;
+.nav__color {
+  background-size: cover;
+  background-position: center;
+  border: 2px solid $black;
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
 }
 
-.header__type {
-  border: solid $black;
-  border-width: 0 1px 1px 0;
-  flex: 1 1 50%;
-  padding: 12px;
+.nav__color--all {
+  align-items: center;
+  border: none;
+  display: flex;
+  justify-content: center;
 }
+
+.nav__color--all svg {
+  pointer-events: none;
+}
+
+
+
+// .header {
+//   border-bottom: 1px solid$black;
+//   border-top: 1px solid $black;
+//   display: flex;
+//   height: $header;
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+//   z-index: 1;
+
+//   @media screen and (max-width: 800px) {
+//     height: calc(3 * $m-header);
+//     flex-wrap: wrap;
+//   }
+// }
+
+// .header__item {
+//   flex: 1 1 33%;
+//   height: 100%;
+//   text-align: center;
+//   @media screen and (max-width: 800px) {
+//     flex: 0 0 auto;
+//     height: $m-header;
+//     width: 100%;
+//   }
+// }
+
+// .header__item--category {
+//   align-items: center;
+//   display: flex;
+//   font-size: 24px;
+//   justify-content: space-around;
+//   position: relative;
+//   text-transform: uppercase;
+
+//   .header__category {
+//     color: $black;
+//   }
+//   .header__category + .header__category {
+//     color: $green;
+//   }
+//   @media screen and (max-width: 800px) {
+//     order: 1;
+//   }
+// }
+
+// .header__item--category svg {
+//   height: 100%;
+//   position: absolute;
+//   width: 100%;
+//   z-index: -1;
+// }
+
+// .header__item--category.outfits {
+//   .header__category {
+//     color: $green;
+//   }
+//   .header__category + .header__category {
+//     color: $black;
+//   }
+// }
+
+// .header__item--color {
+//   background: -moz-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
+//   background: -webkit-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
+//   background: linear-gradient(to right, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
+//   border-left: 1px solid $black;
+//   border-right: 1px solid $black;
+//   display: flex;
+
+//   @media screen and (max-width: 800px) {
+//     border-bottom: 1px solid $black;
+//     border-top: 1px solid $black;
+//     order: 2;
+//   }
+// }
+
+// .header__color-block {
+//   flex: 2 1 auto;
+//   height: 100%;
+//   position: relative;
+// }
+
+// .header__color-block--sm {
+//   flex: 1 1 auto;
+// }
+
+// .header__item--type {
+//   align-items: center;
+//   display: flex;
+//   justify-content: center;
+//   background-color: $white;
+//   position: relative;
+//   text-transform: uppercase;
+//   @media screen and (max-width: 800px) {
+//     order: 3;
+//   }
+// }
+
+// .header__type-dropdown {
+//   background-color: $white;
+//   border-top: 1px solid $black;
+//   display: flex;
+//   flex-wrap: wrap;
+//   height: 0;
+//   overflow: hidden;
+//   position: absolute;
+//   top: 100%;
+//   transition: height $speed ease-in-out;
+//   width: 100%;
+// }
+
+// .header__item--type:hover .header__type-dropdown  {
+//   height: 232px;
+// }
+
+// .header__type {
+//   border: solid $black;
+//   border-width: 0 1px 1px 0;
+//   flex: 1 1 50%;
+//   padding: 12px;
+// }

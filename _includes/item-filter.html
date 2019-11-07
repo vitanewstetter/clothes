@@ -1,0 +1,19 @@
+<nav>
+  <div class="nav__types">
+    {% include types.svg %}
+    <a href="/" class="nav__types-item selected">Items</a>
+    <a href="/outfits" class="nav__types-item">Outfits</a>
+  </div>
+
+  <div class="nav__colors">
+    {% for color in page.colors %}
+      {{color.name}}
+      <div class="nav__color" data-color="{{color.color}}" style="background-color: {{color.hex}}"></div>
+    {% endfor %}
+    <div class="nav__color" data-color="multicolor" style="background-image: url('/assets/img/rainbow.jpg')"></div>
+    <div class="nav__color" data-color="metallic" style="background-image: url('/assets/img/metallic.jpg')"></div>
+    <div class="nav__color nav__color--all" data-color="*">
+      {% include all.svg %}
+    </div>
+  </div>
+</nav>

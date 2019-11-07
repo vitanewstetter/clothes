@@ -4,15 +4,22 @@ layout: default
 {% if page.id == 'outfits' or page.type == 'outfit' %}
   {% assign data = site.data.closet.outfit %}
   {% assign path = 'looks' %}
+  {% assign menu = 'outfit-filter' %}
 {% else %}
   {% assign data = site.data.closet.item %}
   {% assign path = 'items' %}
+  {% assign menu = 'item-filter' %}
 {% endif %}
 
 {% assign types = 'shirt, sweater, skirt, pants, dress, jumpsuit, outerwear, shoes' | split: ', ' %}
 {% assign colors = 'red, orange, yellow, green, blue, purple, pink' | split: ', '%}
-<section class="section">
-  <div class="header">
+<section class="main">
+  {% if page.id == 'items' %}
+    {% include item-filter.html %}
+  {% else %}
+    {% include outfit-filter.html %}
+  {% endif %}
+  <!-- <div class="header">
     <div class="header__item header__item--type">
       <p id="selected-type">Show All</p>
       <div class="header__type-dropdown">
@@ -34,17 +41,14 @@ layout: default
       {% include types.svg %}
       <a href="/outfits" class="header__category">Outfits</a>
       <a href="/" class="header__category">Items</a>
-    </div>
-  </h2>
+    </div> -->
+  <div class="content">
+    <div class="item__grid hidden"></div>
+  </div>
 </section>
 <div id="subpage-wrapper" class="{%if page.id == 'outfits' or page.id == 'items' %}is-hidden{% endif %}">
   {{content}}
 </div>
-<section>
-  <div class="item__grid hidden">
-  </div>
-</section>
-
 <script id="bootstrap-items">
   {{ data|jsonify }}
 </script>

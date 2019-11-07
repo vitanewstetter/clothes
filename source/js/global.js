@@ -10,8 +10,7 @@ const grid = initializeIsotope('.item__grid');
 const url = window.location.href.includes('looks') ? '/outfits' : '/';
 const path = window.location.pathname.includes('outfit') ? 'looks' : 'items';
 
-addItems();
-imagesLoaded('.item__grid', removeHiddenClass);
+addAllItems();
 
 imagesLoaded('.subpage__grid', function() {
   initializeIsotope('.subpage__grid');
@@ -22,17 +21,10 @@ document.addEventListener('click', function(e) {
     openSubpage(e);
   } else if (e.target.classList.contains('subpage__close')) {
     closeSubpage();
-  } else if (e.target.classList.contains('header__color-block')) {
+  } else if (e.target.classList.contains('nav__color')) {
     selectColor(e);
   } else if (e.target.classList.contains('header__type')) {
     selectType(e);
-  }
-});
-
-document.addEventListener('scroll', function() {
-  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {
-    if (items.length > grid.items.length) addItems();
-    imagesLoaded('.item__grid', removeHiddenClass);
   }
 });
 
@@ -40,45 +32,51 @@ document.addEventListener('scroll', function() {
  * Adds next group of items to the grid
  * @param {MouseEvent} e - click event
  */
-function addItems() {
+function addAllItems() {
   const arr = [];
   const gridEl = document.querySelector('.item__grid');
-  for (let i = 0; i < itemsToAdd; i++) {
-    const item = items[i + idx];
-    if (item) {
-      const el = document.createElement('a');
+  for (let i = 0; i < items.length; i++) {
+    const item = items[i];
+    const el = document.createElement('a');
 
-      el.classList.add('item', 'hidden');
+    el.classList.add('item', 'hidden');
 
-      if (path == 'items') {
-        el.classList.add(
-          item.main_color,
-          item.secondary_color,
-          item.category.toLowerCase(),
-        );
-      }
-      // else el.dataSet.date = item.date;
+    if (path == 'items') {
+      el.classList.add(
+        item.main_color,
+        item.secondary_color,
+        item.category.toLowerCase(),
+      );
+    }
+    // else el.dataSet.date = item.date;
 
-      el.href = `/${path}/${slugify(item.name)}`;
-      el.innerHTML = `<img src="${item.image.url}" class="no-click" />`;
-      arr.push(el);
-      gridEl.appendChild(el);
-    };
+    el.href = `/${path}/${slugify(item.name)}`;
+    el.innerHTML = `<img src="${item.image.url}" class="no-click" />`;
+    arr.push(el);
+    gridEl.appendChild(el);
   }
-  idx += itemsToAdd;
   grid.appended(arr);
+  staggerImageLoad();
 };
 
 /**
- * Remove hidden class for all items, once they've loaded
+ * Remove hidden class for all items, as they've loaded
  * @param {MouseEvent} e - click event
  */
-function removeHiddenClass() {
-  grid.arrange();
-  grid.element.classList.remove('hidden');
-  const items = document.querySelectorAll('.item');
-  items.forEach((el) => {
-    el.classList.remove('hidden');
+function staggerImageLoad() {
+  const group = [];
+  for (let i = 0; i <itemsToAdd; i++) {
+    const item = grid.items[i + idx];
+    if (item) group.push(item.element);
+  }
+  imagesLoaded(group, function() {
+    group.forEach((item) => {
+      item.classList.remove('hidden');
+    });
+    idx += itemsToAdd;
+    grid.element.classList.remove('hidden');
+    grid.arrange();
+    staggerImageLoad();
   });
 }
 
@@ -156,9 +154,15 @@ function initializeIsotope(selector) {
  * @param {Event} e
  */
 function selectColor(e) {
-  grid.arrange({
-    filter: `.${e.target.dataset.color}`,
-  });
+  if (e.target.dataset.color === '*') {
+    grid.arrange({
+      filter: '',
+    });
+  } else {
+    grid.arrange({
+      filter: `.${e.target.dataset.color}`,
+    });
+  }
 }
 
 /**

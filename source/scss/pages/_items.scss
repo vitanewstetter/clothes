@@ -2,14 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: $header;
   padding: 0 16px 16px 16px;
   transition: opacity $speed ease-in-out;
 }
 
 .item {
   margin-top: 16px;
-  width: calc(20% - 24px);
+  width: calc(25% - 24px);
+
+  @media screen and (max-width: 800px) {
+    width: calc(50% - 24px);
+  }
 }
 
 .item img {
