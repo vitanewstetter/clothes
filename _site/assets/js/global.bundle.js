@@ -14528,8 +14528,15 @@ document.addEventListener('click', function (e) {
     closeSubpage();
   } else if (e.target.classList.contains('nav__color')) {
     selectColor(e);
-  } else if (e.target.classList.contains('header__type')) {
+  } else if (e.target.classList.contains('nav__category')) {
     selectType(e);
+  } else if (e.target.classList.contains('select-year')) {
+    var active = document.querySelector('.is-active');
+    if (active) active.classList.remove('is-active');
+    setTimeout(function () {
+      e.target.classList.add('is-active');
+    }, 100);
+    selectYear(e);
   }
 });
 
@@ -14545,9 +14552,12 @@ function addAllItems() {
     var el = document.createElement('a');
 
     el.classList.add('item', 'hidden');
+    var year = new Date(Date.parse(item.date)).getFullYear();
 
     if (path == 'items') {
       el.classList.add(item.main_color, item.secondary_color, item.category.toLowerCase());
+    } else {
+      el.classList.add(year);
     }
     // else el.dataSet.date = item.date;
 
@@ -14675,6 +14685,22 @@ function selectType(e) {
   } else {
     grid.arrange({
       filter: '.' + e.target.dataset.type
+    });
+  }
+}
+
+/**
+ * select year range
+ * @param {Event} e
+ */
+function selectYear(e) {
+  if (e.target.dataset.year === '*') {
+    grid.arrange({
+      filter: ''
+    });
+  } else {
+    grid.arrange({
+      filter: '.' + e.target.dataset.year
     });
   }
 }

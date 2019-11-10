@@ -19,29 +19,6 @@ layout: default
   {% else %}
     {% include outfit-filter.html %}
   {% endif %}
-  <!-- <div class="header">
-    <div class="header__item header__item--type">
-      <p id="selected-type">Show All</p>
-      <div class="header__type-dropdown">
-        {% for type in types %}
-          <a class="header__type" data-type="{{type}}">{{type}}</a>
-        {% endfor %}
-          <a class="header__type" data-type="*">Show All</a>
-      </div>
-    </div>
-    <div class="header__item header__item--color">
-      {% for color in colors %}
-        <div class="header__color-block" data-color={{color}}></div>
-      {% endfor %}
-      <div class="header__color-block header__color-block--sm" data-color='white'></div>
-      <div class="header__color-block header__color-block--sm" data-color='metallic'></div>
-      <div class="header__color-block header__color-block--sm" data-color='black'></div>
-    </div>
-    <div class="header__item header__item--category {% if path == 'looks' %}outfits{% endif %}">
-      {% include types.svg %}
-      <a href="/outfits" class="header__category">Outfits</a>
-      <a href="/" class="header__category">Items</a>
-    </div> -->
   <div class="content">
     <div class="item__grid hidden"></div>
   </div>

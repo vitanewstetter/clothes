@@ -21,4 +21,13 @@ colors:
     hex: '#FFF'
   - color: black
     hex: '#000'
+categories:
+  - 'shirt'
+  - 'sweater'
+  - 'skirt'
+  - 'pants'
+  - 'dress'
+  - 'jumpsuit'
+  - 'outerwear'
+  - 'shoes'
 ---

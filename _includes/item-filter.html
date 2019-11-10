@@ -16,4 +16,11 @@
       {% include all.svg %}
     </div>
   </div>
+
+  <div class="nav__categories">
+    {% for category in page.categories %}
+      <div class="nav__category" data-type="{{category}}" >{{category}}</div>
+    {% endfor %}
+      <div class="nav__category" data-type="*">Show All</div>
+  </div>
 </nav>
