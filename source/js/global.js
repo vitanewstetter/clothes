@@ -22,18 +22,32 @@ document.addEventListener('click', function(e) {
   } else if (e.target.classList.contains('subpage__close')) {
     closeSubpage();
   } else if (e.target.classList.contains('nav__color')) {
+    closeNav();
     selectColor(e);
   } else if (e.target.classList.contains('nav__category')) {
+    closeNav();
     selectType(e);
   } else if (e.target.classList.contains('select-year')) {
+    closeNav();
     const active = document.querySelector('.is-active');
     if (active) active.classList.remove('is-active');
     setTimeout(function() {
       e.target.classList.add('is-active');
     }, 100);
     selectYear(e);
+  } else if (e.target.classList.contains('nav-mobile')) {
+    e.target.classList.toggle('is-open');
+    document.querySelector('nav').classList.toggle('is-active');
   }
 });
+
+/**
+ * closes all the nav stuff
+ */
+function closeNav() {
+  document.querySelector('nav').classList.remove('is-active');
+  document.querySelector('.nav-mobile').classList.remove('is-open');
+}
 
 /**
  * Adds next group of items to the grid
@@ -63,7 +77,7 @@ function addAllItems() {
     // else el.dataSet.date = item.date;
 
     el.href = `/${path}/${slugify(item.name)}`;
-    el.innerHTML = `<img src="${item.image.url}" class="no-click" />`;
+    el.innerHTML = `<img src="${item.image.url}?w=500" class="no-click" />`;
     arr.push(el);
     gridEl.appendChild(el);
   }

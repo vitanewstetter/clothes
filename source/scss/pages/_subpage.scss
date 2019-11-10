@@ -1,9 +1,11 @@
 #subpage-wrapper {
   bottom: 0;
+  height: 100vh;
   left: 0;
   position: fixed;
+  top: 0;
   transition: left #{$speed * 3} $ease;
-  z-index: 1;
+  z-index: 11;
 }
 
 .subpage {
@@ -12,7 +14,6 @@
   overflow-x: hidden;
   overflow-y: auto;
   padding-right: 20px;
-  position: relative;
   width:calc(100vw + 20px);
 }
 
@@ -22,9 +23,9 @@
 
 .subpage__close {
   background-color: transparent;
-  position: sticky;
-  float: right;
+  position: fixed;
   margin-right: 24px;
+  right: 0;
   top: 24px;
   z-index: 1;
 }
@@ -42,23 +43,43 @@
   margin: 0 auto;
   max-width: 900px;
   padding: 100px 24px;
-  transform: translateX(48px);
   width: 100%;
+
+  @media screen and (max-width: 800px) {
+    padding: 24px;
+  }
 }
 
 .subpage__image {
+  height: auto;
   width: 50%;
+
+  @media screen and (max-width: 800px) {
+    height: calc(100vw - 48px);
+    order: 0;
+    width: calc(100vw - 48px);
+  }
 }
 
 .subpage__image--sm {
   margin: 0 auto;
   width: 30%;
+
+  @media screen and (max-width: 800px) {
+    order: 1;
+    width: 90%;
+  }
 }
 
 .subpage__info {
   font-style: normal;
   font-weight: 400;
   width: 50%;
+
+  @media screen and (max-width: 800px) {
+    order: 1;
+    width: 100%;
+  }
 }
 
 .subpage__title {
@@ -86,9 +107,14 @@
 .subpage__grid {
   display: flex;
   flex-wrap: wrap;
+  order: 3;
   width: 100%;
 }
 
 .subpage__secondary-image {
   width: calc(33% - 20px);
+
+  @media screen and (max-width: 800px) {
+    width: calc(50% - 20px);
+  }
 }

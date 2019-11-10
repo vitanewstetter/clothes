@@ -4,15 +4,79 @@
 //
 //-------------------------------------------
 nav {
+  background-color: $white;
   border: 2px solid $black;
   display: flex;
   flex-direction: column;
   height: 100%;
   max-width: $nav;
   width: 100%;
+  z-index: 10;
+
+  @media screen and (max-width: 800px) {
+    left: -275px;
+    position: absolute;
+    transition: left $speed ease-in-out;
+  }
+}
+
+nav.is-active {
+  left: 0;
+}
+
+.nav-mobile {
+  display: none;
+  @media screen and (max-width: 800px) {
+    align-items: center;
+    background-color: $green;
+    border: 2px solid $black;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    position: fixed;
+    right: 8px;
+    top:8px;
+    width: 50px;
+    z-index: 10;
+  }
+}
+
+.nav-mobile.is-open {
+  >:first-child {
+    transform: rotateZ(45deg);
+  }
+
+  >:nth-child(2) {
+    display: none;
+  }
+
+  >:last-child {
+    transform: rotateZ(-45deg);
+  }
+}
+
+.nav-mobile > * {
+  background-color: $black;
+  height: 2px;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(50%);
+  transition: transform $speed ease-in-out;
+  width: 30px;
+}
+
+.nav-mobile > *:first-child {
+  transform: translateY(-6px);
+}
+
+.nav-mobile > *:last-child {
+  transform: translateY(8px);
 }
 
 .nav__types {
+  background-color: $black;
   display: flex;
   flex-direction: column;
   font-size: 40px;
@@ -141,7 +205,6 @@ nav {
 
 .nav__time-year > * {
   margin: 0;
-  opacity: 0;
   padding: 8px 16px;
   pointer-events: none;
   transition: all $speed ease-in-out;

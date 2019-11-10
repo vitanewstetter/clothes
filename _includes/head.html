@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-    <title>{% if page.title %}{{ page.title }}{% else %}Closet{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}Regalia{% endif %}</title>
 
     <!-- metadata -->
     {% unless page.description == nil or page.description == '' %}
@@ -18,13 +18,20 @@
     <link rel="stylesheet" href="{{ css.path | prepend: site.baseurl }}?ts={{ css.modified_time | date: "%s" }}">
 
     <!-- favicon -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
-    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff"> -->
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.json" crossorigin="use-credentials">
+    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#E2FF00">
+    <meta name="theme-color" content="#ffffff">
     <!-- site icons go here -->
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Regalia" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="apple-touch-startup-image" href="/assets/img/splash.png">
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
