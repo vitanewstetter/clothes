@@ -15,8 +15,8 @@ nav {
 
   @media screen and (max-width: 800px) {
     left: -275px;
-    position: absolute;
-    transition: left $speed ease-in-out;
+    position: fixed;
+    transition: left $speed $ease;
   }
 }
 
@@ -33,12 +33,12 @@ nav.is-active {
     border-radius: 100%;
     cursor: pointer;
     display: flex;
-    height: 50px;
+    height: 65px;
     justify-content: center;
     position: fixed;
     right: 8px;
     top:8px;
-    width: 50px;
+    width: 65px;
     z-index: 10;
   }
 }
@@ -63,7 +63,7 @@ nav.is-active {
   pointer-events: none;
   position: absolute;
   transform: translateY(50%);
-  transition: transform $speed ease-in-out;
+  transition: transform $speed $ease;
   width: 30px;
 }
 
@@ -125,7 +125,7 @@ nav.is-active {
   border-radius: 100%;
   cursor: pointer;
   height: 55px;
-  transition: $speed ease-in-out;
+  transition: $speed $ease;
   width: 55px;
 }
 
@@ -159,7 +159,7 @@ nav.is-active {
   padding: 16px;
   text-align: center;
   text-transform: uppercase;
-  transition: all $speed ease-in-out;
+  transition: all $speed $ease;
   width: 50%;
 }
 
@@ -200,14 +200,14 @@ nav.is-active {
   justify-content: center;
   margin-top: -2px;
   position: relative;
-  transition: background-color $speed ease-in-out;
+  transition: background-color $speed $ease;
 }
 
 .nav__time-year > * {
   margin: 0;
   padding: 8px 16px;
   pointer-events: none;
-  transition: all $speed ease-in-out;
+  transition: all $speed $ease;
 }
 
 .nav__time-year:hover,
@@ -244,7 +244,7 @@ nav.is-active {
   cursor: pointer;
   padding: 8px;
   text-align: center;
-  transition: background-color $speed ease-in-out;
+  transition: background-color $speed $ease;
 }
 
 .nav__time-all.is-active {
@@ -267,127 +267,3 @@ nav.is-active {
   transform: translateX(-50%);
   width: 2px;
 }
-
-
-// .header {
-//   border-bottom: 1px solid$black;
-//   border-top: 1px solid $black;
-//   display: flex;
-//   height: $header;
-//   position: fixed;
-//   top: 0;
-//   width: 100%;
-//   z-index: 1;
-
-//   @media screen and (max-width: 800px) {
-//     height: calc(3 * $m-header);
-//     flex-wrap: wrap;
-//   }
-// }
-
-// .header__item {
-//   flex: 1 1 33%;
-//   height: 100%;
-//   text-align: center;
-//   @media screen and (max-width: 800px) {
-//     flex: 0 0 auto;
-//     height: $m-header;
-//     width: 100%;
-//   }
-// }
-
-// .header__item--category {
-//   align-items: center;
-//   display: flex;
-//   font-size: 24px;
-//   justify-content: space-around;
-//   position: relative;
-//   text-transform: uppercase;
-
-//   .header__category {
-//     color: $black;
-//   }
-//   .header__category + .header__category {
-//     color: $green;
-//   }
-//   @media screen and (max-width: 800px) {
-//     order: 1;
-//   }
-// }
-
-// .header__item--category svg {
-//   height: 100%;
-//   position: absolute;
-//   width: 100%;
-//   z-index: -1;
-// }
-
-// .header__item--category.outfits {
-//   .header__category {
-//     color: $green;
-//   }
-//   .header__category + .header__category {
-//     color: $black;
-//   }
-// }
-
-// .header__item--color {
-//   background: -moz-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-//   background: -webkit-linear-gradient(left, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-//   background: linear-gradient(to right, #ff3232 0%,#ff6e00 12.5%,#faff00 25%,#26d31d 37.5%,#0026ff 50%,#8700ff 62.5%,#f600ff 75%, #FFFFFF 87.5%,#0D0D0D 100%);
-//   border-left: 1px solid $black;
-//   border-right: 1px solid $black;
-//   display: flex;
-
-//   @media screen and (max-width: 800px) {
-//     border-bottom: 1px solid $black;
-//     border-top: 1px solid $black;
-//     order: 2;
-//   }
-// }
-
-// .header__color-block {
-//   flex: 2 1 auto;
-//   height: 100%;
-//   position: relative;
-// }
-
-// .header__color-block--sm {
-//   flex: 1 1 auto;
-// }
-
-// .header__item--type {
-//   align-items: center;
-//   display: flex;
-//   justify-content: center;
-//   background-color: $white;
-//   position: relative;
-//   text-transform: uppercase;
-//   @media screen and (max-width: 800px) {
-//     order: 3;
-//   }
-// }
-
-// .header__type-dropdown {
-//   background-color: $white;
-//   border-top: 1px solid $black;
-//   display: flex;
-//   flex-wrap: wrap;
-//   height: 0;
-//   overflow: hidden;
-//   position: absolute;
-//   top: 100%;
-//   transition: height $speed ease-in-out;
-//   width: 100%;
-// }
-
-// .header__item--type:hover .header__type-dropdown  {
-//   height: 232px;
-// }
-
-// .header__type {
-//   border: solid $black;
-//   border-width: 0 1px 1px 0;
-//   flex: 1 1 50%;
-//   padding: 12px;
-// }

@@ -2,13 +2,14 @@ import $ from 'jquery';
 import Isotope from 'isotope-layout';
 import {bootstrapData, shuffleArray, slugify} from './utils';
 import imagesLoaded from 'imagesloaded';
+import moment from 'moment';
 
 const items = shuffleArray(bootstrapData('items'));
 const itemsToAdd = 25;
 let idx = 0;
 const grid = initializeIsotope('.item__grid');
-const url = window.location.href.includes('looks') ? '/outfits' : '/';
-const path = window.location.pathname.includes('outfit') ? 'looks' : 'items';
+const url = window.location.href.includes('outfits') ? '/outfits' : '/';
+const path = window.location.pathname.includes('outfit') ? 'outfits' : 'items';
 
 addAllItems();
 
@@ -61,7 +62,7 @@ function addAllItems() {
     const el = document.createElement('a');
 
     el.classList.add('item', 'hidden');
-    const year = new Date(Date.parse(item.date)).getFullYear();
+    el.dataset.name = item.name;
 
     if (path == 'items') {
       el.classList.add(
@@ -70,8 +71,13 @@ function addAllItems() {
         item.category.toLowerCase(),
       );
     } else {
+      const date = item.date.split(' ')[0];
+      const year = moment(
+        date,
+        'YYYY-MM-DD'
+      );
       el.classList.add(
-        year
+        year.format('YYYY')
       );
     }
     // else el.dataSet.date = item.date;
@@ -115,16 +121,16 @@ function openSubpage(e) {
   e.preventDefault();
   const url = e.target.href;
   const name = e.target.dataset.name;
+  const sp = document.getElementById('subpage-wrapper');
+  document.querySelector('body').classList.add('is-fixed');
+  sp.classList.remove('is-hidden');
+  history.pushState('', name, url);
+  document.title = name;
   $.get(url, null, function(data) {
     const body = $(data)
       .find('#subpage-wrapper')
       .html();
-    const sp = document.getElementById('subpage-wrapper');
-    sp.classList.remove('is-hidden');
     sp.innerHTML = body;
-    history.pushState('', name, url);
-    document.title = name;
-    document.querySelector('body').classList.add('is-fixed');
     imagesLoaded('.subpage__grid', function() {
       initializeIsotope('.subpage__grid');
     });
@@ -142,6 +148,7 @@ function closeSubpage() {
 
   history.pushState('', name, url);
   document.querySelector('body').classList.remove('is-fixed');
+  document.activeElement.blur();
   setTimeout(function() {
     sp.innerHTML = '';
   }, 900);

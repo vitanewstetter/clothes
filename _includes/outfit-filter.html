@@ -16,10 +16,10 @@
       2019
     </p>
     <div class="nav__timeline">
-      {% for year in page.years %}
+      {% for year in site.years %}
         {% unless forloop.last %}
           <div class="nav__time-year select-year" data-year="{{year}}">
-            <p>{{page.years[forloop.index]}}</p>
+            <p>{{site.years[forloop.index]}}</p>
             <p>{{year}}</p>
           </div>
         {% endunless %}

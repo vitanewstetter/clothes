@@ -12,7 +12,7 @@
   </div>
 
   <div class="nav__colors">
-    {% for color in page.colors %}
+    {% for color in site.colors %}
       {{color.name}}
       <div class="nav__color" data-color="{{color.color}}" style="background-color: {{color.hex}}"></div>
     {% endfor %}
@@ -24,7 +24,7 @@
   </div>
 
   <div class="nav__categories">
-    {% for category in page.categories %}
+    {% for category in site.types %}
       <div class="nav__category" data-type="{{category}}" >{{category}}</div>
     {% endfor %}
       <div class="nav__category" data-type="*">Show All</div>

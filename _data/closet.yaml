@@ -753,10 +753,10 @@ outfit:
       sys:
         id: LCJjiGrISVdmbsfI3XA2t
         created_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
-        updated_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+        updated_at: !ruby/object:DateTime 2019-11-13 03:41:05.583000000 Z
       title: IMG 0581
       description: item
-      url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/dab0a24c4ae86ce305a88e781e7fc7fa/IMG_0581.png"
+      url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/58f3d9d8531695bfde3dfc1aaa020d4e/IMG_0581.png"
     category: Shirt
     color:
     - "#DD0404"
@@ -2348,10 +2348,10 @@ item:
     sys:
       id: LCJjiGrISVdmbsfI3XA2t
       created_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-18 21:10:00.294000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:41:05.583000000 Z
     title: IMG 0581
     description: item
-    url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/dab0a24c4ae86ce305a88e781e7fc7fa/IMG_0581.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/LCJjiGrISVdmbsfI3XA2t/58f3d9d8531695bfde3dfc1aaa020d4e/IMG_0581.png"
   category: Shirt
   color:
   - "#DD0404"
@@ -2564,10 +2564,10 @@ item:
     sys:
       id: rTPA5wOUdopwlpTnOwwzU
       created_at: !ruby/object:DateTime 2019-10-10 23:41:45.941000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-10 23:41:45.941000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:36:01.361000000 Z
     title: IMG 0590
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/rTPA5wOUdopwlpTnOwwzU/9612e2dffd000930e8400e2853049e20/IMG_0590.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/rTPA5wOUdopwlpTnOwwzU/16c855b9531bf8625658e705bf0d2d9a/IMG_0590.png"
   category: Dress
   color:
   - "#BF046B"
@@ -2593,10 +2593,10 @@ item:
     sys:
       id: 2hKvyG7uR2NNO3abcptWM2
       created_at: !ruby/object:DateTime 2019-10-10 23:45:43.832000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-10 23:45:43.832000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:40:31.518000000 Z
     title: IMG 0591
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/2hKvyG7uR2NNO3abcptWM2/2b809d88b01804a341311abc980dd4cb/IMG_0591.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2hKvyG7uR2NNO3abcptWM2/327da3d8ec812b8525cb80fef5a0035a/IMG_0591.png"
   category: Shirt
   color:
   - "#594C02"
@@ -2617,10 +2617,10 @@ item:
     sys:
       id: wZh28aWgwWz1xPVA0jxRA
       created_at: !ruby/object:DateTime 2019-10-10 23:51:00.168000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-10 23:51:00.168000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:40:18.051000000 Z
     title: IMG 0592
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/wZh28aWgwWz1xPVA0jxRA/f6285f782da11d6cd5646312d53785fd/IMG_0592.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/wZh28aWgwWz1xPVA0jxRA/1833ae63e4882b6012e250c67844aab9/IMG_0592.png"
   category: Dress
   color:
   - "#ECE6E4"
@@ -2642,10 +2642,10 @@ item:
     sys:
       id: 7LhYCxDdsZltyAg9R1ALOT
       created_at: !ruby/object:DateTime 2019-10-10 23:57:40.330000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-10 23:57:40.330000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:39:39.164000000 Z
     title: IMG 0593
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/7LhYCxDdsZltyAg9R1ALOT/b3750318bc8222fd9ee71dc026223355/IMG_0593.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7LhYCxDdsZltyAg9R1ALOT/08687a25db19bd903af75a99a87954a0/IMG_0593.png"
   category: Sweater
   color:
   - "#FFCF27"
@@ -2671,10 +2671,10 @@ item:
     sys:
       id: 3bEcnSRhAG6nhakp1f7nxA
       created_at: !ruby/object:DateTime 2019-10-11 00:01:01.895000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-11 00:01:01.895000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:39:23.564000000 Z
     title: IMG 0594
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/3bEcnSRhAG6nhakp1f7nxA/f6544d3e8cff9e99080bd7dacf5ac805/IMG_0594.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3bEcnSRhAG6nhakp1f7nxA/9a095c26f7218466bacf67a368c7693b/IMG_0594.png"
   category: Shirt
   color:
   - "#C92E33"
@@ -2698,10 +2698,10 @@ item:
     sys:
       id: 7IHPJU0M7CNJLa2LAdqJie
       created_at: !ruby/object:DateTime 2019-10-11 00:11:18.783000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-11 00:11:18.783000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:37:03.748000000 Z
     title: IMG 0595
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/7IHPJU0M7CNJLa2LAdqJie/933cbcc4a22df25346b5894d4759ed81/IMG_0595.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7IHPJU0M7CNJLa2LAdqJie/6ba88f007c454b00976b6cc424bf9555/IMG_0595.png"
   category: Shirt
   color:
   - "#633F7E"
@@ -2727,10 +2727,10 @@ item:
     sys:
       id: 6CKaREnxUmc4yEazNSJr20
       created_at: !ruby/object:DateTime 2019-10-11 00:14:51.735000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-11 00:14:51.735000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:36:46.066000000 Z
     title: IMG 0596
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/6CKaREnxUmc4yEazNSJr20/b3e6cd0605afabbc1cf46712ae2ddd03/IMG_0596.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6CKaREnxUmc4yEazNSJr20/062260ee3077705273655c617e5aa54a/IMG_0596.png"
   category: Shirt
   color:
   - "#F2CB05"
@@ -2749,13 +2749,301 @@ item:
     sys:
       id: 4oWX8VjfyNncq0GwNax6MU
       created_at: !ruby/object:DateTime 2019-10-11 00:37:54.198000000 Z
-      updated_at: !ruby/object:DateTime 2019-10-11 00:37:54.198000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:36:32.095000000 Z
     title: IMG 0603
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/4oWX8VjfyNncq0GwNax6MU/1ef98bcada5a466533f2f2ccbb7bff5b/IMG_0603.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4oWX8VjfyNncq0GwNax6MU/686d57572ddfe6440d80d1bc2a4bd4bc/IMG_0603.png"
   category: Sweater
   color:
   - "#383838"
   price_range: "$10 - $20"
   vintage: false
   when: !ruby/object:DateTime 2017-06-14 00:00:00.000000000 Z
+- sys:
+    id: 48chSKMOxCVZo0lU5A75Rs
+    created_at: !ruby/object:DateTime 2019-11-13 03:43:19.776000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 03:43:19.776000000 Z
+    content_type_id: item
+    revision: 1
+  name: Bright Green Cardigan
+  main_color: green
+  image:
+    sys:
+      id: 5k2VDBm19m1lsngdjl347z
+      created_at: !ruby/object:DateTime 2019-11-13 03:34:58.034000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:36:17.236000000 Z
+    title: IMG 0604
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5k2VDBm19m1lsngdjl347z/7f799359376c146ebc06121ca125979a/IMG_0604.png"
+  category: Sweater
+  color:
+  - "#04C776"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2017-03-23 00:00:00.000000000 Z
+  notes: I bought this cardigan at Squaresville vintage in los feliz, and it is just
+    the best color and the most useful.
+- sys:
+    id: 6jcaQrP7eRHAO6IQMEqbyB
+    created_at: !ruby/object:DateTime 2019-11-13 03:45:40.731000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 03:45:40.731000000 Z
+    content_type_id: item
+    revision: 1
+  name: My Sister's Teal Sweatshirt
+  main_color: blue
+  image:
+    sys:
+      id: 7MPLojcbbkhmOsiM6ys6hy
+      created_at: !ruby/object:DateTime 2019-11-13 03:44:12.135000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:44:12.135000000 Z
+    title: IMG 0605
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7MPLojcbbkhmOsiM6ys6hy/29cee01e41a07d1c62f5c2c64d0b0c3f/IMG_0605.png"
+  category: Outerwear
+  color:
+  - "#63D9D9"
+  brand: Adidas
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2015-11-18 00:00:00.000000000 Z
+  notes: This was Brooklyn's when she was in her 20s and she gave it to me. I don't
+    like sweatshirts all that much, but this one is so special and cute, and I get
+    a shocking amount compliments on it.
+- sys:
+    id: 6sSjqR1lWA4c8d9s3mmIo1
+    created_at: !ruby/object:DateTime 2019-11-13 03:54:17.889000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 03:54:17.889000000 Z
+    content_type_id: item
+    revision: 1
+  name: Yellow Hunter Rain Jacket
+  main_color: yellow
+  image:
+    sys:
+      id: 6UiS5wbBRr8q67BYX280vn
+      created_at: !ruby/object:DateTime 2019-11-13 03:50:12.539000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:50:12.539000000 Z
+    title: IMG 0606
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6UiS5wbBRr8q67BYX280vn/ea1c1aa5e4c1fe7158c39a1fd5be4b23/IMG_0606.png"
+  category: Outerwear
+  color:
+  - "#F2BA05"
+  brand: Hunter
+  price_range: "$100 - $150"
+  vintage: false
+  when: !ruby/object:DateTime 2018-09-03 00:00:00.000000000 Z
+  notes: This was a fabuolous birthday present from Jen and it is so cute and so useful.
+    I wear it with my matching yellow rainboots and people always tell me I look like
+    Paddington Bear.
+- sys:
+    id: 2pWCxsiHHNtbij3AQnuqSn
+    created_at: !ruby/object:DateTime 2019-11-13 04:00:31.246000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 04:00:31.246000000 Z
+    content_type_id: item
+    revision: 1
+  name: Red and Navy Checked Cardigan
+  main_color: red
+  secondary_color: blue
+  image:
+    sys:
+      id: 32FhiIryOl1YmyJfljjhD6
+      created_at: !ruby/object:DateTime 2019-11-13 03:58:18.240000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 03:58:18.240000000 Z
+    title: IMG 0607
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/32FhiIryOl1YmyJfljjhD6/784d5963c865500f52a543885a569a8c/IMG_0607.png"
+  category: Sweater
+  color:
+  - "#170264"
+  - "#F20505"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2016-11-09 00:00:00.000000000 Z
+  notes: This was Isa's and I loved it so much I stole it. She knew and knows and
+    it's fine, but I still feel very bad about it. It is the best sweater.
+- sys:
+    id: 67hkqeAoLvUTMXADNcouFo
+    created_at: !ruby/object:DateTime 2019-11-13 04:05:49.419000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 04:05:49.419000000 Z
+    content_type_id: item
+    revision: 1
+  name: 'Rainbow Tweed Coat #1'
+  main_color: green
+  secondary_color: multicolor
+  image:
+    sys:
+      id: 4asFSiyDp4Lij2ceivBCkE
+      created_at: !ruby/object:DateTime 2019-11-13 04:02:00.531000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 04:02:00.531000000 Z
+    title: IMG 0609
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4asFSiyDp4Lij2ceivBCkE/9fad0b0d862138424a038698dfb645fc/IMG_0609.png"
+  category: Outerwear
+  color:
+  - "#009141"
+  - "#DD0246"
+  - "#782EBB"
+  - "#F3EA53"
+  - "#00A0BF"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2011-10-11 00:00:00.000000000 Z
+  notes: Have had this coat since high school, one of two tweed colorful coats. At
+    one point I thought it was too much to have two, but it's not.
+- sys:
+    id: 6wQnQ5jp9FcrZefT10JGqX
+    created_at: !ruby/object:DateTime 2019-11-13 04:10:59.409000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 04:10:59.409000000 Z
+    content_type_id: item
+    revision: 1
+  name: Warm Green Wool Blazer
+  main_color: green
+  image:
+    sys:
+      id: 5zllHWIeJMQLtgpZkmkTJI
+      created_at: !ruby/object:DateTime 2019-11-13 04:06:57.731000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 04:06:57.731000000 Z
+    title: IMG 0610
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5zllHWIeJMQLtgpZkmkTJI/f3e5da37cdf6219e7e02aa325a0b427f/IMG_0610.png"
+  category: Outerwear
+  color:
+  - "#038C65"
+  brand: Gap
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-11-16 00:00:00.000000000 Z
+  notes: I got this jacket for $2.99 at Unique thrift store when winter turned my
+    first year in New York and i was super cold. It's very thick.
+- sys:
+    id: 3dMkPFr9O8bft70ZJDr26V
+    created_at: !ruby/object:DateTime 2019-11-13 04:23:06.924000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 04:23:06.924000000 Z
+    content_type_id: item
+    revision: 1
+  name: Fun Weird Yellow Tennis Dress
+  main_color: yellow
+  image:
+    sys:
+      id: 8SQBOpLcte7Ndqbv3HzFu
+      created_at: !ruby/object:DateTime 2019-11-13 04:20:45.128000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 04:20:45.128000000 Z
+    title: IMG 0611
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/8SQBOpLcte7Ndqbv3HzFu/86259e8288ca811e0d22dd2b9bcd0e95/IMG_0611.png"
+  category: Dress
+  color:
+  - "#FFE22C"
+  - "#FEECB7"
+  - "#F2AB27"
+  - "#FFDC64"
+  brand: Malia Honolulu
+  vintage: true
+  when: !ruby/object:DateTime 2016-09-14 00:00:00.000000000 Z
+  notes: I got this dress at Wasteland in San Francisco - it's a vintage brand I really
+    like and it has tiny tennis players and a net all around the bottom lol.
+- sys:
+    id: 2o0nF08H6GvLEi8qt2kLit
+    created_at: !ruby/object:DateTime 2019-11-13 13:02:12.487000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 13:02:12.487000000 Z
+    content_type_id: item
+    revision: 1
+  name: Mustard and Lilac Ralph Lauren Zip
+  main_color: yellow
+  image:
+    sys:
+      id: 38NwT9mILIO3nLTnfBRzZB
+      created_at: !ruby/object:DateTime 2019-11-13 12:55:37.327000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 12:55:37.327000000 Z
+    title: IMG 0612
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/38NwT9mILIO3nLTnfBRzZB/db11d91ad4dd8de5a0aeb2263833c9d3/IMG_0612.png"
+  category: Outerwear
+  color:
+  - "#F2A505"
+  - "#E3B5FF"
+  brand: Ralph Lauren
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2016-10-11 00:00:00.000000000 Z
+  notes: I got this jacket at the Painted Bird in San Francisco. The zippers are lilac,
+    which is just so special. It also has a hood hidden inside the neck area. I went
+    through a (great) phase of wearing this with my gray uniqlo puffy jacked underneath
+    - because this one is not warm, but it's cute, and uniqlo jacket is warm but not
+    cute.
+- sys:
+    id: 17uUbUjaqcGTdzSI6PApvK
+    created_at: !ruby/object:DateTime 2019-11-13 13:04:38.277000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 13:04:38.277000000 Z
+    content_type_id: item
+    revision: 1
+  name: Tiny Purple Vest
+  main_color: purple
+  image:
+    sys:
+      id: 4F5xsa9BQwMtw0TVpTy0Yr
+      created_at: !ruby/object:DateTime 2019-11-13 13:02:55.925000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 13:02:55.925000000 Z
+    title: IMG 0613
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4F5xsa9BQwMtw0TVpTy0Yr/c8aa67c4ee1de1f760d2bbdc1eb815b6/IMG_0613.png"
+  category: Outerwear
+  color:
+  - "#7B35DD"
+  price_range: Under $10
+  vintage: false
+  when: !ruby/object:DateTime 2018-11-23 00:00:00.000000000 Z
+  notes: I bought this tiny children's vest at the Thrift Town in El Sobrante. It
+    just barely zips on me, but because it is so tight, it is an incredibly effective
+    layer in the winter. I very frequently wear it under less warm jackets.
+- sys:
+    id: 5XCR8BWsHhqS5LZ8y5oamC
+    created_at: !ruby/object:DateTime 2019-11-13 13:07:59.351000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 13:07:59.351000000 Z
+    content_type_id: item
+    revision: 1
+  name: Super Long Purple Trench Coat
+  main_color: purple
+  image:
+    sys:
+      id: 6rvjXFRMdg3AqkGhkx7kNL
+      created_at: !ruby/object:DateTime 2019-11-13 13:05:18.616000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 13:05:18.616000000 Z
+    title: IMG 0614
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6rvjXFRMdg3AqkGhkx7kNL/c74fb374e5b3943a350b4dbf0bec6c07/IMG_0614.png"
+  category: Outerwear
+  color:
+  - "#705ABF"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2017-11-23 00:00:00.000000000 Z
+  notes: Don't really remember where and when i got this....It's enormous, the shoulder
+    pads are huge. Whenever I wear it I get a million compliments - especially from
+    men, who would like to take the coat, not hit on me. Also great for a halloween
+    costume. Despite how it may seem, it is not waterproof or warm. So it's really
+    just a dramatic visual piece.
+- sys:
+    id: 72UWXipAGyNygIruoynGJC
+    created_at: !ruby/object:DateTime 2019-11-13 13:10:56.232000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-13 13:10:56.232000000 Z
+    content_type_id: item
+    revision: 1
+  name: Burnt Pumpkin Wool Coat
+  main_color: orange
+  image:
+    sys:
+      id: 4nJGLt5aqJZXvRQwOQSL2r
+      created_at: !ruby/object:DateTime 2019-11-13 13:08:53.542000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-13 13:08:53.542000000 Z
+    title: IMG 0615
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4nJGLt5aqJZXvRQwOQSL2r/1a6288e10b6a2147b57c8328212ff283/IMG_0615.png"
+  category: Outerwear
+  price_range: "$60 - $100"
+  vintage: false
+  when: !ruby/object:DateTime 2018-10-18 00:00:00.000000000 Z
+  notes: Jen got me this coat in Italy - and it's lovely. I don't usually like fall
+    colors (which includes a pumpkin like this), but the shape if this coat is very
+    fun, and i often pair it with other coats on top (it's a great layering piece
+    of wool in the winter) and I like how the different colors play together.

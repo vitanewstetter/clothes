@@ -3,7 +3,7 @@ layout: default
 ---
 {% if page.id == 'outfits' or page.type == 'outfit' %}
   {% assign data = site.data.closet.outfit %}
-  {% assign path = 'looks' %}
+  {% assign path = 'outfits' %}
   {% assign menu = 'outfit-filter' %}
 {% else %}
   {% assign data = site.data.closet.item %}
@@ -14,10 +14,10 @@ layout: default
 {% assign types = 'shirt, sweater, skirt, pants, dress, jumpsuit, outerwear, shoes' | split: ', ' %}
 {% assign colors = 'red, orange, yellow, green, blue, purple, pink' | split: ', '%}
 <section class="main">
-  {% if page.id == 'items' %}
-    {% include item-filter.html %}
-  {% else %}
+  {% if page.url contains 'outfits' %}
     {% include outfit-filter.html %}
+  {% else %}
+    {% include item-filter.html %}
   {% endif %}
   <div class="content">
     <div class="item__grid hidden"></div>

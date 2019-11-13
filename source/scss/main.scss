@@ -17,7 +17,7 @@ a {
     cursor: pointer;
     outline: none;
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s $ease;
 }
 
 html, body {
@@ -37,7 +37,7 @@ button {
   appearance: none;
   border: none;
   outline: none;
-  transition: all $speed ease-in-out;
+  transition: all $speed $ease;
 }
 
 .text {

@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 16px 16px 16px;
-  transition: opacity $speed ease-in-out;
+  transition: opacity $speed $ease;
 }
 
 .item {
@@ -16,7 +16,7 @@
 }
 
 .item img {
-  transition: transform $speed ease-in-out;
+  transition: transform $speed $ease;
 }
 
 .item:hover img {

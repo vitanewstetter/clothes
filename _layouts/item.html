@@ -27,7 +27,7 @@ type: item
         {% if item.sys.id == page.sys.id %}
           {% assign slug = outfit.name | replace: "'", "" | slugify  %}
           <a
-            href="/looks/{{slug}}"
+            href="/outfits/{{slug}}"
             class="subpage__secondary-image item"
             data-name="{{outfit.name}}">
             <img src="{{outfit.image.url}}?w=800" class="no-click"/>
