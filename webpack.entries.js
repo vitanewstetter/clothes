@@ -20,7 +20,7 @@ const SCRIPTS = ['global'];
  */
 function formatEntry(entry, {includeGlobal = true} = {}) {
   const _path = (filename) => path.join(__dirname, appJsDir, filename);
-  const entries = [];
+  const entries = ['babel-polyfill'];
 
   if (includeGlobal) entries.push(_path('global.js'));
 

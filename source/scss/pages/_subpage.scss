@@ -11,9 +11,9 @@
 .subpage {
   background-color: $white;
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: scroll;
   padding-right: 20px;
+  padding-bottom: 75px;
   position: relative;
   width:calc(100vw + 20px);
 }
@@ -44,20 +44,22 @@
 // page content
 //----------------------------------------
 .subpage__content {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 900px;
-  padding: 100px 24px;
+  max-width: 1200px;
+  padding: 65px 24px;
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    padding: 60px 24px 24px;
+    padding: 36px 24px 75px;
   }
 }
 
 .subpage__image {
   height: auto;
+  position: relative;
   width: 50%;
 
   @media screen and (max-width: 800px) {
@@ -65,6 +67,11 @@
     order: 0;
     width: calc(100vw - 48px);
   }
+}
+
+.subpage__image img {
+  position: absolute;
+  z-index: 1;
 }
 
 .subpage__image--sm {
@@ -95,6 +102,7 @@
   font-weight: 900;
   margin-bottom: 16px;
   padding-bottom: 8px;
+  text-transform: capitalize;
 }
 
 .subpage__swatches {

@@ -1,7 +1,7 @@
-import $ from 'jquery';
 import Isotope from 'isotope-layout';
 import {bootstrapData, shuffleArray, slugify} from './utils';
 import imagesLoaded from 'imagesloaded';
+import Viewer from 'viewerjs';
 import moment from 'moment';
 
 const items = shuffleArray(bootstrapData('items'));
@@ -12,6 +12,7 @@ const url = window.location.href.includes('outfits') ? '/outfits' : '/';
 const path = window.location.pathname.includes('outfit') ? 'outfits' : 'items';
 
 addAllItems();
+imageViewer();
 
 imagesLoaded('.subpage__grid', function() {
   initializeIsotope('.subpage__grid');
@@ -77,13 +78,12 @@ function addAllItems() {
         'YYYY-MM-DD'
       );
       el.classList.add(
-        year.format('YYYY')
+        `year-${year.format('YYYY')}`
       );
     }
-    // else el.dataSet.date = item.date;
 
     el.href = `/${path}/${slugify(item.name)}`;
-    el.innerHTML = `<img src="${item.image.url}?w=500" class="no-click" />`;
+    el.innerHTML = `<img src="${item.image.url}?w=800" class="no-click" />`;
     arr.push(el);
     gridEl.appendChild(el);
   }
@@ -114,27 +114,42 @@ function staggerImageLoad() {
 
 /**
  * Opens the subpage, with content from generated HTML file
- * Using jquery only because it is easiest way to read html file resp :')
  * @param {MouseEvent} e - click event
  */
 function openSubpage(e) {
   e.preventDefault();
+  closeNav();
+  const sp = document.getElementById('subpage-wrapper');
   const url = e.target.href;
   const name = e.target.dataset.name;
-  const sp = document.getElementById('subpage-wrapper');
   document.querySelector('body').classList.add('is-fixed');
-  sp.classList.remove('is-hidden');
+  getRequest(url)
+    .then((html) => {
+      sp.innerHTML = html.innerHTML;
+      sp.classList.remove('is-hidden');
+      imagesLoaded('.subpage__grid', function() {
+        initializeIsotope('.subpage__grid');
+      });
+    });
   history.pushState('', name, url);
   document.title = name;
-  $.get(url, null, function(data) {
-    const body = $(data)
-      .find('#subpage-wrapper')
-      .html();
-    sp.innerHTML = body;
-    imagesLoaded('.subpage__grid', function() {
-      initializeIsotope('.subpage__grid');
-    });
-  });
+}
+
+/**
+ * get subpage content
+ * @param {string} url
+ * @return {object} json
+ */
+async function getRequest(url) {
+  try {
+    const resp = await fetch(url);
+    const text = await resp.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(text, 'text/html');
+    return doc.querySelector('#subpage-wrapper');
+  } catch (err) {
+    throw new Error(err.message);
+  }
 }
 
 /**
@@ -187,6 +202,7 @@ function initializeIsotope(selector) {
  * @param {Event} e
  */
 function selectColor(e) {
+  document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.color === '*') {
     grid.arrange({
       filter: '',
@@ -203,6 +219,7 @@ function selectColor(e) {
  * @param {Event} e
  */
 function selectType(e) {
+  document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.type === '*') {
     grid.arrange({
       filter: '',
@@ -219,13 +236,31 @@ function selectType(e) {
  * @param {Event} e
  */
 function selectYear(e) {
+  document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.year === '*') {
     grid.arrange({
       filter: '',
     });
   } else {
     grid.arrange({
-      filter: `.${e.target.dataset.year}`,
+      filter: `.year-${e.target.dataset.year}`,
     });
   }
 }
+
+/**
+ * init full screen viewer for subpage images
+ */
+function imageViewer() {
+  // const viewer = new Viewer(document.querySelector('.subpage__image'), {
+  //   inline: false,
+  //   navBar: false,
+  //   title: false,
+  //   toolBar: false,
+  //   viewed() {
+  //     viewer.zoomTo(1);
+  //   },
+  // });
+  // console.log(viewer);
+}
+

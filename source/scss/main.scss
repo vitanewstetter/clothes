@@ -30,6 +30,10 @@ html, body {
 
 body.is-fixed {
   overflow: hidden;
+  
+  // .item__grid {
+  //   pointer-events: none;
+  // }
 }
 
 button {
@@ -62,12 +66,14 @@ img {
 
 .content {
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
   width: 100%;
 }
 
 
 @import 'things/_headers';
+
+@import 'things/_loaders';
 
 @import 'pages/_items';
 

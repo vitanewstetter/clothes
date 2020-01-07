@@ -34,7 +34,6 @@
     <link rel="apple-touch-startup-image" href="/assets/img/splash.png">
 
     <!-- javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>var b = document.documentElement; b.className = b.className.replace(/\bno-js\b/,'js'); b.setAttribute('data-useragent', navigator.userAgent); b.setAttribute("data-platform", navigator.platform );</script>
     {% if page.js %}
         {% assign js = site.static_files | where: 'path', page.js | first %}

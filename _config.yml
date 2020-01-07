@@ -40,6 +40,8 @@ contentful: # see https://github.com/contentful/jekyll-contentful-data-import fo
         access_token: IEuUAqdlJLtQLVVNe9YiceCgtLoWkwWXEnkkf5r6lq8
         all_entries: true # Optional - Defaults to false, only grabbing the amount set on CDA Query
         destination: '' # where should this go within the data directory
+        client_options:
+          max_include_resolution_depth: 3
 page_gen:
   - data: closet.item
     template: item
@@ -48,6 +50,7 @@ page_gen:
   - data: closet.outfit
     template: outfit
     name: name
+    path: slug
     dir: outfits
 colors:
   - color: red
