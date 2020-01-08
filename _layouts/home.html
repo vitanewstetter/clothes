@@ -2,11 +2,11 @@
 layout: default
 ---
 {% if page.id == 'outfits' or page.type == 'outfit' %}
-  {% assign data = site.data.closet.outfit %}
+  {% assign data = site.data.closet.outfit | shuffle %}
   {% assign path = 'outfits' %}
   {% assign menu = 'outfit-filter' %}
 {% else %}
-  {% assign data = site.data.closet.item %}
+  {% assign data = site.data.closet.item | shuffle %}
   {% assign path = 'items' %}
   {% assign menu = 'item-filter' %}
 {% endif %}
@@ -20,7 +20,21 @@ layout: default
     {% include item-filter.html %}
   {% endif %}
   <div class="content">
-    <div class="item__grid hidden"></div>
+    <div class="item__grid">
+      {% for item in data %}
+      {% assign slug = item.name | replace: "'", "" | slugify  %}
+      {% if path == 'items' %}
+        <a class="item {{item.main_color}} {{item.secondary_color}} {{item.category | downcase}}" href="/items/{{slug}}" data-name="{{item.name}}">
+          <img data-src="{{item.image.url}}?w=800&h=800&fit=pad" class="lazy no-click" />
+        </a>
+      {% else %}
+        <a class="item year-{{item.date | date: '%Y'}}" href="/outfits/{{slug}}" data-name="{{item.name}}">
+          <img data-src="{{item.image.url}}?w=800&h=800&fit=pad" class="lazy no-click" />
+        </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <!-- <div class="item__grid hidden"></div> -->
   </div>
 </section>
 <div id="subpage-wrapper" class="{%if page.id == 'outfits' or page.id == 'items' %}is-hidden{% endif %}">

@@ -1,18 +1,13 @@
 import Isotope from 'isotope-layout';
-import {bootstrapData, shuffleArray, slugify} from './utils';
 import imagesLoaded from 'imagesloaded';
 import Viewer from 'viewerjs';
-import moment from 'moment';
 
-const items = shuffleArray(bootstrapData('items'));
-const itemsToAdd = 4;
-let idx = 0;
 const grid = initializeIsotope('.item__grid');
 const url = window.location.href.includes('outfits') ? '/outfits' : '/';
-const path = window.location.pathname.includes('outfit') ? 'outfits' : 'items';
 
-addAllItems();
-imageViewer();
+// addAllItems();
+// imageViewer();
+
 
 imagesLoaded('.subpage__grid', function() {
   initializeIsotope('.subpage__grid');
@@ -49,68 +44,6 @@ document.addEventListener('click', function(e) {
 function closeNav() {
   document.querySelector('nav').classList.remove('is-active');
   document.querySelector('.nav-mobile').classList.remove('is-open');
-}
-
-/**
- * Adds next group of items to the grid
- * @param {MouseEvent} e - click event
- */
-function addAllItems() {
-  const arr = [];
-  const gridEl = document.querySelector('.item__grid');
-  for (let i = 0; i < items.length; i++) {
-    const item = items[i];
-    const el = document.createElement('a');
-
-    el.classList.add('item', 'hidden');
-    el.dataset.name = item.name;
-
-    if (path == 'items') {
-      el.classList.add(
-        item.main_color,
-        item.secondary_color,
-        item.category.toLowerCase(),
-      );
-    } else {
-      const date = item.date.split(' ')[0];
-      const year = moment(
-        date,
-        'YYYY-MM-DD'
-      );
-      el.classList.add(
-        `year-${year.format('YYYY')}`
-      );
-    }
-
-    el.href = `/${path}/${slugify(item.name)}`;
-    el.innerHTML = `<img src="${item.image.url}?w=800" class="no-click" />`;
-    arr.push(el);
-    gridEl.appendChild(el);
-  }
-  grid.appended(arr);
-  staggerImageLoad();
-};
-
-/**
- * Remove hidden class for all items, as they've loaded
- * @param {MouseEvent} e - click event
- */
-function staggerImageLoad() {
-  console.log('do');
-  const group = [];
-  for (let i = 0; i <itemsToAdd; i++) {
-    const item = grid.items[i + idx];
-    if (item) group.push(item.element);
-  }
-  imagesLoaded(group, function() {
-    group.forEach((item) => {
-      item.classList.remove('hidden');
-    });
-    idx += itemsToAdd;
-    grid.element.classList.remove('hidden');
-    grid.arrange();
-    if (idx <= grid.items.length) staggerImageLoad();
-  });
 }
 
 /**

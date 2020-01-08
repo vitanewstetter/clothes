@@ -7,21 +7,29 @@
 }
 
 .item {
+  height: calc((100vw - 275px) / 4 - 24px);
   margin-top: 16px;
   width: calc(25% - 24px);
 
   @media screen and (max-width: 1400px) {
+    height: calc((100vw - 275px) / 3 - 24px);
     width: calc(33.33% - 24px);
   }
 
   @media screen and (max-width: 800px) {
+    height: calc((100vw - 275px) / 2 - 24px);
     width: calc(50% - 24px);
   }
 }
 
 .item img {
-  transition: transform $speed $ease;
+  opacity: 0;
+  transition: all $speed $ease;
   max-width: 450px;
+}
+
+.item img.loaded {
+  opacity: 1;
 }
 
 .item:hover img {

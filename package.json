@@ -37,11 +37,10 @@
   "dependencies": {
     "es6-promise": "^4.2.4",
     "imagesloaded": "^4.1.4",
-    "infinite-scroll": "^3.0.6",
     "isotope-layout": "^3.0.6",
     "lodash": "^4.17.4",
     "moment": "^2.24.0",
-    "whatwg-fetch": "^3.0.0",
-    "viewerjs": "^1.5.0"
+    "viewerjs": "^1.5.0",
+    "whatwg-fetch": "^3.0.0"
   }
 }
