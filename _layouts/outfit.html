@@ -20,7 +20,7 @@ type: outfit
       </div>
       <div class="text">{{page.notes|markdownify}}</div>
     </div>
-    <img class="subpage__image subpage__image--sm" src="{{page.image.url}}?w=800&h=800&fit=pad" />
+    <img class="subpage__image subpage__image--zm" src="{{page.image.url}}?w=800&h=800&fit=pad" />
     <div class="subpage__grid">
       {% for item in page.items %}
         {% assign slug = item.name | replace: "'", "" | slugify  %}

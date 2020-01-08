@@ -1,17 +1,18 @@
 import Isotope from 'isotope-layout';
 import imagesLoaded from 'imagesloaded';
-import Viewer from 'viewerjs';
+
+import './hammer.js';
 
 const grid = initializeIsotope('.item__grid');
 const url = window.location.href.includes('outfits') ? '/outfits' : '/';
 
-// addAllItems();
-// imageViewer();
-
-
-imagesLoaded('.subpage__grid', function() {
-  initializeIsotope('.subpage__grid');
+const subpage = document.querySelector('#subpage-wrapper');
+const hammertime = new Hammer(subpage);
+hammertime.on('swipe', function() {
+  closeSubpage();
 });
+
+grid.shuffle();
 
 document.addEventListener('click', function(e) {
   if (e.target.classList.contains('item')) {
@@ -35,6 +36,8 @@ document.addEventListener('click', function(e) {
   } else if (e.target.classList.contains('nav-mobile')) {
     e.target.classList.toggle('is-open');
     document.querySelector('nav').classList.toggle('is-active');
+  } else if (e.target.classList.contains('subpage__image--zm')) {
+    openFullscreen(e.target);
   }
 });
 
@@ -54,13 +57,14 @@ function openSubpage(e) {
   e.preventDefault();
   closeNav();
   const sp = document.getElementById('subpage-wrapper');
+  sp.classList.remove('is-hidden');
   const url = e.target.href;
   const name = e.target.dataset.name;
   document.querySelector('body').classList.add('is-fixed');
   getRequest(url)
     .then((html) => {
       sp.innerHTML = html.innerHTML;
-      sp.classList.remove('is-hidden');
+      // sp.classList.remove('is-hidden');
       imagesLoaded('.subpage__grid', function() {
         initializeIsotope('.subpage__grid');
       });
@@ -184,17 +188,9 @@ function selectYear(e) {
 
 /**
  * init full screen viewer for subpage images
+ * @param {Element} elem
  */
-function imageViewer() {
-  // const viewer = new Viewer(document.querySelector('.subpage__image'), {
-  //   inline: false,
-  //   navBar: false,
-  //   title: false,
-  //   toolBar: false,
-  //   viewed() {
-  //     viewer.zoomTo(1);
-  //   },
-  // });
-  // console.log(viewer);
+function openFullscreen(elem) {
+
 }
 

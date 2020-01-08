@@ -22511,10 +22511,10 @@ item:
     sys:
       id: 2rL272C1q186ZbVRIUWeDM
       created_at: !ruby/object:DateTime 2020-01-08 01:42:48.064000000 Z
-      updated_at: !ruby/object:DateTime 2020-01-08 01:42:48.064000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:50:31.070000000 Z
     title: IMG 1713
     description: 
-    url: "//images.ctfassets.net/4sf3k05ydnj7/2rL272C1q186ZbVRIUWeDM/72cca5e08d70307fb2912c318087272d/IMG_1713.png"
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2rL272C1q186ZbVRIUWeDM/5ab4e66d0c8416ed92ca2ef03559ed14/IMG_1713.png"
   category: Pants
   brand: Reformation
   price_range: "$60 - $100"
@@ -23635,3 +23635,101 @@ item:
   notes: I got this coat on Vestiare Collective, from a woman in Germany, after looking
     for a green, actually-warm winter coat for YEARS. I love it, it is one of my most
     treasured items.
+- sys:
+    id: 5g6hBtnFqBj56YqtXTtM6S
+    created_at: !ruby/object:DateTime 2020-01-08 14:12:28.763000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 14:12:28.763000000 Z
+    content_type_id: item
+    revision: 1
+  name: Striped Gap Mens Sweater
+  main_color: multicolor
+  image:
+    sys:
+      id: 4PoYmVznyCtTdIMA68iwx2
+      created_at: !ruby/object:DateTime 2020-01-08 14:11:04.244000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 14:11:04.244000000 Z
+    title: IMG 1741
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4PoYmVznyCtTdIMA68iwx2/1fb425a303222ae8590ed11438ac350d/IMG_1741.png"
+  category: Sweater
+  color:
+  - "#111553"
+  - "#B63E09"
+  - "#BB030E"
+  - "#0365A1"
+  - "#EED02B"
+  - "#115753"
+  brand: Gap
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2018-11-29 00:00:00.000000000 Z
+- sys:
+    id: 7qX5PgY9cGFdCHn6Juesje
+    created_at: !ruby/object:DateTime 2020-01-08 14:13:58.100000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 14:14:29.704000000 Z
+    content_type_id: item
+    revision: 2
+  name: Magenta Turtleneck Sweater
+  main_color: purple
+  image:
+    sys:
+      id: 6ZOtWZVhsNoIa0adfWjtNy
+      created_at: !ruby/object:DateTime 2020-01-08 14:13:20.912000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 14:13:20.912000000 Z
+    title: IMG 1740
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6ZOtWZVhsNoIa0adfWjtNy/ed962c2e91235243038b037e349a6622/IMG_1740.png"
+  category: Sweater
+  color:
+  - "#BF1774"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-12-28 00:00:00.000000000 Z
+  notes: I got this at the consignment shop on St Simons Island, Georgia.
+- sys:
+    id: 2byJ7TziFF9PYt83Q5EaC
+    created_at: !ruby/object:DateTime 2020-01-08 14:17:33.525000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 14:17:33.525000000 Z
+    content_type_id: item
+    revision: 1
+  name: Baggy Pink V-Neck Sweater
+  main_color: pink
+  image:
+    sys:
+      id: 3fnHlGcrKvbxUwZIHDqQvk
+      created_at: !ruby/object:DateTime 2020-01-08 14:16:32.237000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 14:16:32.237000000 Z
+    title: IMG 1739
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3fnHlGcrKvbxUwZIHDqQvk/e01981434cf966f8d34eb945b94f8f81/IMG_1739.png"
+  category: Sweater
+  color:
+  - "#F25E95"
+  brand: J Crew
+  price_range: Free
+  vintage: false
+  when: !ruby/object:DateTime 2018-12-14 00:00:00.000000000 Z
+  notes: I got this sweater at a clothing swap - it's baggy and huge but so comfy.
+- sys:
+    id: 2bUg4SB73Hoxbwty3NiK02
+    created_at: !ruby/object:DateTime 2020-01-08 23:30:47.340000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 23:30:47.340000000 Z
+    content_type_id: item
+    revision: 1
+  name: Pink Quarter Button Sweater
+  main_color: pink
+  image:
+    sys:
+      id: 6MYMVrq8RR3IhRsEs69yBG
+      created_at: !ruby/object:DateTime 2020-01-08 18:53:45.109000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 18:53:45.109000000 Z
+    title: IMG 1738
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6MYMVrq8RR3IhRsEs69yBG/663389cf03523f24eb394dcb40260dcb/IMG_1738.png"
+  category: Sweater
+  color:
+  - "#B52E71"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2019-12-15 00:00:00.000000000 Z
+  notes: Got this at a clothing swap
