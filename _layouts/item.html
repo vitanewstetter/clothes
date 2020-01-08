@@ -23,8 +23,9 @@ type: item
     <img src="{{page.image.url}}?w=800" class="subpage__image"/>
     <div class="subpage__grid">
     {% for outfit in page.outfits %}
+      {% assign slug = outfit.name | replace: "'", "" | slugify  %}
         <a
-          href="/outfits/{{outfit.slug}}"
+          href="/outfits/{{slug}}"
           class="subpage__secondary-image item"
           data-name="{{outfit.name}}">
           <img src="{{outfit.image.url}}?w=800" class="no-click"/>

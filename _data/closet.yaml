@@ -3,9 +3,9 @@ outfit:
 - sys:
     id: 5tAWIoaF9Ki2CS4sciIWi0
     created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
     content_type_id: outfit
-    revision: 12
+    revision: 13
   name: Rainy Gallery Visit
   image:
     sys:
@@ -52,9 +52,9 @@ outfit:
     - sys:
         id: 5tAWIoaF9Ki2CS4sciIWi0
         created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
         content_type_id: outfit
-        revision: 12
+        revision: 13
       name: Rainy Gallery Visit
       image:
         sys:
@@ -124,6 +124,33 @@ outfit:
         outfits:
         - sys:
             id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
       slug: rainy-gallery-visit
     - sys:
         id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -286,9 +313,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -357,6 +384,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
   - sys:
       id: 6Q8A3I28CWa2wY42EUSsiu
@@ -386,9 +435,9 @@ outfit:
     - sys:
         id: 5tAWIoaF9Ki2CS4sciIWi0
         created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
         content_type_id: outfit
-        revision: 12
+        revision: 13
       name: Rainy Gallery Visit
       image:
         sys:
@@ -458,7 +507,265 @@ outfit:
         outfits:
         - sys:
             id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
       slug: rainy-gallery-visit
+  - sys:
+      id: 1TtysTGKGUal4ec9thqFBF
+      created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+      content_type_id: item
+      revision: 1
+    name: Purple Hairy Overcoat
+    main_color: purple
+    image:
+      sys:
+        id: 7MGkm1Iem1ASan94Fa7HKl
+        created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+      title: IMG 1723
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+    category: Outerwear
+    color:
+    - "#6A56B0"
+    price_range: "$30 - 45"
+    vintage: false
+    when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+    notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+      so hard with the woman selling it, and we walked away multiple times before
+      she gave us the deal she did. It's honestly too short for me, so the button
+      is sorta high which makes it a weird shape haha. But i love it! It's one of
+      my fave colors.
+    outfits:
+    - sys:
+        id: 5tAWIoaF9Ki2CS4sciIWi0
+        created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+        content_type_id: outfit
+        revision: 13
+      name: Rainy Gallery Visit
+      image:
+        sys:
+          id: 5pZvEKfoLC2Gtp57WC80vI
+          created_at: !ruby/object:DateTime 2019-09-16 18:52:20.950000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-16 19:49:17.996000000 Z
+        title: rainy day outfit
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/5pZvEKfoLC2Gtp57WC80vI/04b8ac73bcaaec253706492847311d50/IMG_5258.jpg"
+      date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+      notes: Wore this to go meet a friend and go to the new museum. it was cold and
+        wet out.
+      items:
+      - sys:
+          id: 3d50DOFuvcZg7mnmnBoRCM
+          created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:50:41.804000000 Z
+          content_type_id: item
+          revision: 10
+        name: Polka Dot Pants
+        main_color: black
+        secondary_color: white
+        image:
+          sys:
+            id: wVjZaYPqabkWKllwZTum0
+        category: Pants
+        color:
+        - "#F9F7F0"
+        - "#141414"
+        brand: Ralph Lauren
+        price_range: "$30 - 45"
+        vintage: true
+        when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+        notes: I got these at a weird boutique in boston during college tours. they
+          were $40 and it was (at the time) the most i could possibly imagine spending
+          on anything. I think my mom bought them for me - i was so excited. They
+          sort of fit on and off for a while, i often wore them with the button undone
+          haha.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 3EPOtQyMiVdKAhirAy0Gt5
+        - sys:
+            id: 5otv7qEpqD8yFomafvN2FR
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
+      - sys:
+          id: 6Q8A3I28CWa2wY42EUSsiu
+          created_at: !ruby/object:DateTime 2018-05-04 20:47:47.359000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 02:43:25.857000000 Z
+          content_type_id: item
+          revision: 10
+        name: Lilac Turtleneck
+        main_color: purple
+        image:
+          sys:
+            id: BN0iRot8jhXrTuFp30u89
+        category: Sweater
+        color:
+        - "#BE88EB"
+        brand: No Idea
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+        notes: This was part of the huge New Orleans haul of 2018 :)
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      slug: rainy-gallery-visit
+    - sys:
+        id: 2vA4o8b0vFLKf5m8rtlvFs
+        created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Please Hire Me
+      image:
+        sys:
+          id: 1DMpwFY2RjTezgZZDIMCxs
+          created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+        title: IMG 4150
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+      date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+      notes: Was trying to find a job in New York before I graduated from college.
+        Horrible day, great outfit.
+      items:
+      - sys:
+          id: 3BGziZxCOkAjh9ZoOT3hLA
+          created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:47:58.302000000 Z
+          content_type_id: item
+          revision: 5
+        name: Neon Orange Sweater
+        main_color: orange
+        image:
+          sys:
+            id: 1Aw1PuHxQTatD5tF7YRMab
+        category: Sweater
+        color:
+        - "#FF8C00"
+        brand: Obermeyer
+        price_range: "$10 - $20"
+        vintage: true
+        when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+        notes: I think I got this at wasteland. Didn't wear it for a long time, and
+          now it's my favorite.
+        outfits:
+        - sys:
+            id: 4EZCa1WFxmYNrthspjFwuP
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+        - sys:
+            id: 6J7Sr4WekFqLP789Ccmj3i
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      - sys:
+          id: h2g20ttXUdbeACX50peEa
+          created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Camper Wilma Platforms
+        main_color: purple
+        secondary_color: green
+        image:
+          sys:
+            id: 5EuLFqO48DYGf8DjuGOiEe
+        category: Shoes
+        color:
+        - "#C02FD4"
+        - "#C4DE04"
+        - "#E0A571"
+        - "#141F01"
+        - "#00B5CC"
+        brand: Camper
+        price_range: "$150 - $250"
+        vintage: false
+        when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+        notes: These are just a work of art. I love these shoes, i call them my rugrat
+          [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+          "reptar") shoes. They are a size too small but it was the last pair online.
+      slug: please-hire-me
   slug: rainy-gallery-visit
 - sys:
     id: 2RezBKN7hB5vPbhhDVeHij
@@ -849,9 +1156,9 @@ outfit:
 - sys:
     id: 1gswnkMXZ2ex7eM8ol7aYC
     created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
     content_type_id: outfit
-    revision: 4
+    revision: 5
   name: Work day (showing off new yellow cup)
   image:
     sys:
@@ -898,9 +1205,9 @@ outfit:
     - sys:
         id: 5tAWIoaF9Ki2CS4sciIWi0
         created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
         content_type_id: outfit
-        revision: 12
+        revision: 13
       name: Rainy Gallery Visit
       image:
         sys:
@@ -970,6 +1277,33 @@ outfit:
         outfits:
         - sys:
             id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
       slug: rainy-gallery-visit
     - sys:
         id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -1132,9 +1466,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -1203,6 +1537,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
   - sys:
       id: 3LvXwPw87WBwreVspNkXwl
@@ -1229,9 +1585,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -1300,6 +1656,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
     - sys:
         id: 5za1c69tNCID81t68pY2TK
@@ -1388,6 +1766,128 @@ outfit:
         - sys:
             id: 5za1c69tNCID81t68pY2TK
       slug: fake-navy-jumpsuit
+  - sys:
+      id: 4H2CHAHzM1DlzdzzaWibve
+      created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+      content_type_id: item
+      revision: 1
+    name: Green Cotton Button Up Coat
+    main_color: green
+    image:
+      sys:
+        id: DnNB8t0y1zWf8bOJkLzZZ
+        created_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+      title: IMG 1728
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/DnNB8t0y1zWf8bOJkLzZZ/ee6cfc7c6bf72eeaafede48879278298/IMG_1728.png"
+    category: Outerwear
+    color:
+    - "#A1BF2C"
+    price_range: Free
+    vintage: true
+    when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+    notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's my
+      fave summer jacket.
+    outfits:
+    - sys:
+        id: 1gswnkMXZ2ex7eM8ol7aYC
+        created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+        content_type_id: outfit
+        revision: 5
+      name: Work day (showing off new yellow cup)
+      image:
+        sys:
+          id: 7Iq3OO4RQom2qEfwNsP0ai
+          created_at: !ruby/object:DateTime 2019-09-16 19:01:56.918000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-16 19:50:09.034000000 Z
+        title: IMG 0170
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7Iq3OO4RQom2qEfwNsP0ai/fa77258233eba4c3f5d90f2a825ac7d0/IMG_0170.jpg"
+      date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+      notes: I had just purchased this to go cup on amazon, and i loved how it looked
+        with everything :)
+      items:
+      - sys:
+          id: 3d50DOFuvcZg7mnmnBoRCM
+          created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:50:41.804000000 Z
+          content_type_id: item
+          revision: 10
+        name: Polka Dot Pants
+        main_color: black
+        secondary_color: white
+        image:
+          sys:
+            id: wVjZaYPqabkWKllwZTum0
+        category: Pants
+        color:
+        - "#F9F7F0"
+        - "#141414"
+        brand: Ralph Lauren
+        price_range: "$30 - 45"
+        vintage: true
+        when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+        notes: I got these at a weird boutique in boston during college tours. they
+          were $40 and it was (at the time) the most i could possibly imagine spending
+          on anything. I think my mom bought them for me - i was so excited. They
+          sort of fit on and off for a while, i often wore them with the button undone
+          haha.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 3EPOtQyMiVdKAhirAy0Gt5
+        - sys:
+            id: 5otv7qEpqD8yFomafvN2FR
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
+      - sys:
+          id: 3LvXwPw87WBwreVspNkXwl
+          created_at: !ruby/object:DateTime 2019-11-18 14:41:12.582000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:55:51.128000000 Z
+          content_type_id: item
+          revision: 3
+        name: Navy Button Down
+        main_color: blue
+        image:
+          sys:
+            id: 57voz9A8QeGx2JQidWwK3C
+        category: Shirt
+        brand: Gap
+        price_range: "$10 - $20"
+        vintage: false
+        when: !ruby/object:DateTime 2016-04-13 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
+        - sys:
+            id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
+      slug: work-day-yellow-cup
   slug: work-day-yellow-cup
 - sys:
     id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -1440,9 +1940,9 @@ outfit:
     - sys:
         id: 5tAWIoaF9Ki2CS4sciIWi0
         created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
         content_type_id: outfit
-        revision: 12
+        revision: 13
       name: Rainy Gallery Visit
       image:
         sys:
@@ -1512,6 +2012,33 @@ outfit:
         outfits:
         - sys:
             id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
       slug: rainy-gallery-visit
     - sys:
         id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -1674,9 +2201,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -1745,6 +2272,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
   - sys:
       id: 68oOt1nhok1XPPisdaJbUK
@@ -2062,9 +2611,9 @@ outfit:
     - sys:
         id: 5tAWIoaF9Ki2CS4sciIWi0
         created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
         content_type_id: outfit
-        revision: 12
+        revision: 13
       name: Rainy Gallery Visit
       image:
         sys:
@@ -2134,6 +2683,33 @@ outfit:
         outfits:
         - sys:
             id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
       slug: rainy-gallery-visit
     - sys:
         id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -2296,9 +2872,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -2367,6 +2943,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
   slug: test-work-outfit-one
 - sys:
@@ -2801,9 +3399,9 @@ outfit:
 - sys:
     id: 6sm9LWi7dfslN1wDNyXyi2
     created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 03:31:41.944000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
     content_type_id: outfit
-    revision: 2
+    revision: 3
   name: Floral Pants; Blue Shirt
   image:
     sys:
@@ -2844,9 +3442,9 @@ outfit:
     - sys:
         id: 6sm9LWi7dfslN1wDNyXyi2
         created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:31:41.944000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
         content_type_id: outfit
-        revision: 2
+        revision: 3
       name: Floral Pants; Blue Shirt
       image:
         sys:
@@ -2878,6 +3476,133 @@ outfit:
         when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
         notes: This shirt is such a great color. Been missing a button for a long
           time, need to replace it. No idea where i got it!
+        outfits:
+        - sys:
+            id: 6sm9LWi7dfslN1wDNyXyi2
+      - sys:
+          id: 4Izrlq3jVSqCJTR1NPwGIU
+          created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Mara Hoffman Floral Pants
+        main_color: multicolor
+        image:
+          sys:
+            id: 1z2DZpLUWZpHaVGgFHsINo
+        category: Pants
+        color:
+        - "#F26699"
+        - "#F28444"
+        - "#5EC2E2"
+        - "#F23E2E"
+        - "#0C135C"
+        brand: Mara Hoffman
+        price_range: "$100 - $150"
+        vintage: false
+        when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+        notes: These were a wonderful birthday present <3 they are cotton and cropped
+          which makes them hard to wear in the winter, but they are the best summer
+          pant.
+        outfits:
+        - sys:
+            id: 6sm9LWi7dfslN1wDNyXyi2
+      slug: floral-pants-blue-shirt
+  - sys:
+      id: 4Izrlq3jVSqCJTR1NPwGIU
+      created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+      content_type_id: item
+      revision: 1
+    name: Mara Hoffman Floral Pants
+    main_color: multicolor
+    image:
+      sys:
+        id: 1z2DZpLUWZpHaVGgFHsINo
+        created_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+      title: IMG 1711
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1z2DZpLUWZpHaVGgFHsINo/a529d5f738c9ffa79e716f0d008554d4/IMG_1711.png"
+    category: Pants
+    color:
+    - "#F26699"
+    - "#F28444"
+    - "#5EC2E2"
+    - "#F23E2E"
+    - "#0C135C"
+    brand: Mara Hoffman
+    price_range: "$100 - $150"
+    vintage: false
+    when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+    notes: These were a wonderful birthday present <3 they are cotton and cropped
+      which makes them hard to wear in the winter, but they are the best summer pant.
+    outfits:
+    - sys:
+        id: 6sm9LWi7dfslN1wDNyXyi2
+        created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Floral Pants; Blue Shirt
+      image:
+        sys:
+          id: 28z2pWRUmjAWwHakIfuzbj
+          created_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+        title: IMG 0928
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/28z2pWRUmjAWwHakIfuzbj/f847400299158a4b331e94dc0d789a22/IMG_0928.jpg"
+      date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+      items:
+      - sys:
+          id: 2UJXBQMG4g8DAu8l55vA6T
+          created_at: !ruby/object:DateTime 2019-06-03 21:22:37.395000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:31:54.105000000 Z
+          content_type_id: item
+          revision: 6
+        name: Bright Blue Short Sleeve Button Down
+        main_color: blue
+        image:
+          sys:
+            id: 2mIzSbUEjUmmXd9IzDv3HY
+        category: Shirt
+        color:
+        - "#1F88DE"
+        brand: No Idea
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+        notes: This shirt is such a great color. Been missing a button for a long
+          time, need to replace it. No idea where i got it!
+        outfits:
+        - sys:
+            id: 6sm9LWi7dfslN1wDNyXyi2
+      - sys:
+          id: 4Izrlq3jVSqCJTR1NPwGIU
+          created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Mara Hoffman Floral Pants
+        main_color: multicolor
+        image:
+          sys:
+            id: 1z2DZpLUWZpHaVGgFHsINo
+        category: Pants
+        color:
+        - "#F26699"
+        - "#F28444"
+        - "#5EC2E2"
+        - "#F23E2E"
+        - "#0C135C"
+        brand: Mara Hoffman
+        price_range: "$100 - $150"
+        vintage: false
+        when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+        notes: These were a wonderful birthday present <3 they are cotton and cropped
+          which makes them hard to wear in the winter, but they are the best summer
+          pant.
         outfits:
         - sys:
             id: 6sm9LWi7dfslN1wDNyXyi2
@@ -5890,9 +6615,9 @@ outfit:
     - sys:
         id: 2vA4o8b0vFLKf5m8rtlvFs
         created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
         content_type_id: outfit
-        revision: 2
+        revision: 3
       name: Please Hire Me
       image:
         sys:
@@ -5933,6 +6658,59 @@ outfit:
             id: 2vA4o8b0vFLKf5m8rtlvFs
         - sys:
             id: 6J7Sr4WekFqLP789Ccmj3i
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      - sys:
+          id: h2g20ttXUdbeACX50peEa
+          created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Camper Wilma Platforms
+        main_color: purple
+        secondary_color: green
+        image:
+          sys:
+            id: 5EuLFqO48DYGf8DjuGOiEe
+        category: Shoes
+        color:
+        - "#C02FD4"
+        - "#C4DE04"
+        - "#E0A571"
+        - "#141F01"
+        - "#00B5CC"
+        brand: Camper
+        price_range: "$150 - $250"
+        vintage: false
+        when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+        notes: These are just a work of art. I love these shoes, i call them my rugrat
+          [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+          "reptar") shoes. They are a size too small but it was the last pair online.
       slug: please-hire-me
     - sys:
         id: 6J7Sr4WekFqLP789Ccmj3i
@@ -5983,9 +6761,9 @@ outfit:
 - sys:
     id: 2vA4o8b0vFLKf5m8rtlvFs
     created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
     content_type_id: outfit
-    revision: 2
+    revision: 3
   name: Please Hire Me
   image:
     sys:
@@ -6073,9 +6851,9 @@ outfit:
     - sys:
         id: 2vA4o8b0vFLKf5m8rtlvFs
         created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
         content_type_id: outfit
-        revision: 2
+        revision: 3
       name: Please Hire Me
       image:
         sys:
@@ -6116,6 +6894,59 @@ outfit:
             id: 2vA4o8b0vFLKf5m8rtlvFs
         - sys:
             id: 6J7Sr4WekFqLP789Ccmj3i
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      - sys:
+          id: h2g20ttXUdbeACX50peEa
+          created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Camper Wilma Platforms
+        main_color: purple
+        secondary_color: green
+        image:
+          sys:
+            id: 5EuLFqO48DYGf8DjuGOiEe
+        category: Shoes
+        color:
+        - "#C02FD4"
+        - "#C4DE04"
+        - "#E0A571"
+        - "#141F01"
+        - "#00B5CC"
+        brand: Camper
+        price_range: "$150 - $250"
+        vintage: false
+        when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+        notes: These are just a work of art. I love these shoes, i call them my rugrat
+          [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+          "reptar") shoes. They are a size too small but it was the last pair online.
       slug: please-hire-me
     - sys:
         id: 6J7Sr4WekFqLP789Ccmj3i
@@ -6162,6 +6993,268 @@ outfit:
         - sys:
             id: 6J7Sr4WekFqLP789Ccmj3i
       slug: orange-sweater-great-leggings
+  - sys:
+      id: 1TtysTGKGUal4ec9thqFBF
+      created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+      content_type_id: item
+      revision: 1
+    name: Purple Hairy Overcoat
+    main_color: purple
+    image:
+      sys:
+        id: 7MGkm1Iem1ASan94Fa7HKl
+        created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+      title: IMG 1723
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+    category: Outerwear
+    color:
+    - "#6A56B0"
+    price_range: "$30 - 45"
+    vintage: false
+    when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+    notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+      so hard with the woman selling it, and we walked away multiple times before
+      she gave us the deal she did. It's honestly too short for me, so the button
+      is sorta high which makes it a weird shape haha. But i love it! It's one of
+      my fave colors.
+    outfits:
+    - sys:
+        id: 5tAWIoaF9Ki2CS4sciIWi0
+        created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+        content_type_id: outfit
+        revision: 13
+      name: Rainy Gallery Visit
+      image:
+        sys:
+          id: 5pZvEKfoLC2Gtp57WC80vI
+          created_at: !ruby/object:DateTime 2019-09-16 18:52:20.950000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-16 19:49:17.996000000 Z
+        title: rainy day outfit
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/5pZvEKfoLC2Gtp57WC80vI/04b8ac73bcaaec253706492847311d50/IMG_5258.jpg"
+      date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+      notes: Wore this to go meet a friend and go to the new museum. it was cold and
+        wet out.
+      items:
+      - sys:
+          id: 3d50DOFuvcZg7mnmnBoRCM
+          created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:50:41.804000000 Z
+          content_type_id: item
+          revision: 10
+        name: Polka Dot Pants
+        main_color: black
+        secondary_color: white
+        image:
+          sys:
+            id: wVjZaYPqabkWKllwZTum0
+        category: Pants
+        color:
+        - "#F9F7F0"
+        - "#141414"
+        brand: Ralph Lauren
+        price_range: "$30 - 45"
+        vintage: true
+        when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+        notes: I got these at a weird boutique in boston during college tours. they
+          were $40 and it was (at the time) the most i could possibly imagine spending
+          on anything. I think my mom bought them for me - i was so excited. They
+          sort of fit on and off for a while, i often wore them with the button undone
+          haha.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 3EPOtQyMiVdKAhirAy0Gt5
+        - sys:
+            id: 5otv7qEpqD8yFomafvN2FR
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
+      - sys:
+          id: 6Q8A3I28CWa2wY42EUSsiu
+          created_at: !ruby/object:DateTime 2018-05-04 20:47:47.359000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 02:43:25.857000000 Z
+          content_type_id: item
+          revision: 10
+        name: Lilac Turtleneck
+        main_color: purple
+        image:
+          sys:
+            id: BN0iRot8jhXrTuFp30u89
+        category: Sweater
+        color:
+        - "#BE88EB"
+        brand: No Idea
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+        notes: This was part of the huge New Orleans haul of 2018 :)
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      slug: rainy-gallery-visit
+    - sys:
+        id: 2vA4o8b0vFLKf5m8rtlvFs
+        created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Please Hire Me
+      image:
+        sys:
+          id: 1DMpwFY2RjTezgZZDIMCxs
+          created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+        title: IMG 4150
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+      date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+      notes: Was trying to find a job in New York before I graduated from college.
+        Horrible day, great outfit.
+      items:
+      - sys:
+          id: 3BGziZxCOkAjh9ZoOT3hLA
+          created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:47:58.302000000 Z
+          content_type_id: item
+          revision: 5
+        name: Neon Orange Sweater
+        main_color: orange
+        image:
+          sys:
+            id: 1Aw1PuHxQTatD5tF7YRMab
+        category: Sweater
+        color:
+        - "#FF8C00"
+        brand: Obermeyer
+        price_range: "$10 - $20"
+        vintage: true
+        when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+        notes: I think I got this at wasteland. Didn't wear it for a long time, and
+          now it's my favorite.
+        outfits:
+        - sys:
+            id: 4EZCa1WFxmYNrthspjFwuP
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+        - sys:
+            id: 6J7Sr4WekFqLP789Ccmj3i
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      - sys:
+          id: h2g20ttXUdbeACX50peEa
+          created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Camper Wilma Platforms
+        main_color: purple
+        secondary_color: green
+        image:
+          sys:
+            id: 5EuLFqO48DYGf8DjuGOiEe
+        category: Shoes
+        color:
+        - "#C02FD4"
+        - "#C4DE04"
+        - "#E0A571"
+        - "#141F01"
+        - "#00B5CC"
+        brand: Camper
+        price_range: "$150 - $250"
+        vintage: false
+        when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+        notes: These are just a work of art. I love these shoes, i call them my rugrat
+          [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+          "reptar") shoes. They are a size too small but it was the last pair online.
+      slug: please-hire-me
+  - sys:
+      id: h2g20ttXUdbeACX50peEa
+      created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+      content_type_id: item
+      revision: 1
+    name: Camper Wilma Platforms
+    main_color: purple
+    secondary_color: green
+    image:
+      sys:
+        id: 5EuLFqO48DYGf8DjuGOiEe
+        created_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+        updated_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+      title: IMG 1183
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/5EuLFqO48DYGf8DjuGOiEe/5ab9be2475d5de54f43af0eaa4b9cade/IMG_1183.png"
+    category: Shoes
+    color:
+    - "#C02FD4"
+    - "#C4DE04"
+    - "#E0A571"
+    - "#141F01"
+    - "#00B5CC"
+    brand: Camper
+    price_range: "$150 - $250"
+    vintage: false
+    when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+    notes: These are just a work of art. I love these shoes, i call them my rugrat
+      [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+      "reptar") shoes. They are a size too small but it was the last pair online.
   slug: please-hire-me
 - sys:
     id: 6J7Sr4WekFqLP789Ccmj3i
@@ -6254,9 +7347,9 @@ outfit:
     - sys:
         id: 2vA4o8b0vFLKf5m8rtlvFs
         created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
         content_type_id: outfit
-        revision: 2
+        revision: 3
       name: Please Hire Me
       image:
         sys:
@@ -6297,6 +7390,59 @@ outfit:
             id: 2vA4o8b0vFLKf5m8rtlvFs
         - sys:
             id: 6J7Sr4WekFqLP789Ccmj3i
+      - sys:
+          id: 1TtysTGKGUal4ec9thqFBF
+          created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+          content_type_id: item
+          revision: 1
+        name: Purple Hairy Overcoat
+        main_color: purple
+        image:
+          sys:
+            id: 7MGkm1Iem1ASan94Fa7HKl
+        category: Outerwear
+        color:
+        - "#6A56B0"
+        price_range: "$30 - 45"
+        vintage: false
+        when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+        notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+          so hard with the woman selling it, and we walked away multiple times before
+          she gave us the deal she did. It's honestly too short for me, so the button
+          is sorta high which makes it a weird shape haha. But i love it! It's one
+          of my fave colors.
+        outfits:
+        - sys:
+            id: 5tAWIoaF9Ki2CS4sciIWi0
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      - sys:
+          id: h2g20ttXUdbeACX50peEa
+          created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+          content_type_id: item
+          revision: 1
+        name: Camper Wilma Platforms
+        main_color: purple
+        secondary_color: green
+        image:
+          sys:
+            id: 5EuLFqO48DYGf8DjuGOiEe
+        category: Shoes
+        color:
+        - "#C02FD4"
+        - "#C4DE04"
+        - "#E0A571"
+        - "#141F01"
+        - "#00B5CC"
+        brand: Camper
+        price_range: "$150 - $250"
+        vintage: false
+        when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+        notes: These are just a work of art. I love these shoes, i call them my rugrat
+          [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+          "reptar") shoes. They are a size too small but it was the last pair online.
       slug: please-hire-me
     - sys:
         id: 6J7Sr4WekFqLP789Ccmj3i
@@ -6649,9 +7795,9 @@ outfit:
     - sys:
         id: 1gswnkMXZ2ex7eM8ol7aYC
         created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-        updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
         content_type_id: outfit
-        revision: 4
+        revision: 5
       name: Work day (showing off new yellow cup)
       image:
         sys:
@@ -6720,6 +7866,28 @@ outfit:
             id: 1gswnkMXZ2ex7eM8ol7aYC
         - sys:
             id: 5za1c69tNCID81t68pY2TK
+      - sys:
+          id: 4H2CHAHzM1DlzdzzaWibve
+          created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Cotton Button Up Coat
+        main_color: green
+        image:
+          sys:
+            id: DnNB8t0y1zWf8bOJkLzZZ
+        category: Outerwear
+        color:
+        - "#A1BF2C"
+        price_range: Free
+        vintage: true
+        when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+        notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+          my fave summer jacket.
+        outfits:
+        - sys:
+            id: 1gswnkMXZ2ex7eM8ol7aYC
       slug: work-day-yellow-cup
     - sys:
         id: 5za1c69tNCID81t68pY2TK
@@ -8648,9 +9816,9 @@ item:
   - sys:
       id: 5tAWIoaF9Ki2CS4sciIWi0
       created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
       content_type_id: outfit
-      revision: 12
+      revision: 13
     name: Rainy Gallery Visit
     image:
       sys:
@@ -8697,9 +9865,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -8712,6 +9880,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -8754,9 +9924,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -8769,6 +9939,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 6Q8A3I28CWa2wY42EUSsiu
@@ -8798,9 +9970,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -8813,7 +9985,79 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
+    - sys:
+        id: 1TtysTGKGUal4ec9thqFBF
+        created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        content_type_id: item
+        revision: 1
+      name: Purple Hairy Overcoat
+      main_color: purple
+      image:
+        sys:
+          id: 7MGkm1Iem1ASan94Fa7HKl
+          created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        title: IMG 1723
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+      category: Outerwear
+      color:
+      - "#6A56B0"
+      price_range: "$30 - 45"
+      vintage: false
+      when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+      notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+        so hard with the woman selling it, and we walked away multiple times before
+        she gave us the deal she did. It's honestly too short for me, so the button
+        is sorta high which makes it a weird shape haha. But i love it! It's one of
+        my fave colors.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
     slug: rainy-gallery-visit
 - sys:
     id: 64u6NUuFPJs36KCFx39VGS
@@ -9157,9 +10401,9 @@ item:
   - sys:
       id: 6sm9LWi7dfslN1wDNyXyi2
       created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 03:31:41.944000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
       content_type_id: outfit
-      revision: 2
+      revision: 3
     name: Floral Pants; Blue Shirt
     image:
       sys:
@@ -9200,9 +10444,9 @@ item:
       - sys:
           id: 6sm9LWi7dfslN1wDNyXyi2
           created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:31:41.944000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
           content_type_id: outfit
-          revision: 2
+          revision: 3
         name: Floral Pants; Blue Shirt
         image:
           sys:
@@ -9211,6 +10455,56 @@ item:
         items:
         - sys:
             id: 2UJXBQMG4g8DAu8l55vA6T
+        - sys:
+            id: 4Izrlq3jVSqCJTR1NPwGIU
+        slug: floral-pants-blue-shirt
+    - sys:
+        id: 4Izrlq3jVSqCJTR1NPwGIU
+        created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+        content_type_id: item
+        revision: 1
+      name: Mara Hoffman Floral Pants
+      main_color: multicolor
+      image:
+        sys:
+          id: 1z2DZpLUWZpHaVGgFHsINo
+          created_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+        title: IMG 1711
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1z2DZpLUWZpHaVGgFHsINo/a529d5f738c9ffa79e716f0d008554d4/IMG_1711.png"
+      category: Pants
+      color:
+      - "#F26699"
+      - "#F28444"
+      - "#5EC2E2"
+      - "#F23E2E"
+      - "#0C135C"
+      brand: Mara Hoffman
+      price_range: "$100 - $150"
+      vintage: false
+      when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+      notes: These were a wonderful birthday present <3 they are cotton and cropped
+        which makes them hard to wear in the winter, but they are the best summer
+        pant.
+      outfits:
+      - sys:
+          id: 6sm9LWi7dfslN1wDNyXyi2
+          created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Floral Pants; Blue Shirt
+        image:
+          sys:
+            id: 28z2pWRUmjAWwHakIfuzbj
+        date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 2UJXBQMG4g8DAu8l55vA6T
+        - sys:
+            id: 4Izrlq3jVSqCJTR1NPwGIU
         slug: floral-pants-blue-shirt
     slug: floral-pants-blue-shirt
 - sys:
@@ -10946,9 +12240,9 @@ item:
   - sys:
       id: 5tAWIoaF9Ki2CS4sciIWi0
       created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
       content_type_id: outfit
-      revision: 12
+      revision: 13
     name: Rainy Gallery Visit
     image:
       sys:
@@ -10995,9 +12289,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -11010,6 +12304,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -11052,9 +12348,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11067,6 +12363,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 6Q8A3I28CWa2wY42EUSsiu
@@ -11096,9 +12394,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -11111,7 +12409,79 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
+    - sys:
+        id: 1TtysTGKGUal4ec9thqFBF
+        created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        content_type_id: item
+        revision: 1
+      name: Purple Hairy Overcoat
+      main_color: purple
+      image:
+        sys:
+          id: 7MGkm1Iem1ASan94Fa7HKl
+          created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        title: IMG 1723
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+      category: Outerwear
+      color:
+      - "#6A56B0"
+      price_range: "$30 - 45"
+      vintage: false
+      when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+      notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+        so hard with the woman selling it, and we walked away multiple times before
+        she gave us the deal she did. It's honestly too short for me, so the button
+        is sorta high which makes it a weird shape haha. But i love it! It's one of
+        my fave colors.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
     slug: rainy-gallery-visit
   - sys:
       id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -11164,9 +12534,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -11179,6 +12549,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -11221,9 +12593,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11236,6 +12608,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 68oOt1nhok1XPPisdaJbUK
@@ -11388,9 +12762,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -11403,6 +12777,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -11445,9 +12821,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11460,14 +12836,16 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     slug: test-work-outfit-one
   - sys:
       id: 1gswnkMXZ2ex7eM8ol7aYC
       created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
       content_type_id: outfit
-      revision: 4
+      revision: 5
     name: Work day (showing off new yellow cup)
     image:
       sys:
@@ -11514,9 +12892,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -11529,6 +12907,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -11571,9 +12951,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11586,6 +12966,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 3LvXwPw87WBwreVspNkXwl
@@ -11612,9 +12994,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11627,6 +13009,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
       - sys:
           id: 5za1c69tNCID81t68pY2TK
@@ -11650,6 +13034,52 @@ item:
         - sys:
             id: 1qGoz5DJT4jJmdRBTcPDj6
         slug: fake-navy-jumpsuit
+    - sys:
+        id: 4H2CHAHzM1DlzdzzaWibve
+        created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        content_type_id: item
+        revision: 1
+      name: Green Cotton Button Up Coat
+      main_color: green
+      image:
+        sys:
+          id: DnNB8t0y1zWf8bOJkLzZZ
+          created_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+        title: IMG 1728
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/DnNB8t0y1zWf8bOJkLzZZ/ee6cfc7c6bf72eeaafede48879278298/IMG_1728.png"
+      category: Outerwear
+      color:
+      - "#A1BF2C"
+      price_range: Free
+      vintage: true
+      when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+      notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+        my fave summer jacket.
+      outfits:
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
     slug: work-day-yellow-cup
 - sys:
     id: 7hKxFfF2jVCubR6C0zSG4w
@@ -11844,9 +13274,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -11859,6 +13289,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
       - sys:
           id: 5za1c69tNCID81t68pY2TK
@@ -12457,9 +13889,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -12472,6 +13904,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -12514,9 +13948,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -12529,6 +13963,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 68oOt1nhok1XPPisdaJbUK
@@ -13779,9 +15215,9 @@ item:
       - sys:
           id: 2vA4o8b0vFLKf5m8rtlvFs
           created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
           content_type_id: outfit
-          revision: 2
+          revision: 3
         name: Please Hire Me
         image:
           sys:
@@ -13792,6 +15228,10 @@ item:
         items:
         - sys:
             id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
         slug: please-hire-me
       - sys:
           id: 6J7Sr4WekFqLP789Ccmj3i
@@ -13812,9 +15252,9 @@ item:
   - sys:
       id: 2vA4o8b0vFLKf5m8rtlvFs
       created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
       content_type_id: outfit
-      revision: 2
+      revision: 3
     name: Please Hire Me
     image:
       sys:
@@ -13872,9 +15312,9 @@ item:
       - sys:
           id: 2vA4o8b0vFLKf5m8rtlvFs
           created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
           content_type_id: outfit
-          revision: 2
+          revision: 3
         name: Please Hire Me
         image:
           sys:
@@ -13885,6 +15325,10 @@ item:
         items:
         - sys:
             id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
         slug: please-hire-me
       - sys:
           id: 6J7Sr4WekFqLP789Ccmj3i
@@ -13901,6 +15345,107 @@ item:
         - sys:
             id: 3BGziZxCOkAjh9ZoOT3hLA
         slug: orange-sweater-great-leggings
+    - sys:
+        id: 1TtysTGKGUal4ec9thqFBF
+        created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        content_type_id: item
+        revision: 1
+      name: Purple Hairy Overcoat
+      main_color: purple
+      image:
+        sys:
+          id: 7MGkm1Iem1ASan94Fa7HKl
+          created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        title: IMG 1723
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+      category: Outerwear
+      color:
+      - "#6A56B0"
+      price_range: "$30 - 45"
+      vintage: false
+      when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+      notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+        so hard with the woman selling it, and we walked away multiple times before
+        she gave us the deal she did. It's honestly too short for me, so the button
+        is sorta high which makes it a weird shape haha. But i love it! It's one of
+        my fave colors.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
+    - sys:
+        id: h2g20ttXUdbeACX50peEa
+        created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+        updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+        content_type_id: item
+        revision: 1
+      name: Camper Wilma Platforms
+      main_color: purple
+      secondary_color: green
+      image:
+        sys:
+          id: 5EuLFqO48DYGf8DjuGOiEe
+          created_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+        title: IMG 1183
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/5EuLFqO48DYGf8DjuGOiEe/5ab9be2475d5de54f43af0eaa4b9cade/IMG_1183.png"
+      category: Shoes
+      color:
+      - "#C02FD4"
+      - "#C4DE04"
+      - "#E0A571"
+      - "#141F01"
+      - "#00B5CC"
+      brand: Camper
+      price_range: "$150 - $250"
+      vintage: false
+      when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+      notes: These are just a work of art. I love these shoes, i call them my rugrat
+        [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+        "reptar") shoes. They are a size too small but it was the last pair online.
     slug: please-hire-me
   - sys:
       id: 6J7Sr4WekFqLP789Ccmj3i
@@ -13963,9 +15508,9 @@ item:
       - sys:
           id: 2vA4o8b0vFLKf5m8rtlvFs
           created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:43:47.069000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
           content_type_id: outfit
-          revision: 2
+          revision: 3
         name: Please Hire Me
         image:
           sys:
@@ -13976,6 +15521,10 @@ item:
         items:
         - sys:
             id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
         slug: please-hire-me
       - sys:
           id: 6J7Sr4WekFqLP789Ccmj3i
@@ -16210,9 +17759,9 @@ item:
   - sys:
       id: 1gswnkMXZ2ex7eM8ol7aYC
       created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
       content_type_id: outfit
-      revision: 4
+      revision: 5
     name: Work day (showing off new yellow cup)
     image:
       sys:
@@ -16259,9 +17808,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -16274,6 +17823,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -16316,9 +17867,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -16331,6 +17882,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 3LvXwPw87WBwreVspNkXwl
@@ -16357,9 +17910,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -16372,6 +17925,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
       - sys:
           id: 5za1c69tNCID81t68pY2TK
@@ -16395,6 +17950,52 @@ item:
         - sys:
             id: 1qGoz5DJT4jJmdRBTcPDj6
         slug: fake-navy-jumpsuit
+    - sys:
+        id: 4H2CHAHzM1DlzdzzaWibve
+        created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        content_type_id: item
+        revision: 1
+      name: Green Cotton Button Up Coat
+      main_color: green
+      image:
+        sys:
+          id: DnNB8t0y1zWf8bOJkLzZZ
+          created_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+        title: IMG 1728
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/DnNB8t0y1zWf8bOJkLzZZ/ee6cfc7c6bf72eeaafede48879278298/IMG_1728.png"
+      category: Outerwear
+      color:
+      - "#A1BF2C"
+      price_range: Free
+      vintage: true
+      when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+      notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+        my fave summer jacket.
+      outfits:
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
     slug: work-day-yellow-cup
   - sys:
       id: 5za1c69tNCID81t68pY2TK
@@ -16440,9 +18041,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -16455,6 +18056,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
       - sys:
           id: 5za1c69tNCID81t68pY2TK
@@ -18256,9 +19859,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -18271,6 +19874,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
       - sys:
           id: 5za1c69tNCID81t68pY2TK
@@ -19137,9 +20742,9 @@ item:
       - sys:
           id: 5tAWIoaF9Ki2CS4sciIWi0
           created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 04:00:05.680000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
           content_type_id: outfit
-          revision: 12
+          revision: 13
         name: Rainy Gallery Visit
         image:
           sys:
@@ -19152,6 +20757,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
         slug: rainy-gallery-visit
       - sys:
           id: 3EPOtQyMiVdKAhirAy0Gt5
@@ -19194,9 +20801,9 @@ item:
       - sys:
           id: 1gswnkMXZ2ex7eM8ol7aYC
           created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
-          updated_at: !ruby/object:DateTime 2019-12-09 03:50:30.380000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
           content_type_id: outfit
-          revision: 4
+          revision: 5
         name: Work day (showing off new yellow cup)
         image:
           sys:
@@ -19209,6 +20816,8 @@ item:
             id: 3d50DOFuvcZg7mnmnBoRCM
         - sys:
             id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
         slug: work-day-yellow-cup
     - sys:
         id: 68oOt1nhok1XPPisdaJbUK
@@ -20524,3 +22133,1505 @@ item:
   price_range: Under $10
   vintage: true
   when: !ruby/object:DateTime 2014-08-19 00:00:00.000000000 Z
+- sys:
+    id: 7y7P92VMiPLpy3olu9SNfw
+    created_at: !ruby/object:DateTime 2020-01-07 20:19:19.921000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 20:19:19.921000000 Z
+    content_type_id: item
+    revision: 1
+  name: Giraffe Print Fringe Pants
+  main_color: black
+  secondary_color: multicolor
+  image:
+    sys:
+      id: 33nA8axyrbqjZi1BtFbNoo
+      created_at: !ruby/object:DateTime 2020-01-07 20:17:59.115000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 20:17:59.115000000 Z
+    title: IMG 1706
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/33nA8axyrbqjZi1BtFbNoo/b6dfd5324cf9df94236ca801f1942e00/IMG_1706.png"
+  category: Pants
+  color:
+  - "#59402A"
+  - "#C28604"
+  - "#0D0D0D"
+  brand: Caché
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2014-01-21 00:00:00.000000000 Z
+- sys:
+    id: 47pDMgZxt1aikYbc2KTS3j
+    created_at: !ruby/object:DateTime 2020-01-07 20:46:12.088000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 20:46:12.088000000 Z
+    content_type_id: item
+    revision: 1
+  name: Levis Vintage Blue Jeans
+  main_color: blue
+  image:
+    sys:
+      id: 3NrvfPBDzch5bqtuK5CcCF
+      created_at: !ruby/object:DateTime 2020-01-07 20:21:26.326000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 20:47:19.164000000 Z
+    title: IMG 1705
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3NrvfPBDzch5bqtuK5CcCF/a29d948c8727039684ce3454101ab0a4/IMG_1712.png"
+  category: Pants
+  color:
+  - "#325573"
+  brand: Levi's
+  price_range: "$30 - 45"
+  vintage: true
+  when: !ruby/object:DateTime 2019-08-12 00:00:00.000000000 Z
+  notes: These were my first pair of vintage jeans that i really liked, got them at
+    Wasteland in SF after Charlotte gave me some lessons on buying vintage jeans.
+- sys:
+    id: 5JDOWSYWbOUzUx6Qr9loIU
+    created_at: !ruby/object:DateTime 2020-01-07 20:53:42.431000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 20:53:42.431000000 Z
+    content_type_id: item
+    revision: 1
+  name: Old Eddie Bauer Blue Jeans
+  main_color: blue
+  image:
+    sys:
+      id: 23mE0qpYCfNz3L5cNugtkV
+      created_at: !ruby/object:DateTime 2020-01-07 20:52:44.295000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 20:52:44.295000000 Z
+    title: IMG 1705
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/23mE0qpYCfNz3L5cNugtkV/e4146850db56c14420f5d8e3ae4054b7/IMG_1705.png"
+  category: Pants
+  color:
+  - "#64798C"
+  brand: Eddie Bauer
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-03-15 00:00:00.000000000 Z
+  notes: These never quite fit me, I was just waiting for another pair to come along
+    :)
+  label: Given to Char
+- sys:
+    id: 4Izrlq3jVSqCJTR1NPwGIU
+    created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+    content_type_id: item
+    revision: 1
+  name: Mara Hoffman Floral Pants
+  main_color: multicolor
+  image:
+    sys:
+      id: 1z2DZpLUWZpHaVGgFHsINo
+      created_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+    title: IMG 1711
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1z2DZpLUWZpHaVGgFHsINo/a529d5f738c9ffa79e716f0d008554d4/IMG_1711.png"
+  category: Pants
+  color:
+  - "#F26699"
+  - "#F28444"
+  - "#5EC2E2"
+  - "#F23E2E"
+  - "#0C135C"
+  brand: Mara Hoffman
+  price_range: "$100 - $150"
+  vintage: false
+  when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+  notes: These were a wonderful birthday present <3 they are cotton and cropped which
+    makes them hard to wear in the winter, but they are the best summer pant.
+  outfits:
+  - sys:
+      id: 6sm9LWi7dfslN1wDNyXyi2
+      created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: Floral Pants; Blue Shirt
+    image:
+      sys:
+        id: 28z2pWRUmjAWwHakIfuzbj
+        created_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 13:29:12.375000000 Z
+      title: IMG 0928
+      description: outfit
+      url: "//images.ctfassets.net/4sf3k05ydnj7/28z2pWRUmjAWwHakIfuzbj/f847400299158a4b331e94dc0d789a22/IMG_0928.jpg"
+    date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+    items:
+    - sys:
+        id: 2UJXBQMG4g8DAu8l55vA6T
+        created_at: !ruby/object:DateTime 2019-06-03 21:22:37.395000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 03:31:54.105000000 Z
+        content_type_id: item
+        revision: 6
+      name: Bright Blue Short Sleeve Button Down
+      main_color: blue
+      image:
+        sys:
+          id: 2mIzSbUEjUmmXd9IzDv3HY
+          created_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+          updated_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+        title: IMG 0506
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2mIzSbUEjUmmXd9IzDv3HY/17bfd5e0e3ae6eda8a58ac68f58f61e3/IMG_0506.png"
+      category: Shirt
+      color:
+      - "#1F88DE"
+      brand: No Idea
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+      notes: This shirt is such a great color. Been missing a button for a long time,
+        need to replace it. No idea where i got it!
+      outfits:
+      - sys:
+          id: 6sm9LWi7dfslN1wDNyXyi2
+          created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Floral Pants; Blue Shirt
+        image:
+          sys:
+            id: 28z2pWRUmjAWwHakIfuzbj
+        date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 2UJXBQMG4g8DAu8l55vA6T
+        - sys:
+            id: 4Izrlq3jVSqCJTR1NPwGIU
+        slug: floral-pants-blue-shirt
+    - sys:
+        id: 4Izrlq3jVSqCJTR1NPwGIU
+        created_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-07 21:35:11.415000000 Z
+        content_type_id: item
+        revision: 1
+      name: Mara Hoffman Floral Pants
+      main_color: multicolor
+      image:
+        sys:
+          id: 1z2DZpLUWZpHaVGgFHsINo
+          created_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:32:38.158000000 Z
+        title: IMG 1711
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1z2DZpLUWZpHaVGgFHsINo/a529d5f738c9ffa79e716f0d008554d4/IMG_1711.png"
+      category: Pants
+      color:
+      - "#F26699"
+      - "#F28444"
+      - "#5EC2E2"
+      - "#F23E2E"
+      - "#0C135C"
+      brand: Mara Hoffman
+      price_range: "$100 - $150"
+      vintage: false
+      when: !ruby/object:DateTime 2018-09-13 00:00:00.000000000 Z
+      notes: These were a wonderful birthday present <3 they are cotton and cropped
+        which makes them hard to wear in the winter, but they are the best summer
+        pant.
+      outfits:
+      - sys:
+          id: 6sm9LWi7dfslN1wDNyXyi2
+          created_at: !ruby/object:DateTime 2019-09-17 13:29:45.071000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-07 21:35:09.807000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Floral Pants; Blue Shirt
+        image:
+          sys:
+            id: 28z2pWRUmjAWwHakIfuzbj
+        date: !ruby/object:DateTime 2018-09-29 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 2UJXBQMG4g8DAu8l55vA6T
+        - sys:
+            id: 4Izrlq3jVSqCJTR1NPwGIU
+        slug: floral-pants-blue-shirt
+    slug: floral-pants-blue-shirt
+- sys:
+    id: 5WKhPijq9PViQyj6AVCrb6
+    created_at: !ruby/object:DateTime 2020-01-07 21:55:13.404000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 21:55:13.404000000 Z
+    content_type_id: item
+    revision: 1
+  name: Red Baggy Jeans
+  main_color: red
+  image:
+    sys:
+      id: 63YsMoKOVXb9Om2RXymhSF
+      created_at: !ruby/object:DateTime 2020-01-07 21:53:50.263000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:53:50.263000000 Z
+    title: IMG 1710
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/63YsMoKOVXb9Om2RXymhSF/5f41a6f8ea603db58c0f025ec3e9c67c/IMG_1710.png"
+  category: Pants
+  color:
+  - "#DC3426"
+  brand: Bliss and Mischief
+  price_range: "$20 - $30"
+  vintage: false
+  when: !ruby/object:DateTime 2019-06-19 00:00:00.000000000 Z
+  notes: I got these at Beacon's Closet in Williamsburg when we went shopping with
+    Leah. They are at least a size or two too big for me, but very comfy and they're
+    red!
+- sys:
+    id: 3AyGtx0XPuY1uS0R2ISlXK
+    created_at: !ruby/object:DateTime 2020-01-07 21:57:05.070000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 21:57:05.070000000 Z
+    content_type_id: item
+    revision: 1
+  name: Miaou Lime Green Pants
+  main_color: green
+  image:
+    sys:
+      id: 1uRAVUKIHPzQCVXzEFYyDo
+      created_at: !ruby/object:DateTime 2020-01-07 21:55:55.668000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:55:55.668000000 Z
+    title: IMG 1709
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1uRAVUKIHPzQCVXzEFYyDo/a9f229efe7872315baef4e3192137db6/IMG_1709.png"
+  category: Pants
+  color:
+  - "#ABED04"
+  brand: Miaou
+  price_range: "$100 - $150"
+  vintage: false
+  when: !ruby/object:DateTime 2019-09-17 00:00:00.000000000 Z
+  notes: These are absurd, and they maybe look terrible on me, but i just could not
+    resist the color. They are almost a scuba like material?
+- sys:
+    id: 3VJxUU5vkx3k7veVp9wL8p
+    created_at: !ruby/object:DateTime 2020-01-07 21:59:01.374000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-07 21:59:01.374000000 Z
+    content_type_id: item
+    revision: 1
+  name: Green and Yellow Striped Mesh Dress
+  main_color: green
+  secondary_color: yellow
+  image:
+    sys:
+      id: 7lSYtToOZO3aVDrYNAIosr
+      created_at: !ruby/object:DateTime 2020-01-07 21:58:07.959000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 21:58:07.959000000 Z
+    title: IMG 1717
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7lSYtToOZO3aVDrYNAIosr/0f1ece373c3855b821cb41a6be719d2d/IMG_1717.png"
+  category: Dress
+  color:
+  - "#0DBC05"
+  - "#F2E724"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2019-11-30 00:00:00.000000000 Z
+  notes: I bought this with the semi goal of using it for a watermelon halloween costume....
+- sys:
+    id: 41I6jx8bufRZ8ADjEKvIix
+    created_at: !ruby/object:DateTime 2020-01-08 01:34:19.737000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:34:19.737000000 Z
+    content_type_id: item
+    revision: 1
+  name: Amazing Heavy Chinese Wool Mumu
+  main_color: blue
+  secondary_color: yellow
+  image:
+    sys:
+      id: 1V1RJsxO8hQXFBVmrYOLAM
+      created_at: !ruby/object:DateTime 2020-01-07 22:17:21.537000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 22:17:21.537000000 Z
+    title: IMG 1716
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1V1RJsxO8hQXFBVmrYOLAM/689685991da93f91a5b329b152150c40/IMG_1716.png"
+  category: Dress
+  color:
+  - "#011640"
+  - "#A6751B"
+  price_range: "$60 - $100"
+  vintage: false
+  when: !ruby/object:DateTime 2016-12-28 00:00:00.000000000 Z
+  notes: Jesse bought this for me in a very cool shop at an art complex in Shanghai.
+    It's so warm you almost can't wear it inside, but it's the best best best.
+- sys:
+    id: 7hyhDL70XQ9laXhqRY04QQ
+    created_at: !ruby/object:DateTime 2020-01-08 01:36:37.100000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:36:37.100000000 Z
+    content_type_id: item
+    revision: 1
+  name: Black and White Striped Jumpsuit
+  main_color: black
+  secondary_color: white
+  image:
+    sys:
+      id: 4QH1HZq4CmE3Hm6fgDOx6R
+      created_at: !ruby/object:DateTime 2020-01-08 01:35:13.358000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:35:13.358000000 Z
+    title: IMG 1715
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4QH1HZq4CmE3Hm6fgDOx6R/ee0fd84cc6a633f99e3b1249649a2f57/IMG_1715.png"
+  category: Jumpsuit
+  color:
+  - "#0D0D0D"
+  - "#FFFFFF"
+  price_range: Free
+  vintage: false
+  when: !ruby/object:DateTime 2019-10-20 00:00:00.000000000 Z
+  notes: My cousin gave this to me as a hand me down in New Orleans.
+- sys:
+    id: 3lVgFXnAYmbo0mlJVamZ3T
+    created_at: !ruby/object:DateTime 2020-01-08 01:40:36.948000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:40:36.948000000 Z
+    content_type_id: item
+    revision: 1
+  name: Pink Sleeveless Tie Romper
+  main_color: pink
+  image:
+    sys:
+      id: 3Hypi1kHqC2u0SKqIXLXwQ
+      created_at: !ruby/object:DateTime 2020-01-08 01:37:55.628000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:37:55.628000000 Z
+    title: IMG 1714
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3Hypi1kHqC2u0SKqIXLXwQ/48a3acd153d757a6dc10c47f4852a360/IMG_1714.png"
+  category: Jumpsuit
+  color:
+  - "#E93DA4"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-02-19 00:00:00.000000000 Z
+  notes: This is my mega practical summer dress/jumper.
+- sys:
+    id: 4LuEHWLvuH8EpjCVetBbed
+    created_at: !ruby/object:DateTime 2020-01-08 01:43:21.491000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:43:21.491000000 Z
+    content_type_id: item
+    revision: 1
+  name: Black Cropped Reformation Jeans
+  main_color: black
+  image:
+    sys:
+      id: 2rL272C1q186ZbVRIUWeDM
+      created_at: !ruby/object:DateTime 2020-01-08 01:42:48.064000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:42:48.064000000 Z
+    title: IMG 1713
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2rL272C1q186ZbVRIUWeDM/72cca5e08d70307fb2912c318087272d/IMG_1713.png"
+  category: Pants
+  brand: Reformation
+  price_range: "$60 - $100"
+  vintage: false
+  when: !ruby/object:DateTime 2019-11-21 00:00:00.000000000 Z
+- sys:
+    id: no0UoS1a8Y7WHnvqV9zCF
+    created_at: !ruby/object:DateTime 2020-01-08 01:52:36.011000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:52:36.011000000 Z
+    content_type_id: item
+    revision: 1
+  name: 80s Puffy Windbreaker Jacket
+  main_color: multicolor
+  image:
+    sys:
+      id: 1C58ItKpPheR1wDtfgHNdW
+      created_at: !ruby/object:DateTime 2020-01-08 01:50:25.360000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:50:25.360000000 Z
+    title: IMG 1722
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1C58ItKpPheR1wDtfgHNdW/3ff9570ceca142de3e77f68d50799769/IMG_1722.png"
+  category: Outerwear
+  color:
+  - "#61329F"
+  - "#027977"
+  - "#F2B705"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-06-19 00:00:00.000000000 Z
+- sys:
+    id: 4GgjZyBjTh6k21dnUgVJNI
+    created_at: !ruby/object:DateTime 2020-01-08 01:56:05.607000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:56:05.607000000 Z
+    content_type_id: item
+    revision: 1
+  name: Green Wool Matching Top
+  main_color: green
+  image:
+    sys:
+      id: 6HIxnj1Nct4r7pN79MN5Jz
+      created_at: !ruby/object:DateTime 2020-01-08 01:54:59.400000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:54:59.400000000 Z
+    title: IMG 1721
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6HIxnj1Nct4r7pN79MN5Jz/8784061a40d3490f8d692cb9f7446396/IMG_1721.png"
+  category: Shirt
+  color:
+  - "#00C114"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2019-11-30 00:00:00.000000000 Z
+  notes: This is one piece of a matching set that Charlotte gave me (let me borrow),
+    it's amazingly bright.
+- sys:
+    id: 5XBwmoHOhld9q4T2EExdda
+    created_at: !ruby/object:DateTime 2020-01-08 01:59:20.464000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 01:59:20.464000000 Z
+    content_type_id: item
+    revision: 1
+  name: Green Wool Matching Skirt
+  main_color: green
+  image:
+    sys:
+      id: 3e81z1drrb9TBQNxMrSAyE
+      created_at: !ruby/object:DateTime 2020-01-08 01:58:20.142000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 01:58:30.512000000 Z
+    title: IMG 1720
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3e81z1drrb9TBQNxMrSAyE/6ea6010b645cadbba9c07c80da7df961/IMG_1720.png"
+  category: Skirt
+  color:
+  - "#00C114"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2019-11-29 00:00:00.000000000 Z
+  notes: This is the matching skirt in a set that Charlotte gave me (lent me)
+- sys:
+    id: 6MRDVtZp6Jcv7kmTiu1bhB
+    created_at: !ruby/object:DateTime 2020-01-08 02:05:11.880000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:05:11.880000000 Z
+    content_type_id: item
+    revision: 1
+  name: Lilac Suit Made for Me In China
+  main_color: purple
+  image:
+    sys:
+      id: ta5460A2maJn9cqVscFif
+      created_at: !ruby/object:DateTime 2020-01-08 02:05:04.414000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:05:04.414000000 Z
+    title: IMG 1719
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/ta5460A2maJn9cqVscFif/84de4d61998213f0002cfa914a022c8d/IMG_1719.png"
+  category: Jumpsuit
+  color:
+  - "#B293ED"
+  price_range: "$60 - $100"
+  vintage: false
+  when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+  notes: We got this suit made in a mall in Shanghai. It's a bit too tight to sit
+    down in (lol) so i need to take out the pants a bit.
+- sys:
+    id: 1FcLqg2LNdiLsbb7yAYnjH
+    created_at: !ruby/object:DateTime 2020-01-08 02:08:48.880000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:08:48.880000000 Z
+    content_type_id: item
+    revision: 1
+  name: Pink Shiny Coat
+  main_color: pink
+  image:
+    sys:
+      id: 1V1EAb9bzoslTmFzUZdro1
+      created_at: !ruby/object:DateTime 2020-01-08 02:07:42.805000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:07:42.805000000 Z
+    title: IMG 1731
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1V1EAb9bzoslTmFzUZdro1/16bd157d7fbd067eb90b46f15de10f39/IMG_1731.png"
+  category: Outerwear
+  color:
+  - "#F25C5C"
+  brand: London Dune
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2019-08-16 00:00:00.000000000 Z
+  notes: I got this coat in a truck of vintage clothes in San Francisco with Charlotte.
+- sys:
+    id: 6uxbgsjd7GWhe0G8XCb4p2
+    created_at: !ruby/object:DateTime 2020-01-08 02:24:40.141000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:24:40.141000000 Z
+    content_type_id: item
+    revision: 1
+  name: Optical Illusion Mini Dress
+  main_color: white
+  secondary_color: black
+  image:
+    sys:
+      id: 1eU8a4mfhqygaYuTjFxDAA
+      created_at: !ruby/object:DateTime 2020-01-08 02:23:18.954000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:23:18.954000000 Z
+    title: IMG 1718
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1eU8a4mfhqygaYuTjFxDAA/ce22705a181421137fe1c10a8b356d00/IMG_1718.png"
+  category: Dress
+  color:
+  - "#0D0D0D"
+  - "#FFFFFF"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2015-09-23 00:00:00.000000000 Z
+  notes: I got this dress in LA, at Squaresville Vintage. It looks sorta terrible
+    on everyone, and i never wear it, but the pattern is totally wonderful so i save
+    it.
+- sys:
+    id: dsRXDBwbFcqI5BUdu9n75
+    created_at: !ruby/object:DateTime 2020-01-08 02:27:21.000000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:27:21.000000000 Z
+    content_type_id: item
+    revision: 1
+  name: Turtle Green Wool Blazer
+  main_color: green
+  image:
+    sys:
+      id: 4spLDHRJRrStcSwY3OgFkA
+      created_at: !ruby/object:DateTime 2020-01-08 02:25:38.815000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:25:38.815000000 Z
+    title: IMG 1726
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4spLDHRJRrStcSwY3OgFkA/01867103e2f50db64dba5338496ff724/IMG_1726.png"
+  category: Outerwear
+  color:
+  - "#6F9B00"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-10-19 00:00:00.000000000 Z
+  notes: I have 3 versions of this blazer, in three different colors. The sleeves
+    are short which makes it not super useful, but i love them. I love this color.
+    I got it in New Orleans at Crossroads on Magazine st.
+- sys:
+    id: 3dOudgWeBq3ByJYiPzBPEt
+    created_at: !ruby/object:DateTime 2020-01-08 02:29:45.072000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:29:45.072000000 Z
+    content_type_id: item
+    revision: 1
+  name: Tiny Purple Down Vest
+  main_color: purple
+  image:
+    sys:
+      id: 3GOyXNEacX5lIgQUtnDB8O
+      created_at: !ruby/object:DateTime 2020-01-08 02:28:41.614000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:28:41.615000000 Z
+    title: IMG 1725
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3GOyXNEacX5lIgQUtnDB8O/b241a5264e783b2ab6fb9afbbe9ed296/IMG_1725.png"
+  category: Outerwear
+  color:
+  - "#811ACD"
+  - "#0D0D0D"
+  price_range: Under $10
+  vintage: false
+  when: !ruby/object:DateTime 2019-03-29 00:00:00.000000000 Z
+  notes: I got this tiny vest at the Thrift Town in San Pablo. It's so tiny, it keeps
+    me super warm as a second layer under my wool coats.
+- sys:
+    id: 35tZCXDlSCYRyeQwloPebW
+    created_at: !ruby/object:DateTime 2020-01-08 02:51:02.100000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:51:02.100000000 Z
+    content_type_id: item
+    revision: 1
+  name: Turquoise Suede Bomber Jacket
+  main_color: blue
+  image:
+    sys:
+      id: 1LJC7TKI6dv01b0rZd4zat
+      created_at: !ruby/object:DateTime 2020-01-08 02:50:03.004000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:50:03.004000000 Z
+    title: IMG 1724
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1LJC7TKI6dv01b0rZd4zat/008591e3dbb2c7a6f25a45377945f9ff/IMG_1724.png"
+  category: Outerwear
+  color:
+  - "#0387C1"
+  - "#0D0D0D"
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2016-06-15 00:00:00.000000000 Z
+- sys:
+    id: 1TtysTGKGUal4ec9thqFBF
+    created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+    content_type_id: item
+    revision: 1
+  name: Purple Hairy Overcoat
+  main_color: purple
+  image:
+    sys:
+      id: 7MGkm1Iem1ASan94Fa7HKl
+      created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+    title: IMG 1723
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+  category: Outerwear
+  color:
+  - "#6A56B0"
+  price_range: "$30 - 45"
+  vintage: false
+  when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+  notes: I got this coat at the clothing mall in Shanghai - My cousin bargained so
+    hard with the woman selling it, and we walked away multiple times before she gave
+    us the deal she did. It's honestly too short for me, so the button is sorta high
+    which makes it a weird shape haha. But i love it! It's one of my fave colors.
+  outfits:
+  - sys:
+      id: 5tAWIoaF9Ki2CS4sciIWi0
+      created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+      content_type_id: outfit
+      revision: 13
+    name: Rainy Gallery Visit
+    image:
+      sys:
+        id: 5pZvEKfoLC2Gtp57WC80vI
+        created_at: !ruby/object:DateTime 2019-09-16 18:52:20.950000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-16 19:49:17.996000000 Z
+      title: rainy day outfit
+      description: outfit
+      url: "//images.ctfassets.net/4sf3k05ydnj7/5pZvEKfoLC2Gtp57WC80vI/04b8ac73bcaaec253706492847311d50/IMG_5258.jpg"
+    date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+    notes: Wore this to go meet a friend and go to the new museum. it was cold and
+      wet out.
+    items:
+    - sys:
+        id: 3d50DOFuvcZg7mnmnBoRCM
+        created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 03:50:41.804000000 Z
+        content_type_id: item
+        revision: 10
+      name: Polka Dot Pants
+      main_color: black
+      secondary_color: white
+      image:
+        sys:
+          id: wVjZaYPqabkWKllwZTum0
+          created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+          updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        title: IMG 0522
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+      category: Pants
+      color:
+      - "#F9F7F0"
+      - "#141414"
+      brand: Ralph Lauren
+      price_range: "$30 - 45"
+      vintage: true
+      when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+      notes: I got these at a weird boutique in boston during college tours. they
+        were $40 and it was (at the time) the most i could possibly imagine spending
+        on anything. I think my mom bought them for me - i was so excited. They sort
+        of fit on and off for a while, i often wore them with the button undone haha.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 3EPOtQyMiVdKAhirAy0Gt5
+          created_at: !ruby/object:DateTime 2019-09-16 19:46:06.429000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-04 00:22:58.437000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Fabric Shopping in LA
+        image:
+          sys:
+            id: 5Rr6s4O3KGZa0o3RK9l2JJ
+        date: !ruby/object:DateTime 2015-10-12 00:00:00.000000000 Z
+        notes: The roomies in LA went shopping for some fabric for the FAST fashion
+          show
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 68oOt1nhok1XPPisdaJbUK
+        - sys:
+            id: 1stJjIQjmIPKtopHB8Wetm
+        slug: fabric-shopping-in-la
+      - sys:
+          id: 5otv7qEpqD8yFomafvN2FR
+          created_at: !ruby/object:DateTime 2019-09-16 19:48:18.955000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:26:29.158000000 Z
+          content_type_id: outfit
+          revision: 2
+        name: 'Test Work Outfit #1'
+        image:
+          sys:
+            id: 4Er6BxLicCKPfeOHz7JRnE
+        date: !ruby/object:DateTime 2013-05-30 00:00:00.000000000 Z
+        notes: I was trying out work appropriate outfits for my internship in new
+          york lol
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        slug: test-work-outfit-one
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
+    - sys:
+        id: 6Q8A3I28CWa2wY42EUSsiu
+        created_at: !ruby/object:DateTime 2018-05-04 20:47:47.359000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 02:43:25.857000000 Z
+        content_type_id: item
+        revision: 10
+      name: Lilac Turtleneck
+      main_color: purple
+      image:
+        sys:
+          id: BN0iRot8jhXrTuFp30u89
+          created_at: !ruby/object:DateTime 2019-08-06 04:00:02.049000000 Z
+          updated_at: !ruby/object:DateTime 2019-08-06 04:00:02.049000000 Z
+        title: IMG 0500
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/BN0iRot8jhXrTuFp30u89/060b6470626339f1226af80ed1e57bce/IMG_0500.png"
+      category: Sweater
+      color:
+      - "#BE88EB"
+      brand: No Idea
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+      notes: This was part of the huge New Orleans haul of 2018 :)
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+    - sys:
+        id: 1TtysTGKGUal4ec9thqFBF
+        created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        content_type_id: item
+        revision: 1
+      name: Purple Hairy Overcoat
+      main_color: purple
+      image:
+        sys:
+          id: 7MGkm1Iem1ASan94Fa7HKl
+          created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        title: IMG 1723
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+      category: Outerwear
+      color:
+      - "#6A56B0"
+      price_range: "$30 - 45"
+      vintage: false
+      when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+      notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+        so hard with the woman selling it, and we walked away multiple times before
+        she gave us the deal she did. It's honestly too short for me, so the button
+        is sorta high which makes it a weird shape haha. But i love it! It's one of
+        my fave colors.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
+    slug: rainy-gallery-visit
+  - sys:
+      id: 2vA4o8b0vFLKf5m8rtlvFs
+      created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: Please Hire Me
+    image:
+      sys:
+        id: 1DMpwFY2RjTezgZZDIMCxs
+        created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+      title: IMG 4150
+      description: outfit
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+    date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+    notes: Was trying to find a job in New York before I graduated from college. Horrible
+      day, great outfit.
+    items:
+    - sys:
+        id: 3BGziZxCOkAjh9ZoOT3hLA
+        created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 03:47:58.302000000 Z
+        content_type_id: item
+        revision: 5
+      name: Neon Orange Sweater
+      main_color: orange
+      image:
+        sys:
+          id: 1Aw1PuHxQTatD5tF7YRMab
+          created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+        title: IMG 0577
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+      category: Sweater
+      color:
+      - "#FF8C00"
+      brand: Obermeyer
+      price_range: "$10 - $20"
+      vintage: true
+      when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+      notes: I think I got this at wasteland. Didn't wear it for a long time, and
+        now it's my favorite.
+      outfits:
+      - sys:
+          id: 4EZCa1WFxmYNrthspjFwuP
+          created_at: !ruby/object:DateTime 2019-09-17 19:05:45.363000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:43:26.920000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Sick of covering ankles in winter
+        image:
+          sys:
+            id: 4PSA0HWHVbxksrodVmflil
+        date: !ruby/object:DateTime 2019-02-26 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        slug: sick-of-cover-ankles-in-winter
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
+      - sys:
+          id: 6J7Sr4WekFqLP789Ccmj3i
+          created_at: !ruby/object:DateTime 2019-09-17 19:10:44.370000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:44:09.235000000 Z
+          content_type_id: outfit
+          revision: 2
+        name: Orange Sweater, Great Leggings
+        image:
+          sys:
+            id: bKolpv0Jv0WJJ13GBOWuj
+        date: !ruby/object:DateTime 2017-01-26 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        slug: orange-sweater-great-leggings
+    - sys:
+        id: 1TtysTGKGUal4ec9thqFBF
+        created_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:53:42.065000000 Z
+        content_type_id: item
+        revision: 1
+      name: Purple Hairy Overcoat
+      main_color: purple
+      image:
+        sys:
+          id: 7MGkm1Iem1ASan94Fa7HKl
+          created_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:51:47.441000000 Z
+        title: IMG 1723
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/7MGkm1Iem1ASan94Fa7HKl/b313d9626a099b4312d1712a035bd414/IMG_1723.png"
+      category: Outerwear
+      color:
+      - "#6A56B0"
+      price_range: "$30 - 45"
+      vintage: false
+      when: !ruby/object:DateTime 2016-12-29 00:00:00.000000000 Z
+      notes: I got this coat at the clothing mall in Shanghai - My cousin bargained
+        so hard with the woman selling it, and we walked away multiple times before
+        she gave us the deal she did. It's honestly too short for me, so the button
+        is sorta high which makes it a weird shape haha. But i love it! It's one of
+        my fave colors.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:29.611000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        - sys:
+            id: h2g20ttXUdbeACX50peEa
+        slug: please-hire-me
+    - sys:
+        id: h2g20ttXUdbeACX50peEa
+        created_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+        updated_at: !ruby/object:DateTime 2019-11-19 18:44:21.415000000 Z
+        content_type_id: item
+        revision: 1
+      name: Camper Wilma Platforms
+      main_color: purple
+      secondary_color: green
+      image:
+        sys:
+          id: 5EuLFqO48DYGf8DjuGOiEe
+          created_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 18:40:25.699000000 Z
+        title: IMG 1183
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/5EuLFqO48DYGf8DjuGOiEe/5ab9be2475d5de54f43af0eaa4b9cade/IMG_1183.png"
+      category: Shoes
+      color:
+      - "#C02FD4"
+      - "#C4DE04"
+      - "#E0A571"
+      - "#141F01"
+      - "#00B5CC"
+      brand: Camper
+      price_range: "$150 - $250"
+      vintage: false
+      when: !ruby/object:DateTime 2016-10-04 00:00:00.000000000 Z
+      notes: These are just a work of art. I love these shoes, i call them my rugrat
+        [reptar](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eba07268929243.5b6e0d432f2ad.png
+        "reptar") shoes. They are a size too small but it was the last pair online.
+    slug: please-hire-me
+- sys:
+    id: 4J2eTetRwZCojouekD2aMQ
+    created_at: !ruby/object:DateTime 2020-01-08 02:56:33.962000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:56:33.962000000 Z
+    content_type_id: item
+    revision: 1
+  name: Enormous Furry Blue Coat
+  main_color: blue
+  image:
+    sys:
+      id: 5lh6eNtZnYrV335uAflCkF
+      created_at: !ruby/object:DateTime 2020-01-08 02:55:37.432000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:55:37.432000000 Z
+    title: IMG 1729
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5lh6eNtZnYrV335uAflCkF/3eb37d63365d4ac6e1b0e7868691ec7b/IMG_1729.png"
+  category: Outerwear
+  color:
+  - "#0442BF"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2013-11-27 00:00:00.000000000 Z
+  notes: I got this coat for $20 at Thrift Town in the mission. It is genuinely the
+    warmest coat i own, and it is so large.
+- sys:
+    id: 4H2CHAHzM1DlzdzzaWibve
+    created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+    content_type_id: item
+    revision: 1
+  name: Green Cotton Button Up Coat
+  main_color: green
+  image:
+    sys:
+      id: DnNB8t0y1zWf8bOJkLzZZ
+      created_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+    title: IMG 1728
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/DnNB8t0y1zWf8bOJkLzZZ/ee6cfc7c6bf72eeaafede48879278298/IMG_1728.png"
+  category: Outerwear
+  color:
+  - "#A1BF2C"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+  notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's my fave
+    summer jacket.
+  outfits:
+  - sys:
+      id: 1gswnkMXZ2ex7eM8ol7aYC
+      created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+      content_type_id: outfit
+      revision: 5
+    name: Work day (showing off new yellow cup)
+    image:
+      sys:
+        id: 7Iq3OO4RQom2qEfwNsP0ai
+        created_at: !ruby/object:DateTime 2019-09-16 19:01:56.918000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-16 19:50:09.034000000 Z
+      title: IMG 0170
+      description: outfit
+      url: "//images.ctfassets.net/4sf3k05ydnj7/7Iq3OO4RQom2qEfwNsP0ai/fa77258233eba4c3f5d90f2a825ac7d0/IMG_0170.jpg"
+    date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+    notes: I had just purchased this to go cup on amazon, and i loved how it looked
+      with everything :)
+    items:
+    - sys:
+        id: 3d50DOFuvcZg7mnmnBoRCM
+        created_at: !ruby/object:DateTime 2019-06-04 15:26:05.581000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 03:50:41.804000000 Z
+        content_type_id: item
+        revision: 10
+      name: Polka Dot Pants
+      main_color: black
+      secondary_color: white
+      image:
+        sys:
+          id: wVjZaYPqabkWKllwZTum0
+          created_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+          updated_at: !ruby/object:DateTime 2019-08-06 03:59:36.574000000 Z
+        title: IMG 0522
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/wVjZaYPqabkWKllwZTum0/6dd3bf315197bb3f71ee7ddd72f05a37/IMG_0522.png"
+      category: Pants
+      color:
+      - "#F9F7F0"
+      - "#141414"
+      brand: Ralph Lauren
+      price_range: "$30 - 45"
+      vintage: true
+      when: !ruby/object:DateTime 2012-04-01 00:00:00.000000000 Z
+      notes: I got these at a weird boutique in boston during college tours. they
+        were $40 and it was (at the time) the most i could possibly imagine spending
+        on anything. I think my mom bought them for me - i was so excited. They sort
+        of fit on and off for a while, i often wore them with the button undone haha.
+      outfits:
+      - sys:
+          id: 5tAWIoaF9Ki2CS4sciIWi0
+          created_at: !ruby/object:DateTime 2018-05-04 20:42:01.174000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:54:04.017000000 Z
+          content_type_id: outfit
+          revision: 13
+        name: Rainy Gallery Visit
+        image:
+          sys:
+            id: 5pZvEKfoLC2Gtp57WC80vI
+        date: !ruby/object:DateTime 2017-12-03 00:00:00.000000000 Z
+        notes: Wore this to go meet a friend and go to the new museum. it was cold
+          and wet out.
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 6Q8A3I28CWa2wY42EUSsiu
+        - sys:
+            id: 1TtysTGKGUal4ec9thqFBF
+        slug: rainy-gallery-visit
+      - sys:
+          id: 3EPOtQyMiVdKAhirAy0Gt5
+          created_at: !ruby/object:DateTime 2019-09-16 19:46:06.429000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-04 00:22:58.437000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Fabric Shopping in LA
+        image:
+          sys:
+            id: 5Rr6s4O3KGZa0o3RK9l2JJ
+        date: !ruby/object:DateTime 2015-10-12 00:00:00.000000000 Z
+        notes: The roomies in LA went shopping for some fabric for the FAST fashion
+          show
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 68oOt1nhok1XPPisdaJbUK
+        - sys:
+            id: 1stJjIQjmIPKtopHB8Wetm
+        slug: fabric-shopping-in-la
+      - sys:
+          id: 5otv7qEpqD8yFomafvN2FR
+          created_at: !ruby/object:DateTime 2019-09-16 19:48:18.955000000 Z
+          updated_at: !ruby/object:DateTime 2019-12-09 03:26:29.158000000 Z
+          content_type_id: outfit
+          revision: 2
+        name: 'Test Work Outfit #1'
+        image:
+          sys:
+            id: 4Er6BxLicCKPfeOHz7JRnE
+        date: !ruby/object:DateTime 2013-05-30 00:00:00.000000000 Z
+        notes: I was trying out work appropriate outfits for my internship in new
+          york lol
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        slug: test-work-outfit-one
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
+    - sys:
+        id: 3LvXwPw87WBwreVspNkXwl
+        created_at: !ruby/object:DateTime 2019-11-18 14:41:12.582000000 Z
+        updated_at: !ruby/object:DateTime 2019-12-09 03:55:51.128000000 Z
+        content_type_id: item
+        revision: 3
+      name: Navy Button Down
+      main_color: blue
+      image:
+        sys:
+          id: 57voz9A8QeGx2JQidWwK3C
+          created_at: !ruby/object:DateTime 2019-11-18 14:40:12.187000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-18 14:40:12.187000000 Z
+        title: IMG 0634
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/57voz9A8QeGx2JQidWwK3C/4a14e2f4f960014b9da7f3559e645e09/IMG_0634.png"
+      category: Shirt
+      brand: Gap
+      price_range: "$10 - $20"
+      vintage: false
+      when: !ruby/object:DateTime 2016-04-13 00:00:00.000000000 Z
+      outfits:
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
+      - sys:
+          id: 5za1c69tNCID81t68pY2TK
+          created_at: !ruby/object:DateTime 2019-11-19 22:32:45.347000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-04 00:24:48.628000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Fake Navy Jumpsuit
+        image:
+          sys:
+            id: 1abTQYdOEgZmPNhMuYxXvh
+        date: !ruby/object:DateTime 2019-08-08 00:00:00.000000000 Z
+        notes: I love fake jumpsuits - really this is a shirt and a pair of pants.
+          Was inspired by [Julie](https://www.instagram.com/thatladyjulie/ "Julie
+          Bourne")
+        items:
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 7hKxFfF2jVCubR6C0zSG4w
+        - sys:
+            id: 1qGoz5DJT4jJmdRBTcPDj6
+        slug: fake-navy-jumpsuit
+    - sys:
+        id: 4H2CHAHzM1DlzdzzaWibve
+        created_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-08 02:58:49.530000000 Z
+        content_type_id: item
+        revision: 1
+      name: Green Cotton Button Up Coat
+      main_color: green
+      image:
+        sys:
+          id: DnNB8t0y1zWf8bOJkLzZZ
+          created_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:57:12.641000000 Z
+        title: IMG 1728
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/DnNB8t0y1zWf8bOJkLzZZ/ee6cfc7c6bf72eeaafede48879278298/IMG_1728.png"
+      category: Outerwear
+      color:
+      - "#A1BF2C"
+      price_range: Free
+      vintage: true
+      when: !ruby/object:DateTime 2015-08-27 00:00:00.000000000 Z
+      notes: Charlotte gave me this wonderful boxy jacket as a hand me down. It's
+        my fave summer jacket.
+      outfits:
+      - sys:
+          id: 1gswnkMXZ2ex7eM8ol7aYC
+          created_at: !ruby/object:DateTime 2019-09-16 19:02:51.921000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-08 02:58:46.305000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Work day (showing off new yellow cup)
+        image:
+          sys:
+            id: 7Iq3OO4RQom2qEfwNsP0ai
+        date: !ruby/object:DateTime 2019-04-25 00:00:00.000000000 Z
+        notes: I had just purchased this to go cup on amazon, and i loved how it looked
+          with everything :)
+        items:
+        - sys:
+            id: 3d50DOFuvcZg7mnmnBoRCM
+        - sys:
+            id: 3LvXwPw87WBwreVspNkXwl
+        - sys:
+            id: 4H2CHAHzM1DlzdzzaWibve
+        slug: work-day-yellow-cup
+    slug: work-day-yellow-cup
+- sys:
+    id: 4jYVZUgVvWLLbz6Piw0br4
+    created_at: !ruby/object:DateTime 2020-01-08 03:13:41.601000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 03:13:41.601000000 Z
+    content_type_id: item
+    revision: 1
+  name: Crazy Wool Sewn Coat
+  main_color: multicolor
+  image:
+    sys:
+      id: 2sq15LzK01QtNAH3NOwRAG
+      created_at: !ruby/object:DateTime 2020-01-08 03:06:45.068000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:06:45.068000000 Z
+    title: IMG 1736
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2sq15LzK01QtNAH3NOwRAG/ca33383d7f65739a75a19d87335ff70a/IMG_1736.png"
+  category: Outerwear
+  color:
+  - "#A1BF2C"
+  - "#024873"
+  - "#A3A651"
+  - "#F29727"
+  - "#C91E6E"
+  - "#4A155A"
+  brand: Marylou Ozbolt Storer
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2009-11-26 00:00:00.000000000 Z
+  notes: I got this coat freshman year of high school, at the Goodwill on Haight street.
+    I had it hidden away forever because I thought it was just too weird, but I am
+    so glad I kept it. The maker is a super cool fiber artist and I think it is one
+    of a kind.
+- sys:
+    id: 56fzZkFvNRXpBxs16WOH3q
+    created_at: !ruby/object:DateTime 2020-01-08 03:21:06.508000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 03:21:06.508000000 Z
+    content_type_id: item
+    revision: 1
+  name: Nanny Bruny's White Wool Coat
+  main_color: white
+  image:
+    sys:
+      id: 1aWn94xecPOoM028xcCtDZ
+      created_at: !ruby/object:DateTime 2020-01-08 03:18:16.735000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:18:16.735000000 Z
+    title: IMG 1735
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1aWn94xecPOoM028xcCtDZ/c9e22d62443deb76f8a8b506500234ae/IMG_1735.png"
+  category: Outerwear
+  color:
+  - "#F2EDD5"
+  brand: Forecaster
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2017-11-29 00:00:00.000000000 Z
+  notes: This coat was my grandma's, and it's been incredibly helpful in my move to
+    the east coast. It's very warm, and long and practical, and I would never have
+    purchased a white coat (for obvious reasons), but it's very elegant. When I haven't
+    spilled coffee on it, welp.
+- sys:
+    id: 3A5HkY6KCENUQApm5ptaRd
+    created_at: !ruby/object:DateTime 2020-01-08 03:27:27.821000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 03:27:27.821000000 Z
+    content_type_id: item
+    revision: 1
+  name: Blue Coat
+  main_color: blue
+  image:
+    sys:
+      id: 4QF2dZ77Qdv59iEczG7wZm
+      created_at: !ruby/object:DateTime 2020-01-08 03:26:32.498000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:26:32.498000000 Z
+    title: IMG 1734
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4QF2dZ77Qdv59iEczG7wZm/a7c3d6e4ee4855e41b79fb81b233c6fd/IMG_1734.png"
+  category: Outerwear
+  color:
+  - "#16348C"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2019-09-18 00:00:00.000000000 Z
+  notes: I got this at the Beacon's Closet in Park Slope. It's really shitty quality,
+    but surprisingly warm and i like the color.
+- sys:
+    id: 2AlkOdCQiIXDbW9WPAplXj
+    created_at: !ruby/object:DateTime 2020-01-08 03:29:44.234000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 03:29:44.234000000 Z
+    content_type_id: item
+    revision: 1
+  name: Super Large Long Dark Green Coat
+  main_color: green
+  image:
+    sys:
+      id: 7sv8LS8KdW4SnqV9YMED9J
+      created_at: !ruby/object:DateTime 2020-01-08 03:28:26.495000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:28:26.495000000 Z
+    title: IMG 1733
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7sv8LS8KdW4SnqV9YMED9J/4897ff0b9f8890e3ae2a46cc18364729/IMG_1733.png"
+  category: Outerwear
+  color:
+  - "#025159"
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-03-21 00:00:00.000000000 Z
+  notes: I got this coat at a vintage popup in the Intentionally Blank store in San
+    Francisco. It's legitimately enormous, and sometimes I think that's cool, and
+    sometimes I think it's dumb. It's not super warm, but it is really long so it
+    covers your legs/ankles
+- sys:
+    id: 5terbXMUI7HPrnevhtDRQr
+    created_at: !ruby/object:DateTime 2020-01-08 03:32:08.441000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-08 03:32:08.441000000 Z
+    content_type_id: item
+    revision: 1
+  name: Super Bright Green Acne Coat
+  main_color: green
+  image:
+    sys:
+      id: 5BtgDfA5AY1tSs4JuBCYLw
+      created_at: !ruby/object:DateTime 2020-01-08 03:30:53.957000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-08 03:30:53.957000000 Z
+    title: IMG 1732
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5BtgDfA5AY1tSs4JuBCYLw/55395e10494e8015963c2dd53eb34118/IMG_1732.png"
+  category: Outerwear
+  color:
+  - "#0DF205"
+  brand: Acne
+  price_range: "$250 and up"
+  vintage: false
+  when: !ruby/object:DateTime 2019-12-03 00:00:00.000000000 Z
+  notes: I got this coat on Vestiare Collective, from a woman in Germany, after looking
+    for a green, actually-warm winter coat for YEARS. I love it, it is one of my most
+    treasured items.

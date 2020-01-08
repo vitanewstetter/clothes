@@ -63,7 +63,6 @@
   width: 50%;
 
   @media screen and (max-width: 800px) {
-    height: calc(100vw - 48px);
     order: 0;
     width: calc(100vw - 48px);
   }
@@ -76,11 +75,10 @@
 
 .subpage__image--sm {
   margin: 0 auto;
-  width: 30%;
 
   @media screen and (max-width: 800px) {
     order: 0;
-    width: 90%;
+    width: 100%;
   }
 }
 

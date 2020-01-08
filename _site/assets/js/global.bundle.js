@@ -35799,7 +35799,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 var items = (0, _utils.shuffleArray)((0, _utils.bootstrapData)('items'));
-var itemsToAdd = 25;
+var itemsToAdd = 4;
 var idx = 0;
 var grid = initializeIsotope('.item__grid');
 var url = window.location.href.includes('outfits') ? '/outfits' : '/';
@@ -35881,6 +35881,7 @@ function addAllItems() {
  * @param {MouseEvent} e - click event
  */
 function staggerImageLoad() {
+  console.log('do');
   var group = [];
   for (var i = 0; i < itemsToAdd; i++) {
     var item = grid.items[i + idx];
@@ -35893,7 +35894,7 @@ function staggerImageLoad() {
     idx += itemsToAdd;
     grid.element.classList.remove('hidden');
     grid.arrange();
-    staggerImageLoad();
+    if (idx <= grid.items.length) staggerImageLoad();
   });
 }
 

@@ -5,7 +5,7 @@ import Viewer from 'viewerjs';
 import moment from 'moment';
 
 const items = shuffleArray(bootstrapData('items'));
-const itemsToAdd = 25;
+const itemsToAdd = 4;
 let idx = 0;
 const grid = initializeIsotope('.item__grid');
 const url = window.location.href.includes('outfits') ? '/outfits' : '/';
@@ -96,6 +96,7 @@ function addAllItems() {
  * @param {MouseEvent} e - click event
  */
 function staggerImageLoad() {
+  console.log('do');
   const group = [];
   for (let i = 0; i <itemsToAdd; i++) {
     const item = grid.items[i + idx];
@@ -108,7 +109,7 @@ function staggerImageLoad() {
     idx += itemsToAdd;
     grid.element.classList.remove('hidden');
     grid.arrange();
-    staggerImageLoad();
+    if (idx <= grid.items.length) staggerImageLoad();
   });
 }
 
