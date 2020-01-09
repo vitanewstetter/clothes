@@ -8,7 +8,7 @@ const url = window.location.href.includes('outfits') ? '/outfits' : '/';
 
 const subpage = document.querySelector('#subpage-wrapper');
 const hammertime = new Hammer(subpage);
-hammertime.on('swiperight', closeSubpage());
+hammertime.on('swiperight', closeSubpage);
 
 grid.shuffle();
 

@@ -16,8 +16,8 @@ type: item
         {% endfor %}
       </div>
       <p>Type: {{page.category}}</p>
-      <p>Brand: {{page.brand}}</p>
-      <p>Price: {{page.price_range}}</p>
+      {%if page.brand %}<p>made by {{page.brand}}</p>{% endif %}
+      <p>Purchased for {{page.price_range}}</p>
       <div class="text">{{page.notes|markdownify}}</div>
     </div>
     <img src="{{page.image.url}}?w=800&h=800&fit=pad" class="subpage__image"/>
