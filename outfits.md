@@ -3,6 +3,7 @@ layout: home
 title: Outfits
 id: outfits
 years:
+  - 2020
   - 2019
   - 2018
   - 2017

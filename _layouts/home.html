@@ -28,8 +28,8 @@ layout: default
           <img data-src="{{item.image.url}}?w=800&h=800&fit=pad" class="lazy no-click" />
         </a>
       {% else %}
-        <a class="item year-{{item.date | date: '%Y'}}" href="/outfits/{{slug}}" data-name="{{item.name}}">
-          <img data-src="{{item.image.url}}?w=800&h=800&fit=pad" class="lazy no-click" />
+        <a class="item item--no-h year-{{item.date | date: '%Y'}}" href="/outfits/{{slug}}" data-name="{{item.name}}">
+          <img src="{{item.image.url}}?w=10" data-src="{{item.image.url}}?w=900" class="lazy no-click" />
         </a>
       {% endif %}
       {% endfor %}

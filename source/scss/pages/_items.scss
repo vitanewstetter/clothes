@@ -22,6 +22,10 @@
   }
 }
 
+.item--no-h {
+  height: auto !important;
+}
+
 .item img {
   opacity: 0;
   transition: all $speed $ease;

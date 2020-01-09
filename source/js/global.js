@@ -8,11 +8,13 @@ const url = window.location.href.includes('outfits') ? '/outfits' : '/';
 
 const subpage = document.querySelector('#subpage-wrapper');
 const hammertime = new Hammer(subpage);
-hammertime.on('swipe', function() {
-  closeSubpage();
-});
+hammertime.on('swiperight', closeSubpage());
 
 grid.shuffle();
+
+imagesLoaded('.item__grid', () => {
+  grid.layout();
+});
 
 document.addEventListener('click', function(e) {
   if (e.target.classList.contains('item')) {
