@@ -32,7 +32,8 @@
   max-width: 450px;
 }
 
-.item img.loaded {
+.item img.loaded,
+.subpage__secondary-image img {
   opacity: 1;
 }
 
