@@ -20,7 +20,13 @@ type: item
       <p>Purchased for {{page.price_range}}</p>
       <div class="text">{{page.notes|markdownify}}</div>
     </div>
-    <img src="{{page.image.url}}?w=800&h=800&fit=pad" class="subpage__image"/>
+    <div class="subpage__image">
+      <img src="{{page.image.url}}?w=800&h=800&fit=pad"/>
+      {% if page.label %}
+      <div class="subpage__label">{{page.label}}</div>
+      {% endif %}
+    </div>
+    
     <div class="subpage__grid">
     {% for outfit in page.outfits %}
       {% assign slug = outfit.name | replace: "'", "" | slugify  %}
