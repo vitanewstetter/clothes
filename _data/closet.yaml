@@ -62,6 +62,32 @@ item:
     designer find. Made me believe in the possibility of NYC thrift stores way longer
     than they deserve.
 - sys:
+    id: 2UJXBQMG4g8DAu8l55vA6T
+    created_at: !ruby/object:DateTime 2019-06-03 21:22:37.395000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.470000000 Z
+    content_type_id: item
+    revision: 8
+  name: Bright Blue Short Sleeve Button Down
+  main_color: blue
+  image:
+    sys:
+      id: 2mIzSbUEjUmmXd9IzDv3HY
+      created_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-06 03:52:31.735000000 Z
+    title: IMG 0506
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2mIzSbUEjUmmXd9IzDv3HY/17bfd5e0e3ae6eda8a58ac68f58f61e3/IMG_0506.png"
+  category: Shirt
+  color:
+  - "#1F88DE"
+  brand: No Idea
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+  notes: This shirt is such a great color. Been missing a button for a long time,
+    need to replace it. No idea where i got it!
+  outfits: []
+- sys:
     id: 219O6pDGqnJVQH0gPf0smZ
     created_at: !ruby/object:DateTime 2019-06-03 21:24:22.860000000 Z
     updated_at: !ruby/object:DateTime 2019-09-19 12:34:59.887000000 Z
@@ -318,6 +344,89 @@ item:
   notes: Got this at Mission Community Thrift in San Francisco. It's so hard to find
     tiny colorful shirts.
 - sys:
+    id: 7hKxFfF2jVCubR6C0zSG4w
+    created_at: !ruby/object:DateTime 2019-06-04 15:39:34.187000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.123000000 Z
+    content_type_id: item
+    revision: 10
+  name: High Waisted Blue Flair Pants
+  main_color: blue
+  image:
+    sys:
+      id: 4hxcKzHyqEw0z2TGAoCbKV
+      created_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+    title: IMG 0523
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4hxcKzHyqEw0z2TGAoCbKV/7f2a03001739f09e5205f2845c2e4f0e/IMG_0523.png"
+  category: Pants
+  color:
+  - "#284B7D"
+  brand: Sears
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2019-01-03 00:00:00.000000000 Z
+  notes: I think i got these at El Sobrante Thrift Town. They fit great.
+  outfits:
+  - sys:
+      id: 1PVtNVSNOFi1RdguEZAl6D
+      created_at: !ruby/object:DateTime 2019-11-19 22:36:29.695000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.261000000 Z
+      content_type_id: outfit
+      revision: 4
+    name: No Title Here (4)
+    image:
+      sys:
+        id: 3lqNQtI6YgV285lK8nTohi
+        created_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+        updated_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+      title: IMG 0530
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/3lqNQtI6YgV285lK8nTohi/deeefed7598cd6ddbda4c81e3d6a34a7/IMG_0530.jpg"
+    date: !ruby/object:DateTime 2019-06-04 00:00:00.000000000 Z
+    items:
+    - sys:
+        id: 7hKxFfF2jVCubR6C0zSG4w
+        created_at: !ruby/object:DateTime 2019-06-04 15:39:34.187000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.123000000 Z
+        content_type_id: item
+        revision: 10
+      name: High Waisted Blue Flair Pants
+      main_color: blue
+      image:
+        sys:
+          id: 4hxcKzHyqEw0z2TGAoCbKV
+          created_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+          updated_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+        title: IMG 0523
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/4hxcKzHyqEw0z2TGAoCbKV/7f2a03001739f09e5205f2845c2e4f0e/IMG_0523.png"
+      category: Pants
+      color:
+      - "#284B7D"
+      brand: Sears
+      price_range: "$10 - $20"
+      vintage: true
+      when: !ruby/object:DateTime 2019-01-03 00:00:00.000000000 Z
+      notes: I think i got these at El Sobrante Thrift Town. They fit great.
+      outfits:
+      - sys:
+          id: 1PVtNVSNOFi1RdguEZAl6D
+          created_at: !ruby/object:DateTime 2019-11-19 22:36:29.695000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.261000000 Z
+          content_type_id: outfit
+          revision: 4
+        name: No Title Here (4)
+        image:
+          sys:
+            id: 3lqNQtI6YgV285lK8nTohi
+        date: !ruby/object:DateTime 2019-06-04 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 7hKxFfF2jVCubR6C0zSG4w
+        slug: no-title-here-4
+    slug: no-title-here-4
+- sys:
     id: 5M0WjavSV4wxtVcvhFSUXi
     created_at: !ruby/object:DateTime 2019-06-20 19:51:17.536000000 Z
     updated_at: !ruby/object:DateTime 2019-09-19 12:37:42.937000000 Z
@@ -455,6 +564,31 @@ item:
 
     Got it at wasteland in SF, and I remember at the time it felt like way too much money (probably $35) for a simple sheath. But I love it  ¯\_(ツ)_/¯
 - sys:
+    id: 2pKZjTq1o861r1a37NuEHn
+    created_at: !ruby/object:DateTime 2019-06-20 20:25:59.613000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.793000000 Z
+    content_type_id: item
+    revision: 9
+  name: Margaux's crochet cream top
+  main_color: white
+  image:
+    sys:
+      id: 71t1YWzNB7AQuu5ubQK0BE
+      created_at: !ruby/object:DateTime 2019-08-06 04:03:58.063000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-14 02:10:47.670000000 Z
+    title: IMG 0565
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/71t1YWzNB7AQuu5ubQK0BE/f979604481f2dbb7e7fd7f71bb39b67b/IMG_0565.png"
+  category: Shirt
+  color:
+  - "#F6F1E9"
+  brand: Judith & Charles
+  price_range: Free
+  vintage: false
+  when: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+  notes: Margaux gave me this as a hand me down. It's her parents fashion brand.
+  outfits: []
+- sys:
     id: 7r1FyRawDM9S8xvi0GPz2i
     created_at: !ruby/object:DateTime 2019-09-17 13:35:23.117000000 Z
     updated_at: !ruby/object:DateTime 2019-09-19 12:37:55.757000000 Z
@@ -583,7 +717,70 @@ item:
   when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
   notes: I think I got this at wasteland. Didn't wear it for a long time, and now
     it's my favorite.
-  outfits: []
+  outfits:
+  - sys:
+      id: 2vA4o8b0vFLKf5m8rtlvFs
+      created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.592000000 Z
+      content_type_id: outfit
+      revision: 5
+    name: Please Hire Me
+    image:
+      sys:
+        id: 1DMpwFY2RjTezgZZDIMCxs
+        created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+      title: IMG 4150
+      description: outfit
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+    date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+    notes: Was trying to find a job in New York before I graduated from college. Horrible
+      day, great outfit.
+    items:
+    - sys:
+        id: 3BGziZxCOkAjh9ZoOT3hLA
+        created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-16 14:17:29.413000000 Z
+        content_type_id: item
+        revision: 6
+      name: Neon Orange Sweater
+      main_color: orange
+      image:
+        sys:
+          id: 1Aw1PuHxQTatD5tF7YRMab
+          created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+        title: IMG 0577
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+      category: Sweater
+      color:
+      - "#FF8C00"
+      brand: Obermeyer
+      price_range: "$10 - $20"
+      vintage: true
+      when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+      notes: I think I got this at wasteland. Didn't wear it for a long time, and
+        now it's my favorite.
+      outfits:
+      - sys:
+          id: 2vA4o8b0vFLKf5m8rtlvFs
+          created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.592000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Please Hire Me
+        image:
+          sys:
+            id: 1DMpwFY2RjTezgZZDIMCxs
+        date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+        notes: Was trying to find a job in New York before I graduated from college.
+          Horrible day, great outfit.
+        items:
+        - sys:
+            id: 3BGziZxCOkAjh9ZoOT3hLA
+        slug: please-hire-me
+    slug: please-hire-me
 - sys:
     id: 2Xbjx2CsSMoyEialbIHZ6R
     created_at: !ruby/object:DateTime 2019-09-18 21:06:12.032000000 Z
@@ -1592,6 +1789,416 @@ item:
     then i returned them, and got this shirt, a pair of overalls, another shirt and
     a fluffy yellow fake fur jacket LOL. sigh.
 - sys:
+    id: jwR34gpWK2fHSYIkcSbjw
+    created_at: !ruby/object:DateTime 2019-12-09 04:34:45.430000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.460000000 Z
+    content_type_id: item
+    revision: 3
+  name: Rainbow Plaid Shirt
+  main_color: multicolor
+  image:
+    sys:
+      id: 6CNDshDj2bQWbXR5OXF6wJ
+      created_at: !ruby/object:DateTime 2019-12-09 04:33:08.418000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 04:33:08.418000000 Z
+    title: IMG 1301
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6CNDshDj2bQWbXR5OXF6wJ/a1e9d839487f9e647a97887b615c7b5d/IMG_1301.png"
+  category: Shirt
+  color:
+  - "#CC2424"
+  - "#B0532C"
+  - "#007348"
+  - "#E09C30"
+  - "#023475"
+  price_range: Free
+  vintage: true
+  when: !ruby/object:DateTime 2016-06-14 00:00:00.000000000 Z
+- sys:
+    id: 5rL8JxCxuOnovUzsSRdCFT
+    created_at: !ruby/object:DateTime 2019-12-10 13:20:09.812000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.479000000 Z
+    content_type_id: item
+    revision: 3
+  name: Orange Ruffle Dress
+  main_color: orange
+  image:
+    sys:
+      id: 1zNIluTA6krqz1KaipxYP1
+      created_at: !ruby/object:DateTime 2019-12-10 13:18:59.982000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-10 13:19:07.863000000 Z
+    title: IMG 1258
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1zNIluTA6krqz1KaipxYP1/1d25f32e5ebc5a9a53f13a924a1c2bf4/IMG_1258.png"
+  category: Dress
+  color:
+  - "#F2613D"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2019-05-22 00:00:00.000000000 Z
+  notes: I got this at Beacon's Closet in Park Slope. It's really not my style though.
+- sys:
+    id: 3H5HtY6FMazI1mb6Hk70Kc
+    created_at: !ruby/object:DateTime 2019-12-10 13:28:02.904000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.408000000 Z
+    content_type_id: item
+    revision: 3
+  name: Colorful White Cotton Nightgown Turned Dress
+  main_color: multicolor
+  image:
+    sys:
+      id: 5Khcuz6BlsN1zo6ZZjgsuU
+      created_at: !ruby/object:DateTime 2019-12-10 13:25:40.563000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-10 13:25:58.276000000 Z
+    title: IMG 1261
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5Khcuz6BlsN1zo6ZZjgsuU/96a02246ed23a33ec424c765f41c558f/IMG_1261.png"
+  category: Dress
+  color:
+  - "#FFF"
+  - "#F22929"
+  - "#EFE766"
+  - "#0D0D0D"
+  - "#04BF7B"
+  - "#8930B0"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2016-05-11 00:00:00.000000000 Z
+  notes: This was a long nightgown, and i cut it and hemmed it. It's still see through
+    which is the problem lol. But it's from my phase of just wanting to wear loose
+    colorful dresses all the time (this phase has not, and may never end)
+- sys:
+    id: 7H8O7Hh23csQadcwe4O71w
+    created_at: !ruby/object:DateTime 2019-12-10 13:43:03.794000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.435000000 Z
+    content_type_id: item
+    revision: 3
+  name: Purple Plaid Wool Dress
+  main_color: purple
+  image:
+    sys:
+      id: 4PUDkRYivVR8zhIxEKlmUp
+      created_at: !ruby/object:DateTime 2019-12-10 13:41:53.640000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-10 13:41:53.640000000 Z
+    title: IMG 1266
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4PUDkRYivVR8zhIxEKlmUp/1b38520f68d4a837ec91e711f487d1dc/IMG_1266.png"
+  category: Dress
+  color:
+  - "#621CA3"
+  - "#1B1E95"
+  - "#0D0D0D"
+  - "#F5EF6C"
+  brand: Espirit
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2019-09-17 00:00:00.000000000 Z
+  notes: Got this on ebay
+- sys:
+    id: 4ct498ydvaxcFzTgf9eG0J
+    created_at: !ruby/object:DateTime 2019-12-11 19:13:17.892000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.819000000 Z
+    content_type_id: item
+    revision: 3
+  name: Fun Tiny Geometric Tank Top
+  main_color: blue
+  secondary_color: multicolor
+  image:
+    sys:
+      id: 57yy9AQZ5fYD8ECnuICN0a
+      created_at: !ruby/object:DateTime 2019-12-11 19:11:33.901000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-11 19:11:33.901000000 Z
+    title: IMG 1272
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/57yy9AQZ5fYD8ECnuICN0a/e6e75302e101b0d0c02f87bd17584ec1/IMG_1272.png"
+  category: Shirt
+  color:
+  - "#0468BF"
+  - "#038C3E"
+  - "#A66D03"
+  - "#D82B84"
+  - "#FFFFFF"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2013-12-24 00:00:00.000000000 Z
+- sys:
+    id: 2eMU24ohL5cF5erh3Woykj
+    created_at: !ruby/object:DateTime 2019-12-12 20:28:28.380000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.478000000 Z
+    content_type_id: item
+    revision: 3
+  name: Pink Cotton Button Down
+  main_color: pink
+  image:
+    sys:
+      id: 6fvWX6bk8HHEUCnEe5tj6x
+      created_at: !ruby/object:DateTime 2019-12-12 20:26:29.408000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-12 20:26:29.408000000 Z
+    title: IMG 1277
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6fvWX6bk8HHEUCnEe5tj6x/19d1f6b6318662f4300624f4d72b1fd5/IMG_1277.png"
+  category: Shirt
+  color:
+  - "#FF3F97"
+  price_range: Under $10
+  vintage: false
+  when: !ruby/object:DateTime 2019-08-21 00:00:00.000000000 Z
+- sys:
+    id: 4dlOsdkV7G3yYVXhE6asRw
+    created_at: !ruby/object:DateTime 2019-12-12 20:30:24.618000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.484000000 Z
+    content_type_id: item
+    revision: 3
+  name: Green and Gold Flow-y Dress
+  main_color: green
+  image:
+    sys:
+      id: 4fzQ37qHmDoR58PdtZZzXa
+      created_at: !ruby/object:DateTime 2019-12-12 20:29:30.211000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-12 20:29:30.211000000 Z
+    title: IMG 1278
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4fzQ37qHmDoR58PdtZZzXa/10cddd6da5f3e9fdbb6a763075c30caf/IMG_1278.png"
+  category: Dress
+  color:
+  - "#02732A"
+  - "#014017"
+  - "#038C25"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2019-08-22 00:00:00.000000000 Z
+  notes: I got this for $10 in the back of a truck of vintage clothes with Charlotte
+    in SF.
+- sys:
+    id: SJFiNT84796A7JB1gSwkY
+    created_at: !ruby/object:DateTime 2020-01-01 21:31:55.631000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.094000000 Z
+    content_type_id: item
+    revision: 3
+  name: Orange Satin Stussy Jumpsuit
+  main_color: orange
+  image:
+    sys:
+      id: rdQ3YJOntI7brktsGvzbq
+      created_at: !ruby/object:DateTime 2020-01-01 21:30:51.830000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-01 21:30:51.830000000 Z
+    title: IMG 1279
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/rdQ3YJOntI7brktsGvzbq/d8ab56a3dff25bebedfc0d4c363a3f94/IMG_1279.png"
+  category: Jumpsuit
+  color:
+  - "#D92B04"
+  brand: Stussy
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2019-09-17 00:00:00.000000000 Z
+  notes: This is my super silky soft stussy jumpsuit.
+- sys:
+    id: 7edtidR1ouJCJyxLFZHfPU
+    created_at: !ruby/object:DateTime 2020-01-01 21:43:22.117000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.205000000 Z
+    content_type_id: item
+    revision: 3
+  name: Space and Time Tshirt from Book Fair
+  main_color: pink
+  image:
+    sys:
+      id: KXhh6OQ1JBTNdppqYPXGr
+      created_at: !ruby/object:DateTime 2020-01-01 21:41:17.203000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-01 21:41:17.203000000 Z
+    title: IMG 1282
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/KXhh6OQ1JBTNdppqYPXGr/dc5b56c866c59e9a395d8ad43791ee3e/IMG_1282.png"
+  category: Shirt
+  color:
+  - "#F2C9C9"
+  - "#CB2E27"
+  price_range: "$10 - $20"
+  vintage: false
+  when: !ruby/object:DateTime 2020-09-19 00:00:00.000000000 Z
+  notes: I got this shirt at the NY Art Book fair from a nice vendor :) also got a
+    sticker from her that says "scrolling kills". On the front of this shirt it says
+    "I need time, I need space" and on the back it says "Give me space, Give me time".
+- sys:
+    id: 6dOJfaIsZTNnZDTrVv9Htb
+    created_at: !ruby/object:DateTime 2020-01-01 21:57:13.934000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.270000000 Z
+    content_type_id: item
+    revision: 3
+  name: Fun 80s Pink Wool Shoulder Padded Sweater
+  main_color: pink
+  secondary_color: white
+  image:
+    sys:
+      id: 5v4DWyoBCm7Xlwzw3p1wGB
+      created_at: !ruby/object:DateTime 2020-01-01 21:55:42.986000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-13 22:28:19.774000000 Z
+    title: IMG 1283
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5v4DWyoBCm7Xlwzw3p1wGB/013ab885d3cf8527610b65d66554582f/IMG_1283.png"
+  category: Sweater
+  color:
+  - "#C71C71"
+  - "#EDEBE3"
+  - "#0D0D0D"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2010-01-13 00:00:00.000000000 Z
+  notes: I have had this sweater forever. It's a cute crop, and the really cool part
+    of it is that the maker added shoulder pads made out of frilly knitted pieces
+    - and it really works.
+- sys:
+    id: 3uf2DVdzEHl5k92KYpCqzo
+    created_at: !ruby/object:DateTime 2020-01-03 23:05:45.746000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.174000000 Z
+    content_type_id: item
+    revision: 3
+  name: Tiny Black and Purple Sequin Dress
+  main_color: black
+  secondary_color: purple
+  image:
+    sys:
+      id: 5Ga2JQvNYvwRgqWh5x3W0G
+      created_at: !ruby/object:DateTime 2020-01-03 23:03:33.300000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-03 23:03:33.300000000 Z
+    title: IMG 0652
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5Ga2JQvNYvwRgqWh5x3W0G/7d8cac999c9f21c4a7179f6a44c81302/IMG_0652.png"
+  category: Dress
+  color:
+  - "#0D0D0D"
+  - "#8303A6"
+  - "#777578"
+  - "#B1ABAF"
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2015-09-28 00:00:00.000000000 Z
+  notes: I got this dress at Squaresville vintage on Vermont in LA, right at the beginning
+    of junior year of college.
+- sys:
+    id: 3egaiQ5czUwBQHuuGIZbQ7
+    created_at: !ruby/object:DateTime 2020-01-03 23:08:06.035000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.115000000 Z
+    content_type_id: item
+    revision: 3
+  name: Backless Navy Satin Bow Dress
+  main_color: blue
+  image:
+    sys:
+      id: 7DVqwHWwPbDy1GZv8SiOmY
+      created_at: !ruby/object:DateTime 2020-01-03 23:07:29.552000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-03 23:07:29.552000000 Z
+    title: IMG 0651
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/7DVqwHWwPbDy1GZv8SiOmY/1144ff07583b3b62ed7834a7bed1813e/IMG_0651.png"
+  category: Dress
+  color:
+  - "#00023C"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2014-01-21 00:00:00.000000000 Z
+- sys:
+    id: 26ciPrWWeuPZsw0fDMPbq1
+    created_at: !ruby/object:DateTime 2020-01-03 23:50:03.703000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.562000000 Z
+    content_type_id: item
+    revision: 3
+  name: Vintage Long Patterned Black and White Dress
+  main_color: black
+  secondary_color: white
+  image:
+    sys:
+      id: nUIMlWyUmS5RHyIUSyRQX
+      created_at: !ruby/object:DateTime 2020-01-03 23:48:59.121000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-03 23:48:59.121000000 Z
+    title: IMG 0650
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/nUIMlWyUmS5RHyIUSyRQX/9bd2df05a3a2b5ee71f135f2f0432aad/IMG_0650.png"
+  category: Dress
+  color:
+  - "#FFFFFF"
+  - "#000000"
+  price_range: "$30 - 45"
+  vintage: true
+  when: !ruby/object:DateTime 2014-01-16 00:00:00.000000000 Z
+  notes: I got this dress at Wasteland in SF. Once Jesse convinced me to try and dry
+    clean it......and the people almost completely ruined it, they didn't get the
+    stain out and they made the ink bleed......
+- sys:
+    id: 2R3Gg3VSDoz0V2tSpM7g2d
+    created_at: !ruby/object:DateTime 2020-01-03 23:59:34.816000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.960000000 Z
+    content_type_id: item
+    revision: 3
+  name: Huge Black Floral Belted Dress
+  main_color: black
+  secondary_color: multicolor
+  image:
+    sys:
+      id: 1QrtuZ7AOw4JMBSUv3kZl1
+      created_at: !ruby/object:DateTime 2020-01-03 23:56:28.494000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-03 23:56:28.494000000 Z
+    title: IMG 0649
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1QrtuZ7AOw4JMBSUv3kZl1/3f1c74d259aa5e6ac7ef26ac7ab87561/IMG_0649.png"
+  category: Dress
+  color:
+  - "#0D0D0D"
+  - "#B63545"
+  - "#4C835C"
+  - "#025C50"
+  - "#C4A9A1"
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2015-07-14 00:00:00.000000000 Z
+  notes: I got this at Beacon's CLoset in Manhattan. The sleeves/top part are sort
+    of cut like a work shirt which i really like in combo with the big dramatic skirt.
+- sys:
+    id: 6TKJYB4rmx9FG3uR1HuBAA
+    created_at: !ruby/object:DateTime 2020-01-07 15:14:12.079000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.045000000 Z
+    content_type_id: item
+    revision: 3
+  name: Black Leather Riding Leggings
+  main_color: black
+  image:
+    sys:
+      id: 3UBb9o7iRGcDbHWAxRbTu1
+      created_at: !ruby/object:DateTime 2020-01-07 15:13:35.153000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-07 15:13:35.153000000 Z
+    title: IMG 1701
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3UBb9o7iRGcDbHWAxRbTu1/e527ca92df57318ddd21c703aba7be0e/IMG_1701.png"
+  category: Pants
+  price_range: "$10 - $20"
+  vintage: true
+  when: !ruby/object:DateTime 2018-10-24 00:00:00.000000000 Z
+  notes: Got these at Beacon's Closet in Park Slope
+- sys:
+    id: no0UoS1a8Y7WHnvqV9zCF
+    created_at: !ruby/object:DateTime 2020-01-08 01:52:36.011000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.857000000 Z
+    content_type_id: item
+    revision: 3
+  name: 80s Puffy Windbreaker Jacket
+  main_color: multicolor
+  image:
+    sys:
+      id: 1C58ItKpPheR1wDtfgHNdW
+      created_at: !ruby/object:DateTime 2020-01-08 01:50:25.360000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-14 02:41:23.481000000 Z
+    title: IMG 1722
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1C58ItKpPheR1wDtfgHNdW/cc8c13199f75515833123f385b129a68/IMG_1722.png"
+  category: Outerwear
+  color:
+  - "#61329F"
+  - "#027977"
+  - "#F2B705"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2017-06-19 00:00:00.000000000 Z
+- sys:
     id: 4F5or0yurmPBrVUB8gj0Qy
     created_at: !ruby/object:DateTime 2020-01-20 01:12:50.876000000 Z
     updated_at: !ruby/object:DateTime 2020-01-20 01:13:11.144000000 Z
@@ -1618,7 +2225,595 @@ item:
   vintage: true
   when: !ruby/object:DateTime 2015-03-18 00:00:00.000000000 Z
   notes: I got this at Squaresville Vintage in LA
-  outfits: []
+  outfits:
+  - sys:
+      id: 6aO6IuAI9rxD6PYodHf04k
+      created_at: !ruby/object:DateTime 2020-01-14 13:51:43.188000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.957000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: First Day of Real Winter
+    image:
+      sys:
+        id: M2gFKOlU2v7vAsuZqQ56u
+        created_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+      title: IMG 1459
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/M2gFKOlU2v7vAsuZqQ56u/0b1b1db1faca26d14472d8c46367663d/IMG_1459.jpg"
+    date: !ruby/object:DateTime 2019-11-14 00:00:00.000000000 Z
+    notes: First day that it was very cold, I refused to switch over to real winter
+      clothes and just layered my fall ones. heh.
+    items:
+    - sys:
+        id: 4F5or0yurmPBrVUB8gj0Qy
+        created_at: !ruby/object:DateTime 2020-01-20 01:12:50.876000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:13:11.144000000 Z
+        content_type_id: item
+        revision: 2
+      name: Colorful Sweater Shirt
+      main_color: multicolor
+      image:
+        sys:
+          id: 2z1YYR776ihki5k0Fmlih3
+          created_at: !ruby/object:DateTime 2020-01-20 01:10:02.319000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:10:02.319000000 Z
+        title: IMG 1831
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2z1YYR776ihki5k0Fmlih3/619fbe4cc3c75ac821c153389733bcf6/IMG_1831.png"
+      category: Shirt
+      color:
+      - "#EAF2F7"
+      - "#D92B04"
+      - "#F2B705"
+      - "#038C8C"
+      - "#020F59"
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2015-03-18 00:00:00.000000000 Z
+      notes: I got this at Squaresville Vintage in LA
+      outfits:
+      - sys:
+          id: 6aO6IuAI9rxD6PYodHf04k
+          created_at: !ruby/object:DateTime 2020-01-14 13:51:43.188000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.957000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: First Day of Real Winter
+        image:
+          sys:
+            id: M2gFKOlU2v7vAsuZqQ56u
+        date: !ruby/object:DateTime 2019-11-14 00:00:00.000000000 Z
+        notes: First day that it was very cold, I refused to switch over to real winter
+          clothes and just layered my fall ones. heh.
+        items:
+        - sys:
+            id: 4F5or0yurmPBrVUB8gj0Qy
+        slug: first-day-of-real-winter
+    slug: first-day-of-real-winter
+- sys:
+    id: 1YjIz6KVbxUxWeIWCAEiNK
+    created_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+    content_type_id: item
+    revision: 1
+  name: Green Ribbed Tank
+  main_color: green
+  image:
+    sys:
+      id: 48E9UcQTIwozzmlahx9e5i
+      created_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+    title: IMG 1832
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/48E9UcQTIwozzmlahx9e5i/3f5696efaddc513bedc014371137706b/IMG_1832.png"
+  category: Shirt
+  color:
+  - "#038560"
+  price_range: Under $10
+  vintage: false
+  when: !ruby/object:DateTime 2019-03-21 00:00:00.000000000 Z
+  outfits:
+  - sys:
+      id: 3BHrSowngU0eOXjVsBRYvI
+      created_at: !ruby/object:DateTime 2020-01-19 19:03:51.139000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+      content_type_id: outfit
+      revision: 2
+    name: No Title Here (51)
+    image:
+      sys:
+        id: 3sMZP1HsRsW0Zy3egjRXDZ
+        created_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+      title: IMG 1541
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/3sMZP1HsRsW0Zy3egjRXDZ/b47e71be227c3993befb99cae0e7debb/IMG_1541.jpg"
+    date: !ruby/object:DateTime 2019-12-07 00:00:00.000000000 Z
+    items:
+    - sys:
+        id: 1YjIz6KVbxUxWeIWCAEiNK
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+        content_type_id: item
+        revision: 1
+      name: Green Ribbed Tank
+      main_color: green
+      image:
+        sys:
+          id: 48E9UcQTIwozzmlahx9e5i
+          created_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+        title: IMG 1832
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/48E9UcQTIwozzmlahx9e5i/3f5696efaddc513bedc014371137706b/IMG_1832.png"
+      category: Shirt
+      color:
+      - "#038560"
+      price_range: Under $10
+      vintage: false
+      when: !ruby/object:DateTime 2019-03-21 00:00:00.000000000 Z
+      outfits:
+      - sys:
+          id: 3BHrSowngU0eOXjVsBRYvI
+          created_at: !ruby/object:DateTime 2020-01-19 19:03:51.139000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          content_type_id: outfit
+          revision: 2
+        name: No Title Here (51)
+        image:
+          sys:
+            id: 3sMZP1HsRsW0Zy3egjRXDZ
+        date: !ruby/object:DateTime 2019-12-07 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 1YjIz6KVbxUxWeIWCAEiNK
+        slug: no-title-here-51
+    slug: no-title-here-51
+- sys:
+    id: 3pAYOz4HySe9Um2FY81MNh
+    created_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+    content_type_id: item
+    revision: 1
+  name: Homemade Knit Tank
+  main_color: multicolor
+  image:
+    sys:
+      id: 1fnPf6WJT7ZUe4QHb5Fs2A
+      created_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+    title: IMG 1833
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1fnPf6WJT7ZUe4QHb5Fs2A/ce7759c730b4a5321e934df0d2afe4b6/IMG_1833.png"
+  category: Shirt
+  color:
+  - "#FAECD9"
+  - "#6E3475"
+  - "#F2C305"
+  - "#0D0D0D"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2015-01-22 00:00:00.000000000 Z
+  outfits:
+  - sys:
+      id: 5bSvdPrVgH8U4kATtc5v0B
+      created_at: !ruby/object:DateTime 2020-01-18 23:25:44.587000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.504000000 Z
+      content_type_id: outfit
+      revision: 2
+    name: No Title Here (43)
+    image:
+      sys:
+        id: 2P8Hug6ny4m3ncpEyamEku
+        created_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+      title: IMG 0885
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2P8Hug6ny4m3ncpEyamEku/1e6bde9165ff69a6ec670f8e919f50fa/IMG_0885.jpg"
+    date: !ruby/object:DateTime 2015-08-21 00:00:00.000000000 Z
+    items:
+    - sys:
+        id: 3pAYOz4HySe9Um2FY81MNh
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+        content_type_id: item
+        revision: 1
+      name: Homemade Knit Tank
+      main_color: multicolor
+      image:
+        sys:
+          id: 1fnPf6WJT7ZUe4QHb5Fs2A
+          created_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+        title: IMG 1833
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1fnPf6WJT7ZUe4QHb5Fs2A/ce7759c730b4a5321e934df0d2afe4b6/IMG_1833.png"
+      category: Shirt
+      color:
+      - "#FAECD9"
+      - "#6E3475"
+      - "#F2C305"
+      - "#0D0D0D"
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2015-01-22 00:00:00.000000000 Z
+      outfits:
+      - sys:
+          id: 5bSvdPrVgH8U4kATtc5v0B
+          created_at: !ruby/object:DateTime 2020-01-18 23:25:44.587000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.504000000 Z
+          content_type_id: outfit
+          revision: 2
+        name: No Title Here (43)
+        image:
+          sys:
+            id: 2P8Hug6ny4m3ncpEyamEku
+        date: !ruby/object:DateTime 2015-08-21 00:00:00.000000000 Z
+        items:
+        - sys:
+            id: 3pAYOz4HySe9Um2FY81MNh
+        slug: no-title-here-43
+    slug: no-title-here-43
+- sys:
+    id: 1LjhTJGXuIt4mmhBuCBQxI
+    created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+    content_type_id: item
+    revision: 1
+  name: Black Sweater Dress
+  main_color: black
+  image:
+    sys:
+      id: 2p3nHMXgjH8B5hx9hItYK0
+      created_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+    title: IMG 1834
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2p3nHMXgjH8B5hx9hItYK0/edff768cbdbf507d7e7597b7c613a7e8/IMG_1834.png"
+  category: Dress
+  color:
+  - "#0D0D0D"
+  price_range: Under $10
+  vintage: true
+  when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+  outfits:
+  - sys:
+      id: 5S7fQP6tpW3gTfsgjp8pBy
+      created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: No Title Here (21)
+    image:
+      sys:
+        id: 6RZS4Cur1qDwIlyLR6JkKS
+        created_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+      title: IMG 1441
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/6RZS4Cur1qDwIlyLR6JkKS/830d28102abd6d91e9a983b281f26268/IMG_1441.jpg"
+    date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+    notes: My boss told me I looked fancy this day, and I said it's literally just
+      because I am wearing all black, which I never do.
+    items:
+    - sys:
+        id: 1LjhTJGXuIt4mmhBuCBQxI
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+        content_type_id: item
+        revision: 1
+      name: Black Sweater Dress
+      main_color: black
+      image:
+        sys:
+          id: 2p3nHMXgjH8B5hx9hItYK0
+          created_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+        title: IMG 1834
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2p3nHMXgjH8B5hx9hItYK0/edff768cbdbf507d7e7597b7c613a7e8/IMG_1834.png"
+      category: Dress
+      color:
+      - "#0D0D0D"
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+      outfits:
+      - sys:
+          id: 5S7fQP6tpW3gTfsgjp8pBy
+          created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: No Title Here (21)
+        image:
+          sys:
+            id: 6RZS4Cur1qDwIlyLR6JkKS
+        date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+        notes: My boss told me I looked fancy this day, and I said it's literally
+          just because I am wearing all black, which I never do.
+        items:
+        - sys:
+            id: 1LjhTJGXuIt4mmhBuCBQxI
+        slug: no-title-here-21
+      - sys:
+          id: 4RrsNIT4jhUG9TAErMIXHr
+          created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Thanksgiving 2016
+        image:
+          sys:
+            id: 2yV10eFF7t9lCGflIOTN4a
+        date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+        notes: Up in Aptos
+        items:
+        - sys:
+            id: 1LjhTJGXuIt4mmhBuCBQxI
+        slug: thanksgiving-2016
+    slug: no-title-here-21
+  - sys:
+      id: 4RrsNIT4jhUG9TAErMIXHr
+      created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: Thanksgiving 2016
+    image:
+      sys:
+        id: 2yV10eFF7t9lCGflIOTN4a
+        created_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+      title: IMG 0616
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2yV10eFF7t9lCGflIOTN4a/5e7c5675309fd0992e1259356d28a13d/IMG_0616.jpg"
+    date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+    notes: Up in Aptos
+    items:
+    - sys:
+        id: 1LjhTJGXuIt4mmhBuCBQxI
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+        content_type_id: item
+        revision: 1
+      name: Black Sweater Dress
+      main_color: black
+      image:
+        sys:
+          id: 2p3nHMXgjH8B5hx9hItYK0
+          created_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+        title: IMG 1834
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2p3nHMXgjH8B5hx9hItYK0/edff768cbdbf507d7e7597b7c613a7e8/IMG_1834.png"
+      category: Dress
+      color:
+      - "#0D0D0D"
+      price_range: Under $10
+      vintage: true
+      when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+      outfits:
+      - sys:
+          id: 5S7fQP6tpW3gTfsgjp8pBy
+          created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: No Title Here (21)
+        image:
+          sys:
+            id: 6RZS4Cur1qDwIlyLR6JkKS
+        date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+        notes: My boss told me I looked fancy this day, and I said it's literally
+          just because I am wearing all black, which I never do.
+        items:
+        - sys:
+            id: 1LjhTJGXuIt4mmhBuCBQxI
+        slug: no-title-here-21
+      - sys:
+          id: 4RrsNIT4jhUG9TAErMIXHr
+          created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Thanksgiving 2016
+        image:
+          sys:
+            id: 2yV10eFF7t9lCGflIOTN4a
+        date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+        notes: Up in Aptos
+        items:
+        - sys:
+            id: 1LjhTJGXuIt4mmhBuCBQxI
+        slug: thanksgiving-2016
+    slug: thanksgiving-2016
+- sys:
+    id: 30pyLl6z9bLCz5PeYkp89r
+    created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+    content_type_id: item
+    revision: 1
+  name: Blue and Yellow Vintage Dress
+  main_color: yellow
+  secondary_color: blue
+  image:
+    sys:
+      id: cQ4T1rZ7kRpnYy1azYysi
+      created_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+    title: IMG 1835
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/cQ4T1rZ7kRpnYy1azYysi/a4bd5193634a772ca841a136c98fa86e/IMG_1835.png"
+  category: Dress
+  color:
+  - "#03178C"
+  - "#F2CB05"
+  price_range: "$20 - $30"
+  vintage: true
+  when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+  notes: Got this at Sqauresville vintage in LA
+  outfits:
+  - sys:
+      id: 1l1oivqlIyjNHeFONZaazC
+      created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+      content_type_id: outfit
+      revision: 5
+    name: Warriors Game, El Farolito
+    image:
+      sys:
+        id: ZAzdEmgp7mkdOO80JbBtq
+        created_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+      title: '6'
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/ZAzdEmgp7mkdOO80JbBtq/8574f2d82171c2efca93c1af8e4164ec/6.jpg"
+    date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+    notes: I wore this very festive outfit to a Warriors game and I felt like a mega
+      fan even though i am not. Also I then matched these benches at El Farolito
+    items:
+    - sys:
+        id: 30pyLl6z9bLCz5PeYkp89r
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+        content_type_id: item
+        revision: 1
+      name: Blue and Yellow Vintage Dress
+      main_color: yellow
+      secondary_color: blue
+      image:
+        sys:
+          id: cQ4T1rZ7kRpnYy1azYysi
+          created_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+        title: IMG 1835
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/cQ4T1rZ7kRpnYy1azYysi/a4bd5193634a772ca841a136c98fa86e/IMG_1835.png"
+      category: Dress
+      color:
+      - "#03178C"
+      - "#F2CB05"
+      price_range: "$20 - $30"
+      vintage: true
+      when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+      notes: Got this at Sqauresville vintage in LA
+      outfits:
+      - sys:
+          id: 1l1oivqlIyjNHeFONZaazC
+          created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Warriors Game, El Farolito
+        image:
+          sys:
+            id: ZAzdEmgp7mkdOO80JbBtq
+        date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+        notes: I wore this very festive outfit to a Warriors game and I felt like
+          a mega fan even though i am not. Also I then matched these benches at El
+          Farolito
+        items:
+        - sys:
+            id: 30pyLl6z9bLCz5PeYkp89r
+        slug: warriors-game-farolito
+      - sys:
+          id: 6PKGASvANDlA4TgXeg5EBh
+          created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Blue and Yellow
+        image:
+          sys:
+            id: 4LMuzsxVxBILCHpifuPI0J
+        date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+        notes: Had a client meeting this day.
+        items:
+        - sys:
+            id: 30pyLl6z9bLCz5PeYkp89r
+        slug: blue-and-yellow
+    slug: warriors-game-farolito
+  - sys:
+      id: 6PKGASvANDlA4TgXeg5EBh
+      created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+      content_type_id: outfit
+      revision: 3
+    name: Blue and Yellow
+    image:
+      sys:
+        id: 4LMuzsxVxBILCHpifuPI0J
+        created_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+      title: IMG 1445
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4LMuzsxVxBILCHpifuPI0J/75f42b10debdd01266117f9888f1a27e/IMG_1445.jpg"
+    date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+    notes: Had a client meeting this day.
+    items:
+    - sys:
+        id: 30pyLl6z9bLCz5PeYkp89r
+        created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+        content_type_id: item
+        revision: 1
+      name: Blue and Yellow Vintage Dress
+      main_color: yellow
+      secondary_color: blue
+      image:
+        sys:
+          id: cQ4T1rZ7kRpnYy1azYysi
+          created_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+        title: IMG 1835
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/cQ4T1rZ7kRpnYy1azYysi/a4bd5193634a772ca841a136c98fa86e/IMG_1835.png"
+      category: Dress
+      color:
+      - "#03178C"
+      - "#F2CB05"
+      price_range: "$20 - $30"
+      vintage: true
+      when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+      notes: Got this at Sqauresville vintage in LA
+      outfits:
+      - sys:
+          id: 1l1oivqlIyjNHeFONZaazC
+          created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+          content_type_id: outfit
+          revision: 5
+        name: Warriors Game, El Farolito
+        image:
+          sys:
+            id: ZAzdEmgp7mkdOO80JbBtq
+        date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+        notes: I wore this very festive outfit to a Warriors game and I felt like
+          a mega fan even though i am not. Also I then matched these benches at El
+          Farolito
+        items:
+        - sys:
+            id: 30pyLl6z9bLCz5PeYkp89r
+        slug: warriors-game-farolito
+      - sys:
+          id: 6PKGASvANDlA4TgXeg5EBh
+          created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+          content_type_id: outfit
+          revision: 3
+        name: Blue and Yellow
+        image:
+          sys:
+            id: 4LMuzsxVxBILCHpifuPI0J
+        date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+        notes: Had a client meeting this day.
+        items:
+        - sys:
+            id: 30pyLl6z9bLCz5PeYkp89r
+        slug: blue-and-yellow
+    slug: blue-and-yellow
 outfit:
 - sys:
     id: 4RBuYy7R4zzVUaNtnpHynp
@@ -1711,6 +2906,45 @@ outfit:
             id: 4RBuYy7R4zzVUaNtnpHynp
       slug: wyndam-and-amandas-wedding
   slug: wyndam-and-amandas-wedding
+- sys:
+    id: 4PxoQ2pcgI8KrTeDWg75Fr
+    created_at: !ruby/object:DateTime 2019-09-17 15:20:00.070000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.292000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: FOST 2016
+  image:
+    sys:
+      id: 2bhwHe5F22YhYHO44Gk93h
+      created_at: !ruby/object:DateTime 2019-09-17 15:18:49.962000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:18:49.962000000 Z
+    title: IMG 2409
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2bhwHe5F22YhYHO44Gk93h/c658d6c0ec5f1df5734ecd56ee5b02b6/IMG_2409.jpg"
+  date: !ruby/object:DateTime 2016-05-20 00:00:00.000000000 Z
+  notes: In the bathroom at Snug Harbor, closing night party. had some cocktails.
+  items: []
+  slug: fost-2016
+- sys:
+    id: 4BkNG8NTDg8BkzK8K3NTCa
+    created_at: !ruby/object:DateTime 2019-09-17 15:30:37.763000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.173000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: Vijay Iyer in the Palisades
+  image:
+    sys:
+      id: 5fBIcWhDyDp6JDVM85Nj5c
+      created_at: !ruby/object:DateTime 2019-09-17 15:29:26.643000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:29:26.643000000 Z
+    title: IMG 1663
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5fBIcWhDyDp6JDVM85Nj5c/c1eb7aea5a31c64a18299141573e2036/IMG_1663.jpg"
+  date: !ruby/object:DateTime 2016-04-28 00:00:00.000000000 Z
+  notes: We got invited to a CAP UCLA donors private performance by Vijay Iyer in
+    somebody's living room in the Pacific Palisades. Ryoji Ikeda showed up too!!
+  items: []
+  slug: vijay-iyer-in-the-palisades
 - sys:
     id: x2QPBpxUs2atYkN6CxIJL
     created_at: !ruby/object:DateTime 2019-09-17 15:31:37.081000000 Z
@@ -1808,6 +3042,294 @@ outfit:
       slug: happy-new-year
   slug: happy-new-year
 - sys:
+    id: 4K2hQR5FUDv0ymvK4BjzjV
+    created_at: !ruby/object:DateTime 2019-09-17 15:33:05.451000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.927000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: FOST 2015
+  image:
+    sys:
+      id: 6zjS4o7nwNVwGst4PUqbTB
+      created_at: !ruby/object:DateTime 2019-09-17 15:32:31.019000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:32:31.019000000 Z
+    title: IMG 0216
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6zjS4o7nwNVwGst4PUqbTB/008a88e6140fadc43253eb47c9e91405/IMG_0216.jpg"
+  date: !ruby/object:DateTime 2015-10-08 00:00:00.000000000 Z
+  notes: Asher and I are showing off our matching cell phone cases haha
+  items: []
+  slug: fost-2015
+- sys:
+    id: 3pkJ9vIlpTugtQLDUicFK9
+    created_at: !ruby/object:DateTime 2019-09-17 15:34:52.430000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.891000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: River of Fundament Screening
+  image:
+    sys:
+      id: 2OgcqYninDVgP3cUOwrlOh
+      created_at: !ruby/object:DateTime 2019-09-17 15:38:44.867000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 15:38:44.867000000 Z
+    title: IMG 5527
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2OgcqYninDVgP3cUOwrlOh/c7fc5ed79b274a99d531aea20dccc1f4/IMG_5527.jpg"
+  date: !ruby/object:DateTime 2015-04-26 00:00:00.000000000 Z
+  notes: Cindy and i got this picture in the middle of the 6 hour Matthew Barney screening.
+    At Royce Hall at UCLA.
+  items: []
+  slug: river-of-fundament-screening
+- sys:
+    id: 2vA4o8b0vFLKf5m8rtlvFs
+    created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.592000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: Please Hire Me
+  image:
+    sys:
+      id: 1DMpwFY2RjTezgZZDIMCxs
+      created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+    title: IMG 4150
+    description: outfit
+    url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+  date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+  notes: Was trying to find a job in New York before I graduated from college. Horrible
+    day, great outfit.
+  items:
+  - sys:
+      id: 3BGziZxCOkAjh9ZoOT3hLA
+      created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-16 14:17:29.413000000 Z
+      content_type_id: item
+      revision: 6
+    name: Neon Orange Sweater
+    main_color: orange
+    image:
+      sys:
+        id: 1Aw1PuHxQTatD5tF7YRMab
+        created_at: !ruby/object:DateTime 2019-09-17 19:02:57.564000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-17 19:03:06.765000000 Z
+      title: IMG 0577
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1Aw1PuHxQTatD5tF7YRMab/66d3d2f17eb22bda0697aeee1639f7fe/IMG_0577.png"
+    category: Sweater
+    color:
+    - "#FF8C00"
+    brand: Obermeyer
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+    notes: I think I got this at wasteland. Didn't wear it for a long time, and now
+      it's my favorite.
+    outfits:
+    - sys:
+        id: 2vA4o8b0vFLKf5m8rtlvFs
+        created_at: !ruby/object:DateTime 2019-09-17 19:07:35.033000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.592000000 Z
+        content_type_id: outfit
+        revision: 5
+      name: Please Hire Me
+      image:
+        sys:
+          id: 1DMpwFY2RjTezgZZDIMCxs
+          created_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+          updated_at: !ruby/object:DateTime 2019-09-17 19:06:49.333000000 Z
+        title: IMG 4150
+        description: outfit
+        url: "//images.ctfassets.net/4sf3k05ydnj7/1DMpwFY2RjTezgZZDIMCxs/85abb88a4f5c4bfe1d264f7041313d86/IMG_4150.jpg"
+      date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+      notes: Was trying to find a job in New York before I graduated from college.
+        Horrible day, great outfit.
+      items:
+      - sys:
+          id: 3BGziZxCOkAjh9ZoOT3hLA
+          created_at: !ruby/object:DateTime 2019-09-17 19:03:50.448000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-16 14:17:29.413000000 Z
+          content_type_id: item
+          revision: 6
+        name: Neon Orange Sweater
+        main_color: orange
+        image:
+          sys:
+            id: 1Aw1PuHxQTatD5tF7YRMab
+        category: Sweater
+        color:
+        - "#FF8C00"
+        brand: Obermeyer
+        price_range: "$10 - $20"
+        vintage: true
+        when: !ruby/object:DateTime 2015-09-08 00:00:00.000000000 Z
+        notes: I think I got this at wasteland. Didn't wear it for a long time, and
+          now it's my favorite.
+        outfits:
+        - sys:
+            id: 2vA4o8b0vFLKf5m8rtlvFs
+      slug: please-hire-me
+  slug: please-hire-me
+- sys:
+    id: 4Gkk2feCdRq43nG0KIrzop
+    created_at: !ruby/object:DateTime 2019-11-19 19:12:39.501000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.311000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: No Title Here (3)
+  image:
+    sys:
+      id: 5gWl46eYY6Tg2IQ6rL6pdI
+      created_at: !ruby/object:DateTime 2019-11-19 19:11:20.732000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 19:11:20.732000000 Z
+    title: IMG 2582
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/5gWl46eYY6Tg2IQ6rL6pdI/226906b4ee1ab4cae83a75ad2962f29c/IMG_2582.jpg"
+  date: !ruby/object:DateTime 2016-11-03 00:00:00.000000000 Z
+  items: []
+  slug: no-title-here-3
+- sys:
+    id: 1PVtNVSNOFi1RdguEZAl6D
+    created_at: !ruby/object:DateTime 2019-11-19 22:36:29.695000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.261000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: No Title Here (4)
+  image:
+    sys:
+      id: 3lqNQtI6YgV285lK8nTohi
+      created_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+    title: IMG 0530
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3lqNQtI6YgV285lK8nTohi/deeefed7598cd6ddbda4c81e3d6a34a7/IMG_0530.jpg"
+  date: !ruby/object:DateTime 2019-06-04 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 7hKxFfF2jVCubR6C0zSG4w
+      created_at: !ruby/object:DateTime 2019-06-04 15:39:34.187000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.123000000 Z
+      content_type_id: item
+      revision: 10
+    name: High Waisted Blue Flair Pants
+    main_color: blue
+    image:
+      sys:
+        id: 4hxcKzHyqEw0z2TGAoCbKV
+        created_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+        updated_at: !ruby/object:DateTime 2019-08-06 03:59:09.840000000 Z
+      title: IMG 0523
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/4hxcKzHyqEw0z2TGAoCbKV/7f2a03001739f09e5205f2845c2e4f0e/IMG_0523.png"
+    category: Pants
+    color:
+    - "#284B7D"
+    brand: Sears
+    price_range: "$10 - $20"
+    vintage: true
+    when: !ruby/object:DateTime 2019-01-03 00:00:00.000000000 Z
+    notes: I think i got these at El Sobrante Thrift Town. They fit great.
+    outfits:
+    - sys:
+        id: 1PVtNVSNOFi1RdguEZAl6D
+        created_at: !ruby/object:DateTime 2019-11-19 22:36:29.695000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.261000000 Z
+        content_type_id: outfit
+        revision: 4
+      name: No Title Here (4)
+      image:
+        sys:
+          id: 3lqNQtI6YgV285lK8nTohi
+          created_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+          updated_at: !ruby/object:DateTime 2019-11-19 22:34:56.778000000 Z
+        title: IMG 0530
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/3lqNQtI6YgV285lK8nTohi/deeefed7598cd6ddbda4c81e3d6a34a7/IMG_0530.jpg"
+      date: !ruby/object:DateTime 2019-06-04 00:00:00.000000000 Z
+      items:
+      - sys:
+          id: 7hKxFfF2jVCubR6C0zSG4w
+          created_at: !ruby/object:DateTime 2019-06-04 15:39:34.187000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.123000000 Z
+          content_type_id: item
+          revision: 10
+        name: High Waisted Blue Flair Pants
+        main_color: blue
+        image:
+          sys:
+            id: 4hxcKzHyqEw0z2TGAoCbKV
+        category: Pants
+        color:
+        - "#284B7D"
+        brand: Sears
+        price_range: "$10 - $20"
+        vintage: true
+        when: !ruby/object:DateTime 2019-01-03 00:00:00.000000000 Z
+        notes: I think i got these at El Sobrante Thrift Town. They fit great.
+        outfits:
+        - sys:
+            id: 1PVtNVSNOFi1RdguEZAl6D
+      slug: no-title-here-4
+  slug: no-title-here-4
+- sys:
+    id: 4jOLH2bQHeRyZforVqmNW1
+    created_at: !ruby/object:DateTime 2019-11-19 22:39:35.569000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.499000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: Picking Blueberries in Vermont
+  image:
+    sys:
+      id: 72dJ8wNI8O64ftkSO1GAM9
+      created_at: !ruby/object:DateTime 2019-11-19 22:38:11.371000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 22:38:11.371000000 Z
+    title: IMG 0001
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/72dJ8wNI8O64ftkSO1GAM9/86c6b4846fd52f8f839f4106461639e7/IMG_0001.jpg"
+  date: !ruby/object:DateTime 2009-07-15 00:00:00.000000000 Z
+  notes: This picture was taken (i think) in Rutland Vermont when we went to visit
+    Amanda's friends Lexie and Annelise. It was the summer before I started highschool
+    - i was almost 14 :0
+  slug: picking-blueberries-in-vermont
+- sys:
+    id: 4t6B4aoZ3gNjDyY9sQc7Qd
+    created_at: !ruby/object:DateTime 2019-11-19 22:41:23.012000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:34.805000000 Z
+    content_type_id: outfit
+    revision: 4
+  name: Working at Mom's Office for the Day
+  image:
+    sys:
+      id: 6MoU4KodZPytUcXpM73EoK
+      created_at: !ruby/object:DateTime 2019-11-19 22:40:35.877000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 22:40:35.877000000 Z
+    title: IMG 0004
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6MoU4KodZPytUcXpM73EoK/eb49cf1b8db2e82227c14856c3675a5a/IMG_0004.jpg"
+  date: !ruby/object:DateTime 2009-07-15 00:00:00.000000000 Z
+  notes: This was a day I came to work at Amanda's office, summer before freshman
+    year of highschool.
+  items: []
+  slug: working-at-moms-office-for-the-day
+- sys:
+    id: 3fdQWCJrnKgFo7MGxBpAN8
+    created_at: !ruby/object:DateTime 2019-11-19 22:43:27.120000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:35.199000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: Photobooth Outfit (1)
+  image:
+    sys:
+      id: 19kH22nqU8llmrvGleCt06
+      created_at: !ruby/object:DateTime 2019-11-19 22:42:50.428000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-19 22:42:50.428000000 Z
+    title: Photo 235
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/19kH22nqU8llmrvGleCt06/2873e105fd0b5231e96e6825b85a8944/Photo_235.jpg"
+  date: !ruby/object:DateTime 2010-11-06 00:00:00.000000000 Z
+  notes: Hilarous patent yellow shoes, and jeans I think I cut myself? the belt was
+    Brooklyn's. Beret, definitely Donna's from back in the day.
+  slug: photobooth-outfit-1
+- sys:
     id: g4VX6V9XUEEKo3n1jAJ01
     created_at: !ruby/object:DateTime 2019-11-19 22:45:02.633000000 Z
     updated_at: !ruby/object:DateTime 2020-01-16 14:17:29.426000000 Z
@@ -1827,3 +3349,780 @@ outfit:
     dress is from Forever 21, the shirt was a hand me down from Brooklyn, the shoes
     I got at Community Thrift and the belt....was somebody's grandma's.
   slug: photobooth-outfit-2
+- sys:
+    id: 6aO6IuAI9rxD6PYodHf04k
+    created_at: !ruby/object:DateTime 2020-01-14 13:51:43.188000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.957000000 Z
+    content_type_id: outfit
+    revision: 3
+  name: First Day of Real Winter
+  image:
+    sys:
+      id: M2gFKOlU2v7vAsuZqQ56u
+      created_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+    title: IMG 1459
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/M2gFKOlU2v7vAsuZqQ56u/0b1b1db1faca26d14472d8c46367663d/IMG_1459.jpg"
+  date: !ruby/object:DateTime 2019-11-14 00:00:00.000000000 Z
+  notes: First day that it was very cold, I refused to switch over to real winter
+    clothes and just layered my fall ones. heh.
+  items:
+  - sys:
+      id: 4F5or0yurmPBrVUB8gj0Qy
+      created_at: !ruby/object:DateTime 2020-01-20 01:12:50.876000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 01:13:11.144000000 Z
+      content_type_id: item
+      revision: 2
+    name: Colorful Sweater Shirt
+    main_color: multicolor
+    image:
+      sys:
+        id: 2z1YYR776ihki5k0Fmlih3
+        created_at: !ruby/object:DateTime 2020-01-20 01:10:02.319000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:10:02.319000000 Z
+      title: IMG 1831
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2z1YYR776ihki5k0Fmlih3/619fbe4cc3c75ac821c153389733bcf6/IMG_1831.png"
+    category: Shirt
+    color:
+    - "#EAF2F7"
+    - "#D92B04"
+    - "#F2B705"
+    - "#038C8C"
+    - "#020F59"
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-03-18 00:00:00.000000000 Z
+    notes: I got this at Squaresville Vintage in LA
+    outfits:
+    - sys:
+        id: 6aO6IuAI9rxD6PYodHf04k
+        created_at: !ruby/object:DateTime 2020-01-14 13:51:43.188000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.957000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: First Day of Real Winter
+      image:
+        sys:
+          id: M2gFKOlU2v7vAsuZqQ56u
+          created_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-14 13:49:25.563000000 Z
+        title: IMG 1459
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/M2gFKOlU2v7vAsuZqQ56u/0b1b1db1faca26d14472d8c46367663d/IMG_1459.jpg"
+      date: !ruby/object:DateTime 2019-11-14 00:00:00.000000000 Z
+      notes: First day that it was very cold, I refused to switch over to real winter
+        clothes and just layered my fall ones. heh.
+      items:
+      - sys:
+          id: 4F5or0yurmPBrVUB8gj0Qy
+          created_at: !ruby/object:DateTime 2020-01-20 01:12:50.876000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 01:13:11.144000000 Z
+          content_type_id: item
+          revision: 2
+        name: Colorful Sweater Shirt
+        main_color: multicolor
+        image:
+          sys:
+            id: 2z1YYR776ihki5k0Fmlih3
+        category: Shirt
+        color:
+        - "#EAF2F7"
+        - "#D92B04"
+        - "#F2B705"
+        - "#038C8C"
+        - "#020F59"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-03-18 00:00:00.000000000 Z
+        notes: I got this at Squaresville Vintage in LA
+        outfits:
+        - sys:
+            id: 6aO6IuAI9rxD6PYodHf04k
+      slug: first-day-of-real-winter
+  slug: first-day-of-real-winter
+- sys:
+    id: 6PKGASvANDlA4TgXeg5EBh
+    created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+    content_type_id: outfit
+    revision: 3
+  name: Blue and Yellow
+  image:
+    sys:
+      id: 4LMuzsxVxBILCHpifuPI0J
+      created_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+    title: IMG 1445
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/4LMuzsxVxBILCHpifuPI0J/75f42b10debdd01266117f9888f1a27e/IMG_1445.jpg"
+  date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+  notes: Had a client meeting this day.
+  items:
+  - sys:
+      id: 30pyLl6z9bLCz5PeYkp89r
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+      content_type_id: item
+      revision: 1
+    name: Blue and Yellow Vintage Dress
+    main_color: yellow
+    secondary_color: blue
+    image:
+      sys:
+        id: cQ4T1rZ7kRpnYy1azYysi
+        created_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+      title: IMG 1835
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/cQ4T1rZ7kRpnYy1azYysi/a4bd5193634a772ca841a136c98fa86e/IMG_1835.png"
+    category: Dress
+    color:
+    - "#03178C"
+    - "#F2CB05"
+    price_range: "$20 - $30"
+    vintage: true
+    when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+    notes: Got this at Sqauresville vintage in LA
+    outfits:
+    - sys:
+        id: 1l1oivqlIyjNHeFONZaazC
+        created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+        content_type_id: outfit
+        revision: 5
+      name: Warriors Game, El Farolito
+      image:
+        sys:
+          id: ZAzdEmgp7mkdOO80JbBtq
+          created_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+        title: '6'
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/ZAzdEmgp7mkdOO80JbBtq/8574f2d82171c2efca93c1af8e4164ec/6.jpg"
+      date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+      notes: I wore this very festive outfit to a Warriors game and I felt like a
+        mega fan even though i am not. Also I then matched these benches at El Farolito
+      items:
+      - sys:
+          id: 30pyLl6z9bLCz5PeYkp89r
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          content_type_id: item
+          revision: 1
+        name: Blue and Yellow Vintage Dress
+        main_color: yellow
+        secondary_color: blue
+        image:
+          sys:
+            id: cQ4T1rZ7kRpnYy1azYysi
+        category: Dress
+        color:
+        - "#03178C"
+        - "#F2CB05"
+        price_range: "$20 - $30"
+        vintage: true
+        when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+        notes: Got this at Sqauresville vintage in LA
+        outfits:
+        - sys:
+            id: 1l1oivqlIyjNHeFONZaazC
+        - sys:
+            id: 6PKGASvANDlA4TgXeg5EBh
+      slug: warriors-game-farolito
+    - sys:
+        id: 6PKGASvANDlA4TgXeg5EBh
+        created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Blue and Yellow
+      image:
+        sys:
+          id: 4LMuzsxVxBILCHpifuPI0J
+          created_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+        title: IMG 1445
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/4LMuzsxVxBILCHpifuPI0J/75f42b10debdd01266117f9888f1a27e/IMG_1445.jpg"
+      date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+      notes: Had a client meeting this day.
+      items:
+      - sys:
+          id: 30pyLl6z9bLCz5PeYkp89r
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          content_type_id: item
+          revision: 1
+        name: Blue and Yellow Vintage Dress
+        main_color: yellow
+        secondary_color: blue
+        image:
+          sys:
+            id: cQ4T1rZ7kRpnYy1azYysi
+        category: Dress
+        color:
+        - "#03178C"
+        - "#F2CB05"
+        price_range: "$20 - $30"
+        vintage: true
+        when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+        notes: Got this at Sqauresville vintage in LA
+        outfits:
+        - sys:
+            id: 1l1oivqlIyjNHeFONZaazC
+        - sys:
+            id: 6PKGASvANDlA4TgXeg5EBh
+      slug: blue-and-yellow
+  slug: blue-and-yellow
+- sys:
+    id: 5S7fQP6tpW3gTfsgjp8pBy
+    created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+    content_type_id: outfit
+    revision: 3
+  name: No Title Here (21)
+  image:
+    sys:
+      id: 6RZS4Cur1qDwIlyLR6JkKS
+      created_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+    title: IMG 1441
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/6RZS4Cur1qDwIlyLR6JkKS/830d28102abd6d91e9a983b281f26268/IMG_1441.jpg"
+  date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+  notes: My boss told me I looked fancy this day, and I said it's literally just because
+    I am wearing all black, which I never do.
+  items:
+  - sys:
+      id: 1LjhTJGXuIt4mmhBuCBQxI
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+      content_type_id: item
+      revision: 1
+    name: Black Sweater Dress
+    main_color: black
+    image:
+      sys:
+        id: 2p3nHMXgjH8B5hx9hItYK0
+        created_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+      title: IMG 1834
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2p3nHMXgjH8B5hx9hItYK0/edff768cbdbf507d7e7597b7c613a7e8/IMG_1834.png"
+    category: Dress
+    color:
+    - "#0D0D0D"
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+    outfits:
+    - sys:
+        id: 5S7fQP6tpW3gTfsgjp8pBy
+        created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: No Title Here (21)
+      image:
+        sys:
+          id: 6RZS4Cur1qDwIlyLR6JkKS
+          created_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+        title: IMG 1441
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/6RZS4Cur1qDwIlyLR6JkKS/830d28102abd6d91e9a983b281f26268/IMG_1441.jpg"
+      date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+      notes: My boss told me I looked fancy this day, and I said it's literally just
+        because I am wearing all black, which I never do.
+      items:
+      - sys:
+          id: 1LjhTJGXuIt4mmhBuCBQxI
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          content_type_id: item
+          revision: 1
+        name: Black Sweater Dress
+        main_color: black
+        image:
+          sys:
+            id: 2p3nHMXgjH8B5hx9hItYK0
+        category: Dress
+        color:
+        - "#0D0D0D"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 5S7fQP6tpW3gTfsgjp8pBy
+        - sys:
+            id: 4RrsNIT4jhUG9TAErMIXHr
+      slug: no-title-here-21
+    - sys:
+        id: 4RrsNIT4jhUG9TAErMIXHr
+        created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Thanksgiving 2016
+      image:
+        sys:
+          id: 2yV10eFF7t9lCGflIOTN4a
+          created_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+        title: IMG 0616
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2yV10eFF7t9lCGflIOTN4a/5e7c5675309fd0992e1259356d28a13d/IMG_0616.jpg"
+      date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+      notes: Up in Aptos
+      items:
+      - sys:
+          id: 1LjhTJGXuIt4mmhBuCBQxI
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          content_type_id: item
+          revision: 1
+        name: Black Sweater Dress
+        main_color: black
+        image:
+          sys:
+            id: 2p3nHMXgjH8B5hx9hItYK0
+        category: Dress
+        color:
+        - "#0D0D0D"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 5S7fQP6tpW3gTfsgjp8pBy
+        - sys:
+            id: 4RrsNIT4jhUG9TAErMIXHr
+      slug: thanksgiving-2016
+  slug: no-title-here-21
+- sys:
+    id: 4RrsNIT4jhUG9TAErMIXHr
+    created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+    content_type_id: outfit
+    revision: 3
+  name: Thanksgiving 2016
+  image:
+    sys:
+      id: 2yV10eFF7t9lCGflIOTN4a
+      created_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+    title: IMG 0616
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2yV10eFF7t9lCGflIOTN4a/5e7c5675309fd0992e1259356d28a13d/IMG_0616.jpg"
+  date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+  notes: Up in Aptos
+  items:
+  - sys:
+      id: 1LjhTJGXuIt4mmhBuCBQxI
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+      content_type_id: item
+      revision: 1
+    name: Black Sweater Dress
+    main_color: black
+    image:
+      sys:
+        id: 2p3nHMXgjH8B5hx9hItYK0
+        created_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:21:06.512000000 Z
+      title: IMG 1834
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/2p3nHMXgjH8B5hx9hItYK0/edff768cbdbf507d7e7597b7c613a7e8/IMG_1834.png"
+    category: Dress
+    color:
+    - "#0D0D0D"
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+    outfits:
+    - sys:
+        id: 5S7fQP6tpW3gTfsgjp8pBy
+        created_at: !ruby/object:DateTime 2020-01-14 13:56:37.011000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.448000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: No Title Here (21)
+      image:
+        sys:
+          id: 6RZS4Cur1qDwIlyLR6JkKS
+          created_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-14 13:54:46.436000000 Z
+        title: IMG 1441
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/6RZS4Cur1qDwIlyLR6JkKS/830d28102abd6d91e9a983b281f26268/IMG_1441.jpg"
+      date: !ruby/object:DateTime 2019-11-07 00:00:00.000000000 Z
+      notes: My boss told me I looked fancy this day, and I said it's literally just
+        because I am wearing all black, which I never do.
+      items:
+      - sys:
+          id: 1LjhTJGXuIt4mmhBuCBQxI
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          content_type_id: item
+          revision: 1
+        name: Black Sweater Dress
+        main_color: black
+        image:
+          sys:
+            id: 2p3nHMXgjH8B5hx9hItYK0
+        category: Dress
+        color:
+        - "#0D0D0D"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 5S7fQP6tpW3gTfsgjp8pBy
+        - sys:
+            id: 4RrsNIT4jhUG9TAErMIXHr
+      slug: no-title-here-21
+    - sys:
+        id: 4RrsNIT4jhUG9TAErMIXHr
+        created_at: !ruby/object:DateTime 2020-01-16 04:07:03.890000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.744000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Thanksgiving 2016
+      image:
+        sys:
+          id: 2yV10eFF7t9lCGflIOTN4a
+          created_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-16 04:06:41.836000000 Z
+        title: IMG 0616
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2yV10eFF7t9lCGflIOTN4a/5e7c5675309fd0992e1259356d28a13d/IMG_0616.jpg"
+      date: !ruby/object:DateTime 2016-11-24 00:00:00.000000000 Z
+      notes: Up in Aptos
+      items:
+      - sys:
+          id: 1LjhTJGXuIt4mmhBuCBQxI
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+          content_type_id: item
+          revision: 1
+        name: Black Sweater Dress
+        main_color: black
+        image:
+          sys:
+            id: 2p3nHMXgjH8B5hx9hItYK0
+        category: Dress
+        color:
+        - "#0D0D0D"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-04-23 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 5S7fQP6tpW3gTfsgjp8pBy
+        - sys:
+            id: 4RrsNIT4jhUG9TAErMIXHr
+      slug: thanksgiving-2016
+  slug: thanksgiving-2016
+- sys:
+    id: 1l1oivqlIyjNHeFONZaazC
+    created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+    content_type_id: outfit
+    revision: 5
+  name: Warriors Game, El Farolito
+  image:
+    sys:
+      id: ZAzdEmgp7mkdOO80JbBtq
+      created_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+    title: '6'
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/ZAzdEmgp7mkdOO80JbBtq/8574f2d82171c2efca93c1af8e4164ec/6.jpg"
+  date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+  notes: I wore this very festive outfit to a Warriors game and I felt like a mega
+    fan even though i am not. Also I then matched these benches at El Farolito
+  items:
+  - sys:
+      id: 30pyLl6z9bLCz5PeYkp89r
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+      content_type_id: item
+      revision: 1
+    name: Blue and Yellow Vintage Dress
+    main_color: yellow
+    secondary_color: blue
+    image:
+      sys:
+        id: cQ4T1rZ7kRpnYy1azYysi
+        created_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:16:26.171000000 Z
+      title: IMG 1835
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/cQ4T1rZ7kRpnYy1azYysi/a4bd5193634a772ca841a136c98fa86e/IMG_1835.png"
+    category: Dress
+    color:
+    - "#03178C"
+    - "#F2CB05"
+    price_range: "$20 - $30"
+    vintage: true
+    when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+    notes: Got this at Sqauresville vintage in LA
+    outfits:
+    - sys:
+        id: 1l1oivqlIyjNHeFONZaazC
+        created_at: !ruby/object:DateTime 2020-01-16 04:37:21.866000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:24:03.892000000 Z
+        content_type_id: outfit
+        revision: 5
+      name: Warriors Game, El Farolito
+      image:
+        sys:
+          id: ZAzdEmgp7mkdOO80JbBtq
+          created_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-16 04:36:17.797000000 Z
+        title: '6'
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/ZAzdEmgp7mkdOO80JbBtq/8574f2d82171c2efca93c1af8e4164ec/6.jpg"
+      date: !ruby/object:DateTime 2015-10-29 00:00:00.000000000 Z
+      notes: I wore this very festive outfit to a Warriors game and I felt like a
+        mega fan even though i am not. Also I then matched these benches at El Farolito
+      items:
+      - sys:
+          id: 30pyLl6z9bLCz5PeYkp89r
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          content_type_id: item
+          revision: 1
+        name: Blue and Yellow Vintage Dress
+        main_color: yellow
+        secondary_color: blue
+        image:
+          sys:
+            id: cQ4T1rZ7kRpnYy1azYysi
+        category: Dress
+        color:
+        - "#03178C"
+        - "#F2CB05"
+        price_range: "$20 - $30"
+        vintage: true
+        when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+        notes: Got this at Sqauresville vintage in LA
+        outfits:
+        - sys:
+            id: 1l1oivqlIyjNHeFONZaazC
+        - sys:
+            id: 6PKGASvANDlA4TgXeg5EBh
+      slug: warriors-game-farolito
+    - sys:
+        id: 6PKGASvANDlA4TgXeg5EBh
+        created_at: !ruby/object:DateTime 2020-01-14 13:53:46.254000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:33.053000000 Z
+        content_type_id: outfit
+        revision: 3
+      name: Blue and Yellow
+      image:
+        sys:
+          id: 4LMuzsxVxBILCHpifuPI0J
+          created_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-14 13:52:40.334000000 Z
+        title: IMG 1445
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/4LMuzsxVxBILCHpifuPI0J/75f42b10debdd01266117f9888f1a27e/IMG_1445.jpg"
+      date: !ruby/object:DateTime 2019-11-08 00:00:00.000000000 Z
+      notes: Had a client meeting this day.
+      items:
+      - sys:
+          id: 30pyLl6z9bLCz5PeYkp89r
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.810000000 Z
+          content_type_id: item
+          revision: 1
+        name: Blue and Yellow Vintage Dress
+        main_color: yellow
+        secondary_color: blue
+        image:
+          sys:
+            id: cQ4T1rZ7kRpnYy1azYysi
+        category: Dress
+        color:
+        - "#03178C"
+        - "#F2CB05"
+        price_range: "$20 - $30"
+        vintage: true
+        when: !ruby/object:DateTime 2015-03-20 00:00:00.000000000 Z
+        notes: Got this at Sqauresville vintage in LA
+        outfits:
+        - sys:
+            id: 1l1oivqlIyjNHeFONZaazC
+        - sys:
+            id: 6PKGASvANDlA4TgXeg5EBh
+      slug: blue-and-yellow
+  slug: warriors-game-farolito
+- sys:
+    id: 5bSvdPrVgH8U4kATtc5v0B
+    created_at: !ruby/object:DateTime 2020-01-18 23:25:44.587000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.504000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: No Title Here (43)
+  image:
+    sys:
+      id: 2P8Hug6ny4m3ncpEyamEku
+      created_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+    title: IMG 0885
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/2P8Hug6ny4m3ncpEyamEku/1e6bde9165ff69a6ec670f8e919f50fa/IMG_0885.jpg"
+  date: !ruby/object:DateTime 2015-08-21 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 3pAYOz4HySe9Um2FY81MNh
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+      content_type_id: item
+      revision: 1
+    name: Homemade Knit Tank
+    main_color: multicolor
+    image:
+      sys:
+        id: 1fnPf6WJT7ZUe4QHb5Fs2A
+        created_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:33:26.311000000 Z
+      title: IMG 1833
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/1fnPf6WJT7ZUe4QHb5Fs2A/ce7759c730b4a5321e934df0d2afe4b6/IMG_1833.png"
+    category: Shirt
+    color:
+    - "#FAECD9"
+    - "#6E3475"
+    - "#F2C305"
+    - "#0D0D0D"
+    price_range: Under $10
+    vintage: true
+    when: !ruby/object:DateTime 2015-01-22 00:00:00.000000000 Z
+    outfits:
+    - sys:
+        id: 5bSvdPrVgH8U4kATtc5v0B
+        created_at: !ruby/object:DateTime 2020-01-18 23:25:44.587000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.504000000 Z
+        content_type_id: outfit
+        revision: 2
+      name: No Title Here (43)
+      image:
+        sys:
+          id: 2P8Hug6ny4m3ncpEyamEku
+          created_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-18 23:22:29.081000000 Z
+        title: IMG 0885
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/2P8Hug6ny4m3ncpEyamEku/1e6bde9165ff69a6ec670f8e919f50fa/IMG_0885.jpg"
+      date: !ruby/object:DateTime 2015-08-21 00:00:00.000000000 Z
+      items:
+      - sys:
+          id: 3pAYOz4HySe9Um2FY81MNh
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.461000000 Z
+          content_type_id: item
+          revision: 1
+        name: Homemade Knit Tank
+        main_color: multicolor
+        image:
+          sys:
+            id: 1fnPf6WJT7ZUe4QHb5Fs2A
+        category: Shirt
+        color:
+        - "#FAECD9"
+        - "#6E3475"
+        - "#F2C305"
+        - "#0D0D0D"
+        price_range: Under $10
+        vintage: true
+        when: !ruby/object:DateTime 2015-01-22 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 5bSvdPrVgH8U4kATtc5v0B
+      slug: no-title-here-43
+  slug: no-title-here-43
+- sys:
+    id: 3BHrSowngU0eOXjVsBRYvI
+    created_at: !ruby/object:DateTime 2020-01-19 19:03:51.139000000 Z
+    updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+    content_type_id: outfit
+    revision: 2
+  name: No Title Here (51)
+  image:
+    sys:
+      id: 3sMZP1HsRsW0Zy3egjRXDZ
+      created_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+    title: IMG 1541
+    description: 
+    url: "//images.ctfassets.net/4sf3k05ydnj7/3sMZP1HsRsW0Zy3egjRXDZ/b47e71be227c3993befb99cae0e7debb/IMG_1541.jpg"
+  date: !ruby/object:DateTime 2019-12-07 00:00:00.000000000 Z
+  items:
+  - sys:
+      id: 1YjIz6KVbxUxWeIWCAEiNK
+      created_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+      content_type_id: item
+      revision: 1
+    name: Green Ribbed Tank
+    main_color: green
+    image:
+      sys:
+        id: 48E9UcQTIwozzmlahx9e5i
+        created_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 01:37:22.406000000 Z
+      title: IMG 1832
+      description: 
+      url: "//images.ctfassets.net/4sf3k05ydnj7/48E9UcQTIwozzmlahx9e5i/3f5696efaddc513bedc014371137706b/IMG_1832.png"
+    category: Shirt
+    color:
+    - "#038560"
+    price_range: Under $10
+    vintage: false
+    when: !ruby/object:DateTime 2019-03-21 00:00:00.000000000 Z
+    outfits:
+    - sys:
+        id: 3BHrSowngU0eOXjVsBRYvI
+        created_at: !ruby/object:DateTime 2020-01-19 19:03:51.139000000 Z
+        updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.462000000 Z
+        content_type_id: outfit
+        revision: 2
+      name: No Title Here (51)
+      image:
+        sys:
+          id: 3sMZP1HsRsW0Zy3egjRXDZ
+          created_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-19 19:02:57.413000000 Z
+        title: IMG 1541
+        description: 
+        url: "//images.ctfassets.net/4sf3k05ydnj7/3sMZP1HsRsW0Zy3egjRXDZ/b47e71be227c3993befb99cae0e7debb/IMG_1541.jpg"
+      date: !ruby/object:DateTime 2019-12-07 00:00:00.000000000 Z
+      items:
+      - sys:
+          id: 1YjIz6KVbxUxWeIWCAEiNK
+          created_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+          updated_at: !ruby/object:DateTime 2020-01-20 17:18:32.361000000 Z
+          content_type_id: item
+          revision: 1
+        name: Green Ribbed Tank
+        main_color: green
+        image:
+          sys:
+            id: 48E9UcQTIwozzmlahx9e5i
+        category: Shirt
+        color:
+        - "#038560"
+        price_range: Under $10
+        vintage: false
+        when: !ruby/object:DateTime 2019-03-21 00:00:00.000000000 Z
+        outfits:
+        - sys:
+            id: 3BHrSowngU0eOXjVsBRYvI
+      slug: no-title-here-51
+  slug: no-title-here-51
