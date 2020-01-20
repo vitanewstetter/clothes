@@ -21,7 +21,11 @@ type: item
       <div class="text">{{page.notes|markdownify}}</div>
     </div>
     <div class="subpage__image">
-      <img src="{{page.image.url}}?w=800&h=800&fit=pad"/>
+      <img
+        src="{{page.image.url}}?w=10&h=10&fit=pad"
+        data-srcset="{{page.image.url}}?w=400&h=400&fit=pad 400w, {{page.image.url}}?w=800&h=800&fit=pad 800w" 
+        data-sizes="100w"
+        class="lazy load-first"/>
       {% if page.label %}
       <div class="subpage__label">{{page.label}}</div>
       {% endif %}
@@ -32,9 +36,13 @@ type: item
       {% assign slug = outfit.name | replace: "'", "" | slugify  %}
         <a
           href="/outfits/{{slug}}"
-          class="subpage__secondary-image item"
+          class="subpage__secondary-image item item--no-h"
           data-name="{{outfit.name}}">
-          <img src="{{outfit.image.url}}?w=800&h=800&fit=pad" class="no-click"/>
+          <img
+            src="{{outfit.image.url}}?w=10"
+            data-srcset="{{outfit.image.url}}?w=400 400w, {{outfit.image.url}}?w=800 800w" 
+            data-sizes="100w"
+            class="no-click load-first lazy"/>
         </a>
     {% endfor %}
     </div>

@@ -10,9 +10,11 @@
         </main>
 
         <script>
-            const lazyLoadInstance = new LazyLoad({
+            const lazyLoadFirst = new LazyLoad({
+                elements_selector: '.load-first',
+            });
+            const lazyLoadSecond = new LazyLoad({
                 elements_selector: '.lazy',
-                // ... more custom settings?
             });
         </script>
     </body>

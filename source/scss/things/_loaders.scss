@@ -9,24 +9,24 @@
 }
 
 .loader {
-  animation: color 6s linear infinite, size 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: color 4s linear infinite, size 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 @keyframes size {
     0% {
-      height: 60px;
+      height: 40px;
       transform: rotate(0deg);
       width: 10px;
     }
 
     50% {
-      width: 60px;
+      width: 40px;
     }
 
     100% {
-      height: 60px;
+      height: 40px;
       transform: rotate(360deg);
       width: 10px;
     }

@@ -1,16 +1,18 @@
 #subpage-wrapper {
+  background-color: $white;
   bottom: 0;
-  height: 100vh;
+  height: 100%;
   left: 0;
   position: fixed;
   top: 0;
-  transition: left #{$speed * 2} cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: transform #{$speed * 2} cubic-bezier(0.645, 0.045, 0.355, 1);
+  will-change: transform;
+  width: 100vw;
   z-index: 11;
 }
 
 .subpage {
-  background-color: $white;
-  height: 100vh;
+  height: 100%;
   overflow: scroll;
   padding-right: 20px;
   padding-bottom: 75px;
@@ -19,14 +21,14 @@
 }
 
 #subpage-wrapper.is-hidden {
-  left: 100%;
+  transform: translateX(100vw);
 }
 
 .subpage__close {
   background-color: transparent;
   position: absolute;
-  margin-right: 24px;
-  right: 0;
+  right: 10px;
+  padding: 0;
   top: 10px;
   z-index: 1;
 }
@@ -68,11 +70,13 @@
   }
 }
 
-.subpage__image--sm {
+.subpage__image--zm {
   margin: 0 auto;
+  padding-left: 24px;
 
   @media screen and (max-width: 800px) {
     order: 0;
+    padding: 0;
     width: 100%;
   }
 }

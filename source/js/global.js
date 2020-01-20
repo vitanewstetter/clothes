@@ -6,15 +6,20 @@ import './hammer.js';
 const grid = initializeIsotope('.item__grid');
 const url = window.location.href.includes('outfits') ? '/outfits' : '/';
 
+
+// swipe functionality on subpage
 const subpage = document.querySelector('#subpage-wrapper');
-const hammertime = new Hammer(subpage);
-hammertime.on('swiperight', closeSubpage);
+if (subpage) {
+  const hammertime = new Hammer(subpage);
+  hammertime.on('swiperight', closeSubpage);
+}
 
-grid.shuffle();
-
-imagesLoaded('.item__grid', () => {
-  grid.layout();
-});
+if (grid) {
+  grid.shuffle();
+  imagesLoaded('.item__grid', () => {
+    grid.layout();
+  });
+}
 
 document.addEventListener('click', function(e) {
   if (e.target.classList.contains('item')) {
@@ -24,17 +29,12 @@ document.addEventListener('click', function(e) {
   } else if (e.target.classList.contains('nav__color')) {
     closeNav();
     selectColor(e);
+  } else if (e.target.classList.contains('select-year')) {
+    closeNav();
+    selectYear(e);
   } else if (e.target.classList.contains('nav__category')) {
     closeNav();
     selectType(e);
-  } else if (e.target.classList.contains('select-year')) {
-    closeNav();
-    const active = document.querySelector('.is-active');
-    if (active) active.classList.remove('is-active');
-    setTimeout(function() {
-      e.target.classList.add('is-active');
-    }, 100);
-    selectYear(e);
   } else if (e.target.classList.contains('nav-mobile')) {
     e.target.classList.toggle('is-open');
     document.querySelector('nav').classList.toggle('is-active');
@@ -58,15 +58,16 @@ function closeNav() {
 function openSubpage(e) {
   e.preventDefault();
   closeNav();
+  subpageLoader();
   const sp = document.getElementById('subpage-wrapper');
   sp.classList.remove('is-hidden');
+  document.querySelector('body').classList.add('is-fixed');
   const url = e.target.href;
   const name = e.target.dataset.name;
-  document.querySelector('body').classList.add('is-fixed');
   getRequest(url)
     .then((html) => {
       sp.innerHTML = html.innerHTML;
-      // sp.classList.remove('is-hidden');
+      new LazyLoad({elements_selector: '.load-first'});
       imagesLoaded('.subpage__grid', function() {
         initializeIsotope('.subpage__grid');
       });
@@ -81,6 +82,11 @@ function openSubpage(e) {
  * @return {object} json
  */
 async function getRequest(url) {
+  const urlArr = url.split('/');
+  amplitude.getInstance().logEvent('Open Subpage', {
+    'path': urlArr[4],
+    'category': urlArr[3],
+  });
   try {
     const resp = await fetch(url);
     const text = await resp.text();
@@ -104,9 +110,15 @@ function closeSubpage() {
   history.pushState('', name, url);
   document.querySelector('body').classList.remove('is-fixed');
   document.activeElement.blur();
-  setTimeout(function() {
-    sp.innerHTML = '';
-  }, 900);
+  setTimeout(subpageLoader, 900);
+}
+
+/**
+ * Replace subpage content with loader
+ */
+function subpageLoader() {
+  const sp = document.getElementById('subpage-wrapper');
+  sp.innerHTML = '<div class="loader__wrapper"><div class="loader"></div></div>';
 }
 
 /**
@@ -142,6 +154,7 @@ function initializeIsotope(selector) {
  * @param {Event} e
  */
 function selectColor(e) {
+  amplitude.getInstance().logEvent('Change Color', {'color': e.target.dataset.color});
   document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.color === '*') {
     grid.arrange({
@@ -159,6 +172,7 @@ function selectColor(e) {
  * @param {Event} e
  */
 function selectType(e) {
+  amplitude.getInstance().logEvent('Change Clothing Category', {'category': e.target.dataset.type});
   document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.type === '*') {
     grid.arrange({
@@ -176,6 +190,7 @@ function selectType(e) {
  * @param {Event} e
  */
 function selectYear(e) {
+  amplitude.getInstance().logEvent('Change Year', {'year': e.target.dataset.year});
   document.querySelector('.content').scrollTop = 0;
   if (e.target.dataset.year === '*') {
     grid.arrange({
@@ -189,10 +204,17 @@ function selectYear(e) {
 }
 
 /**
- * init full screen viewer for subpage images
- * @param {Element} elem
+ * explictly set height bc of mobile browswers
  */
-function openFullscreen(elem) {
-
+function setPageHeight() {
+  document.querySelector('#main').style.height = window.innerHeight + 'px';
 }
+
+// reset the height whenever the window's resized
+window.addEventListener('resize', setPageHeight);
+// called to initially set the height.
+setPageHeight();
+
+
+amplitude.getInstance().logEvent('Page Viewed', {'location': window.location.pathname});
 

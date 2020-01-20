@@ -58,9 +58,17 @@ img {
   pointer-events: none;
 }
 
+.site-main {
+  height: 100vh;
+}
+
+.about-page .site-main {
+  height: auto !important;
+}
+
 .main {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
@@ -78,3 +86,5 @@ img {
 @import 'pages/_items';
 
 @import 'pages/_subpage';
+
+@import 'pages/_about';

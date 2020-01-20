@@ -5,29 +5,23 @@
     <div></div>
   </div>
 
-  <div class="nav__types outfits">
-    {% include types.svg %}
-    <a href="/" class="nav__types-item">Items</a>
-    <a href="/outfits" class="nav__types-item selected">Outfits</a>
+  <div class="nav__links">
+    <a class="nav__about" href="/about">i</a>
+    <div class="nav__types outfits">
+      {% include types.svg %}
+      <a href="/" class="nav__types-item">Items</a>
+      <a href="/outfits" class="nav__types-item selected">Outfits</a>
+    </div>
   </div>
 
   <div class="nav__time">
-    <p class="nav__time-label">
-      2019
-    </p>
-    <div class="nav__timeline">
+    <div class="nav__categories">
       {% for year in site.years %}
-        {% unless forloop.last %}
-          <div class="nav__time-year select-year" data-year="{{year}}">
-            <p>{{site.years[forloop.index]}}</p>
-            <p>{{year}}</p>
-          </div>
-        {% endunless %}
+        <div class="nav__category select-year" data-year="{{year}}">
+          {{year}}
+        </div>
       {% endfor %}
+      <div class="nav__category" data-type="*">Show All</div>
     </div>
-    <p class="nav__time-label">
-      2009
-    </p>
   </div>
-  <div class="nav__time-all select-year is-active" data-year="*">Show All</div>
 </nav>

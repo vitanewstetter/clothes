@@ -14,7 +14,7 @@ nav {
   z-index: 10;
 
   @media screen and (max-width: 800px) {
-    left: -275px;
+    left: calc(-#{$nav} - 32px);
     position: fixed;
     transition: left $speed $ease;
   }
@@ -73,6 +73,29 @@ nav.is-active {
 
 .nav-mobile > *:last-child {
   transform: translateY(8px);
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__about {
+  align-items: center;
+  animation: color 20s linear infinite;
+  border: 2px solid $white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 2px $black;
+  color: $black;
+  display: flex;
+  font-size: 40px;
+  height: 55px;
+  justify-content: center;
+  left: $nav;
+  position: absolute;
+  top: 60px;
+  transform: translateX(-50%);
+  width: 55px;
+  z-index: 1;
 }
 
 .nav__types {

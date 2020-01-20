@@ -2,18 +2,20 @@
 layout: default
 ---
 {% if page.id == 'outfits' or page.type == 'outfit' %}
-  {% assign data = site.data.closet.outfit | shuffle %}
+  {% assign data = site.data.closet.outfit %}
   {% assign path = 'outfits' %}
   {% assign menu = 'outfit-filter' %}
+  {% assign class = 'outfit-page' %}
 {% else %}
-  {% assign data = site.data.closet.item | shuffle %}
+  {% assign data = site.data.closet.item %}
   {% assign path = 'items' %}
   {% assign menu = 'item-filter' %}
+  {% assign class = 'item-page' %}
 {% endif %}
 
 {% assign types = 'shirt, sweater, skirt, pants, dress, jumpsuit, outerwear, shoes' | split: ', ' %}
 {% assign colors = 'red, orange, yellow, green, blue, purple, pink' | split: ', '%}
-<section class="main">
+<section class="main {{class}}">
   {% if page.url contains 'outfits' %}
     {% include outfit-filter.html %}
   {% else %}
@@ -25,21 +27,31 @@ layout: default
       {% assign slug = item.name | replace: "'", "" | slugify  %}
       {% if path == 'items' %}
         <a class="item {{item.main_color}} {{item.secondary_color}} {{item.category | downcase}}" href="/items/{{slug}}" data-name="{{item.name}}">
-          <img data-src="{{item.image.url}}?w=800&h=800&fit=pad" class="lazy no-click" />
+          <img
+            src="{{item.image.url}}?w=10&h=10&fit=pad"
+            data-srcset="{{item.image.url}}?w=400&h=400&fit=pad 400w, {{item.image.url}}?w=800&h=800&fit=pad 800w" 
+            data-sizes="100w"
+            class="lazy no-click" />
         </a>
       {% else %}
         <a class="item item--no-h year-{{item.date | date: '%Y'}}" href="/outfits/{{slug}}" data-name="{{item.name}}">
-          <img src="{{item.image.url}}?w=10" data-src="{{item.image.url}}?w=900" class="lazy no-click" />
+          <img
+            src="{{item.image.url}}?w=10"
+            data-srcset="{{item.image.url}}?w=400 400w, {{item.image.url}}?w=800 800w" data-sizes="100w"
+            class="lazy no-click" />
         </a>
       {% endif %}
       {% endfor %}
     </div>
-    <!-- <div class="item__grid hidden"></div> -->
   </div>
 </section>
 <div id="subpage-wrapper" class="{%if page.id == 'outfits' or page.id == 'items' %}is-hidden{% endif %}">
-  {{content}}
+  {% if page.id == 'outfits' or page.id == 'items' %}
+    <div class="loader__wrapper">
+      <div class="loader"></div>
+    </div>
+  {% else %}
+    {{content}}
+  {% endif %}
+
 </div>
-<script id="bootstrap-items">
-  {{ data|jsonify }}
-</script>

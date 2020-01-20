@@ -3,11 +3,10 @@ layout: home
 body_class: is-fixed
 type: outfit
 ---
-
+<button class="subpage__close">
+  {% include x.svg %}
+</button>
 <section class="subpage">
-  <button class="subpage__close">
-    {% include x.svg %}
-  </button>
   <div class="subpage__content">
     <div class="subpage__info">
       <p class="subpage__title">{{page.title}}</p>
@@ -20,7 +19,11 @@ type: outfit
       </div>
       <div class="text">{{page.notes|markdownify}}</div>
     </div>
-    <img class="subpage__image subpage__image--zm" src="{{page.image.url}}?w=800&h=800&fit=pad" />
+    <img
+      src="{{page.image.url}}?w=10"
+      class="subpage__image subpage__image--zm load-first lazy"
+      data-srcset="{{page.image.url}}?w=400 400w, {{page.image.url}}?w=800 800w" 
+      data-sizes="100w"/>
     <div class="subpage__grid">
       {% for item in page.items %}
         {% assign slug = item.name | replace: "'", "" | slugify  %}
@@ -28,7 +31,11 @@ type: outfit
           href="/items/{{slug}}"
           class="subpage__secondary-image item"
           data-name="{{item.name}}">
-          <img src="{{item.image.url}}?w=800&h=800&fit=pad" class="no-click"/>
+          <img
+            src="{{item.image.url}}?w=10&h=10&fit=pad"
+            data-srcset="{{item.image.url}}?w=400&h=400&fit=pad 400w, {{item.image.url}}?w=800&h=800&fit=pad 800w" 
+            data-sizes="100w"
+            class="no-click load-first lazy"/>
         </a>
       {% endfor %}
     </div>
